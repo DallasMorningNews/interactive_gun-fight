@@ -1,0 +1,7 @@
+{
+  "name": "gun-fight",
+  "private": true,
+  "dependencies": {
+    "d3": null
+  }
+}

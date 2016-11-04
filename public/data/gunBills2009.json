@@ -1,0 +1,2959 @@
+{
+    "hr1-111": {
+        "introduced": "2009-01-26", 
+        "lobbied": [
+            "Gun Owners of America"
+        ], 
+        "number": "hr1-111", 
+        "official-title": "Making supplemental appropriations for job preservation and creation, infrastructure investment, energy efficiency and science, assistance to the unemployed, and State and local fiscal stabilization, for fiscal year ending September 30, 2009, and for other purposes.", 
+        "purpose": "American Recovery and Reinvestment Act of 2009", 
+        "short-title": "American Recovery and Reinvestment Act of 2009", 
+        "sponsor": {
+            "first_name": "David", 
+            "last_name": "Obey", 
+            "party": "D", 
+            "state": "WI", 
+            "title": "Rep"
+        }, 
+        "status": [
+            "Introduced", 
+            "Passed House", 
+            "Passed Senate", 
+            "Resolving Differences", 
+            "To President", 
+            "Became Law"
+        ], 
+        "status-at": "2009-02-17", 
+        "subjects-top-term": "Economics and public finance", 
+        "title": "Economic stimulus bill", 
+        "type": "hr"
+    }, 
+    "hr1022-111": {
+        "introduced": "2009-02-12", 
+        "lobbied": [
+            "Citizens Cmte for Right Keep & Bear Arms"
+        ], 
+        "number": "hr1022-111", 
+        "official-title": "To increase and enhance law enforcement resources committed to investigation and prosecution of violent gangs, to deter and punish violent gang crime, to protect law-abiding citizens and communities from violent criminals, to revise and enhance criminal penalties for violent crimes, to expand and improve gang prevention programs, and for other purposes.", 
+        "purpose": "To increase and enhance law enforcement resources committed to investigation and prosecution of violent gangs, to deter and punish violent gang crime, to protect law-abiding citizens and communities from violent criminals, to revise and enhance criminal penalties for violent crimes, to expand and improve gang prevention programs, and for other purposes.", 
+        "short-title": "Gang Prevention, Intervention, and Suppression Act", 
+        "sponsor": {
+            "chamber": "house", 
+            "facebook_id": "9086721830", 
+            "first_name": "Adam", 
+            "govtrack_id": "400361", 
+            "in_office": true, 
+            "last_name": "Schiff", 
+            "party": "D", 
+            "state": "CA", 
+            "state_name": "California", 
+            "title": "Rep", 
+            "twitter_id": "RepAdamSchiff", 
+            "website": "http://schiff.house.gov", 
+            "youtube_id": "adamschiff"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2009-02-12", 
+        "subjects-top-term": "Crime and law enforcement", 
+        "title": "Gang Prevention, Intervention, and Suppression Act", 
+        "type": "hr"
+    }, 
+    "hr1054-111": {
+        "introduced": "2009-02-12", 
+        "lobbied": [
+            "National Rifle Assn", 
+            "Safari Club International"
+        ], 
+        "number": "hr1054-111", 
+        "official-title": "To amend the Marine Mammal Protection Act of 1972 to allow importation of polar bear trophies taken in sport hunts in Canada before the date the polar bear was determined to be a threatened species under the Endangered Species Act of 1973.", 
+        "purpose": "To amend the Marine Mammal Protection Act of 1972 to allow importation of polar bear trophies taken in sport hunts in Canada before the date the polar bear was determined to be a threatened species under the Endangered Species Act of 1973.", 
+        "short-title": null, 
+        "sponsor": {
+            "chamber": "house", 
+            "facebook_id": "7476269851", 
+            "first_name": "Don", 
+            "govtrack_id": "400440", 
+            "in_office": true, 
+            "last_name": "Young", 
+            "party": "R", 
+            "state": "AK", 
+            "state_name": "Alaska", 
+            "title": "Rep", 
+            "twitter_id": "RepDonYoung", 
+            "website": "http://donyoung.house.gov", 
+            "youtube_id": "RepDonYoung"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2009-02-12", 
+        "subjects-top-term": "Animals", 
+        "title": "To amend the Marine Mammal Protection Act of 1972 to allow importation of polar bear trophies taken in sport hunts in Canada before the date the polar bear was determined to be a threatened species under the Endangered Species Act of 1973.", 
+        "type": "hr"
+    }, 
+    "hr1055-111": {
+        "introduced": "2009-02-12", 
+        "lobbied": [
+            "Safari Club International"
+        ], 
+        "number": "hr1055-111", 
+        "official-title": "To amend the Marine Mammal Protection Act of 1972 to allow the importation of polar bear trophies taken in sport hunts in Canada.", 
+        "purpose": "To amend the Marine Mammal Protection Act of 1972 to allow the importation of polar bear trophies taken in sport hunts in Canada.", 
+        "short-title": "Restoration of the U.S.-Russia Polar Bear Conservation Fund Act of 2009", 
+        "sponsor": {
+            "chamber": "house", 
+            "facebook_id": "7476269851", 
+            "first_name": "Don", 
+            "govtrack_id": "400440", 
+            "in_office": true, 
+            "last_name": "Young", 
+            "party": "R", 
+            "state": "AK", 
+            "state_name": "Alaska", 
+            "title": "Rep", 
+            "twitter_id": "RepDonYoung", 
+            "website": "http://donyoung.house.gov", 
+            "youtube_id": "RepDonYoung"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2009-02-12", 
+        "subjects-top-term": "Animals", 
+        "title": "Restoration of the U.S.-Russia Polar Bear Conservation Fund Act of 2009", 
+        "type": "hr"
+    }, 
+    "hr1074-111": {
+        "introduced": "2009-02-13", 
+        "lobbied": [
+            "National Rifle Assn", 
+            "Gun Owners of America", 
+            "Citizens Cmte for Right Keep & Bear Arms"
+        ], 
+        "number": "hr1074-111", 
+        "official-title": "To amend chapter 44 of title 18, United States Code, to update certain procedures applicable to commerce in firearms and remove certain Federal restrictions on interstate firearms transactions.", 
+        "purpose": "To amend chapter 44 of title 18, United States Code, to update certain procedures applicable to commerce in firearms and remove certain Federal restrictions on interstate firearms transactions.", 
+        "short-title": "Firearms Interstate Commerce Reform Act", 
+        "sponsor": {
+            "chamber": "house", 
+            "facebook_id": "50936151681", 
+            "first_name": "Steve", 
+            "govtrack_id": "412261", 
+            "in_office": true, 
+            "last_name": "Scalise", 
+            "party": "R", 
+            "state": "LA", 
+            "state_name": "Louisiana", 
+            "title": "Rep", 
+            "twitter_id": "SteveScalise", 
+            "website": "http://scalise.house.gov", 
+            "youtube_id": "RepSteveScalise"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2009-02-13", 
+        "subjects-top-term": "Crime and law enforcement", 
+        "title": "Firearms Interstate Commerce Reform Act", 
+        "type": "hr"
+    }, 
+    "hr1105-111": {
+        "introduced": "2009-02-23", 
+        "lobbied": [
+            "National Rifle Assn", 
+            "Brady Campaign to Prevent Gun Violence"
+        ], 
+        "number": "hr1105-111", 
+        "official-title": "Making omnibus appropriations for the fiscal year ending September 30, 2009, and for other purposes.", 
+        "purpose": "Afghan Allies Protection Act of 2009", 
+        "short-title": "Omnibus Appropriations Act, 2009", 
+        "sponsor": {
+            "first_name": "David", 
+            "last_name": "Obey", 
+            "party": "D", 
+            "state": "WI", 
+            "title": "Rep"
+        }, 
+        "status": [
+            "Introduced", 
+            "Passed House", 
+            "Passed Senate", 
+            "To President", 
+            "Became Law"
+        ], 
+        "status-at": "2009-03-11", 
+        "subjects-top-term": "Economics and public finance", 
+        "title": "Omnibus Appropriations Act, 2009", 
+        "type": "hr"
+    }, 
+    "hr1303-111": {
+        "introduced": "2009-03-04", 
+        "lobbied": [
+            "Citizens Cmte for Right Keep & Bear Arms"
+        ], 
+        "number": "hr1303-111", 
+        "official-title": "To require the Attorney General, through the Office of Justice Programs of the Department of Justice, to establish a 5-year competitive grant program to establish pilot programs to reduce the rate of occurrence of gun-related crimes in high-crime communities.", 
+        "purpose": "Communities in Action Neighborhood Defense and Opportunity Act of 2009", 
+        "short-title": "CAN DO Act of 2009", 
+        "sponsor": {
+            "chamber": "house", 
+            "facebook_id": "230753786936538", 
+            "first_name": "Bobby", 
+            "govtrack_id": "400350", 
+            "in_office": true, 
+            "last_name": "Rush", 
+            "party": "D", 
+            "state": "IL", 
+            "state_name": "Illinois", 
+            "title": "Rep", 
+            "twitter_id": "RepBobbyRush", 
+            "website": "http://rush.house.gov", 
+            "youtube_id": "CongressmanRush"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2009-03-04", 
+        "subjects-top-term": "Crime and law enforcement", 
+        "title": "CAN DO Act of 2009", 
+        "type": "hr"
+    }, 
+    "hr1404-111": {
+        "introduced": "2009-03-10", 
+        "lobbied": [
+            "Safari Club International"
+        ], 
+        "number": "hr1404-111", 
+        "official-title": "To authorize a supplemental funding source for catastrophic emergency wildland fire suppression activities on Department of the Interior and National Forest System lands, to require the Secretary of the Interior and the Secretary of Agriculture to develop a cohesive wildland fire management strategy, and for other purposes.", 
+        "purpose": "FLAME Act", 
+        "short-title": "Federal Land Assistance, Management and Enhancement Act", 
+        "sponsor": {
+            "first_name": "Nick", 
+            "last_name": "Rahall", 
+            "party": "D", 
+            "state": "WV", 
+            "title": "Rep"
+        }, 
+        "status": [
+            "Introduced", 
+            "Passed House"
+        ], 
+        "status-at": "2009-03-26T12:37:00-04:00", 
+        "subjects-top-term": "Public lands and natural resources", 
+        "title": "Federal Land Assistance, Management and Enhancement Act", 
+        "type": "hr"
+    }, 
+    "hr1437-111": {
+        "introduced": "2009-03-11", 
+        "lobbied": [
+            "National Shooting Sports Foundation"
+        ], 
+        "number": "hr1437-111", 
+        "official-title": "To establish a Southern Border Security Task Force to coordinate the efforts of Federal, State, and local border and law enforcement officials and task forces to protect United States border cities and communities from violence associated with drug trafficking, gunrunning, illegal alien smuggling, violence, and kidnapping along and across the international border between the United States and Mexico.", 
+        "purpose": "To establish a Southern Border Security Task Force to coordinate the efforts of Federal, State, and local border and law enforcement officials and task forces to protect United States border cities and communities from violence associated with drug trafficking, gunrunning, illegal alien smuggling, violence, and kidnapping along and across the international border between the United States and Mexico.", 
+        "short-title": "Southern Border Security Task Force Act of 2009", 
+        "sponsor": {
+            "chamber": "house", 
+            "facebook_id": "152569121550", 
+            "first_name": "Henry", 
+            "govtrack_id": "400657", 
+            "in_office": true, 
+            "last_name": "Cuellar", 
+            "party": "D", 
+            "state": "TX", 
+            "state_name": "Texas", 
+            "title": "Rep", 
+            "twitter_id": "RepCuellar", 
+            "website": "http://cuellar.house.gov", 
+            "youtube_id": "henrycuellar"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2009-03-11", 
+        "subjects-top-term": "Crime and law enforcement", 
+        "title": "Southern Border Security Task Force Act of 2009", 
+        "type": "hr"
+    }, 
+    "hr1448-111": {
+        "introduced": "2009-03-11", 
+        "lobbied": [
+            "National Shooting Sports Foundation"
+        ], 
+        "number": "hr1448-111", 
+        "official-title": "To authorize the Secretary of Homeland Security and the Attorney General to increase resources to identify and eliminate illicit sources of firearms smuggled into Mexico for use by violent drug trafficking organizations and for other unlawful activities by providing for border security grants to local law enforcement agencies and reinforcing Federal resources on the border, and for other purposes.", 
+        "purpose": "Border Law Enforcement Enhancement Act of 2009", 
+        "short-title": "Border Reinforcement and Violence Reduction Act of 2009", 
+        "sponsor": {
+            "first_name": "Ciro", 
+            "last_name": "Rodriguez", 
+            "party": "D", 
+            "state": "TX", 
+            "title": "Rep"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2009-03-11", 
+        "subjects-top-term": "Crime and law enforcement", 
+        "title": "Border Reinforcement and Violence Reduction Act of 2009", 
+        "type": "hr"
+    }, 
+    "hr146-111": {
+        "introduced": "2009-01-06", 
+        "lobbied": [
+            "National Rifle Assn", 
+            "Gun Owners of America", 
+            "Safari Club International", 
+            "Brady Campaign to Prevent Gun Violence"
+        ], 
+        "number": "hr146-111", 
+        "official-title": "An act to designate certain land as components of the National Wilderness Preservation System, to authorize certain programs and activities in the Department of the Interior and the Department of Agriculture, and for other purposes.", 
+        "purpose": "Revolutionary War and War of 1812 Battlefield Protection Act", 
+        "short-title": "Omnibus Public Land Management Act of 2009", 
+        "sponsor": {
+            "first_name": "Rush", 
+            "last_name": "Holt", 
+            "party": "D", 
+            "state": "NJ", 
+            "title": "Rep"
+        }, 
+        "status": [
+            "Introduced", 
+            "Passed House", 
+            "Passed Senate", 
+            "Resolving Differences", 
+            "To President", 
+            "Became Law"
+        ], 
+        "status-at": "2009-03-30", 
+        "subjects-top-term": "Public lands and natural resources", 
+        "title": "Revolutionary War and War of 1812 Battlefield Protection Act", 
+        "type": "hr"
+    }, 
+    "hr157-111": {
+        "introduced": "2009-01-06", 
+        "lobbied": [
+            "National Rifle Assn", 
+            "Coalition to Stop Gun Violence"
+        ], 
+        "number": "hr157-111", 
+        "official-title": "To provide for the treatment of the District of Columbia as a Congressional district for purposes of representation in the House of Representatives, and for other purposes.", 
+        "purpose": "District of Columbia House Voting Rights Act of 2009", 
+        "short-title": "District of Columbia House Voting Rights Act of 2009", 
+        "sponsor": {
+            "chamber": "house", 
+            "facebook_id": "61731840657", 
+            "first_name": "Eleanor", 
+            "govtrack_id": "400295", 
+            "in_office": true, 
+            "last_name": "Norton", 
+            "party": "D", 
+            "state": "DC", 
+            "state_name": "District of Columbia", 
+            "title": "Del", 
+            "twitter_id": "EleanorNorton", 
+            "website": "http://norton.house.gov", 
+            "youtube_id": "EleanorHNorton"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2009-02-25", 
+        "subjects-top-term": "Congress", 
+        "title": "District of Columbia House Voting Rights Act of 2009", 
+        "type": "hr"
+    }, 
+    "hr1620-111": {
+        "introduced": "2009-03-19", 
+        "lobbied": [
+            "National Rifle Assn", 
+            "Gun Owners of America", 
+            "Citizens Cmte for Right Keep & Bear Arms"
+        ], 
+        "number": "hr1620-111", 
+        "official-title": "To amend chapter 44 of title 18, United States Code, to provide for reciprocity in regard to the manner in which nonresidents of a State may carry certain concealed firearms in that State.", 
+        "purpose": "To amend chapter 44 of title 18, United States Code, to provide for reciprocity in regard to the manner in which nonresidents of a State may carry certain concealed firearms in that State.", 
+        "short-title": "Secure Access to Firearms Enhancement (SAFE) Act of 2009", 
+        "sponsor": {
+            "chamber": "senate", 
+            "facebook_id": "7686715735", 
+            "first_name": "John", 
+            "govtrack_id": "400040", 
+            "in_office": true, 
+            "last_name": "Boozman", 
+            "party": "R", 
+            "state": "AR", 
+            "state_name": "Arkansas", 
+            "title": "Sen", 
+            "twitter_id": "JohnBoozman", 
+            "website": "https://www.boozman.senate.gov/public/index.cfm/home", 
+            "youtube_id": "BoozmanPressOffice"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2009-03-19", 
+        "subjects-top-term": "Crime and law enforcement", 
+        "title": "Secure Access to Firearms Enhancement (SAFE) Act of 2009", 
+        "type": "hr"
+    }, 
+    "hr1684-111": {
+        "introduced": "2009-03-24", 
+        "lobbied": [
+            "National Rifle Assn", 
+            "Brady Campaign to Prevent Gun Violence"
+        ], 
+        "number": "hr1684-111", 
+        "official-title": "To preserve the rights granted under second amendment to the Constitution in national parks and national wildlife refuge areas.", 
+        "purpose": "To preserve the rights granted under second amendment to the Constitution in national parks and national wildlife refuge areas.", 
+        "short-title": "Preservation of the Second Amendment in National Parks and National Wildlife Refuges Act", 
+        "sponsor": {
+            "first_name": "Doc", 
+            "last_name": "Hastings", 
+            "party": "R", 
+            "state": "WA", 
+            "title": "Rep"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2009-03-24", 
+        "subjects-top-term": "Public lands and natural resources", 
+        "title": "Preservation of the Second Amendment in National Parks and National Wildlife Refuges Act", 
+        "type": "hr"
+    }, 
+    "hr17-111": {
+        "introduced": "2009-01-06", 
+        "lobbied": [
+            "Gun Owners of America", 
+            "Citizens Cmte for Right Keep & Bear Arms"
+        ], 
+        "number": "hr17-111", 
+        "official-title": "To protect the right to obtain firearms for security, and to use firearms in defense of self, family, or home, and to provide for the enforcement of such right.", 
+        "purpose": "To protect the right to obtain firearms for security, and to use firearms in defense of self, family, or home, and to provide for the enforcement of such right.", 
+        "short-title": "Citizens' Self-Defense Act of 2009", 
+        "sponsor": {
+            "first_name": "Roscoe", 
+            "last_name": "Bartlett", 
+            "party": "R", 
+            "state": "MD", 
+            "title": "Rep"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2009-01-06", 
+        "subjects-top-term": "Crime and law enforcement", 
+        "title": "Citizens' Self-Defense Act of 2009", 
+        "type": "hr"
+    }, 
+    "hr1831-111": {
+        "introduced": "2009-03-31", 
+        "lobbied": [
+            "Safari Club International"
+        ], 
+        "number": "hr1831-111", 
+        "official-title": "To amend the Internal Revenue Code of 1986 to make permanent the special rule for contributions of qualified conservation contributions.", 
+        "purpose": "To amend the Internal Revenue Code of 1986 to make permanent the special rule for contributions of qualified conservation contributions.", 
+        "short-title": "Conservation Easement Incentive Act of 2009", 
+        "sponsor": {
+            "chamber": "house", 
+            "facebook_id": "7109195747", 
+            "first_name": "Mike", 
+            "govtrack_id": "400403", 
+            "in_office": true, 
+            "last_name": "Thompson", 
+            "party": "D", 
+            "state": "CA", 
+            "state_name": "California", 
+            "title": "Rep", 
+            "twitter_id": "RepThompson", 
+            "website": "http://mikethompson.house.gov", 
+            "youtube_id": "CongressmanMThompson"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2009-03-31", 
+        "subjects-top-term": "Taxation", 
+        "title": "Conservation Easement Incentive Act of 2009", 
+        "type": "hr"
+    }, 
+    "hr1923-111": {
+        "introduced": "2009-04-02", 
+        "lobbied": [
+            "National Rifle Assn", 
+            "Gun Owners of America", 
+            "Citizens Cmte for Right Keep & Bear Arms"
+        ], 
+        "number": "hr1923-111", 
+        "official-title": "To require the Bureau of Alcohol, Tobacco, Firearms, and Explosives to make video recordings of the examination and testing of firearms and ammunition, and for other purposes.", 
+        "purpose": "To require the Bureau of Alcohol, Tobacco, Firearms, and Explosives to make video recordings of the examination and testing of firearms and ammunition, and for other purposes.", 
+        "short-title": "Fairness in Firearm Testing Act", 
+        "sponsor": {
+            "first_name": "Phil", 
+            "last_name": "Gingrey", 
+            "party": "R", 
+            "state": "GA", 
+            "title": "Rep"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2009-04-02", 
+        "subjects-top-term": "Crime and law enforcement", 
+        "title": "Fairness in Firearm Testing Act", 
+        "type": "hr"
+    }, 
+    "hr197-111": {
+        "introduced": "2009-01-06", 
+        "lobbied": [
+            "National Rifle Assn", 
+            "Citizens Cmte for Right Keep & Bear Arms"
+        ], 
+        "number": "hr197-111", 
+        "official-title": "To amend title 18, United States Code, to provide a national standard in accordance with which nonresidents of a State may carry concealed firearms in the State.", 
+        "purpose": "To amend title 18, United States Code, to provide a national standard in accordance with which nonresidents of a State may carry concealed firearms in the State.", 
+        "short-title": "National Right-to-Carry Reciprocity Act of 2009", 
+        "sponsor": {
+            "first_name": "Cliff", 
+            "last_name": "Stearns", 
+            "party": "R", 
+            "state": "FL", 
+            "title": "Rep"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2009-01-06", 
+        "subjects-top-term": "Crime and law enforcement", 
+        "title": "National Right-to-Carry Reciprocity Act of 2009", 
+        "type": "hr"
+    }, 
+    "hr2153-111": {
+        "introduced": "2009-04-28", 
+        "lobbied": [
+            "Citizens Cmte for Right Keep & Bear Arms"
+        ], 
+        "number": "hr2153-111", 
+        "official-title": "To amend chapter 44 of title 18, United States Code, to increase the extent to which State law is used in determining whether a criminal conviction under State law is sufficient to deny a person the right to ship, transport, possess, or receive a firearm.", 
+        "purpose": "To amend chapter 44 of title 18, United States Code, to increase the extent to which State law is used in determining whether a criminal conviction under State law is sufficient to deny a person the right to ship, transport, possess, or receive a firearm.", 
+        "short-title": "Second Amendment Restoration Act", 
+        "sponsor": {
+            "first_name": "Bart", 
+            "last_name": "Stupak", 
+            "party": "D", 
+            "state": "MI", 
+            "title": "Rep"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2009-04-28", 
+        "subjects-top-term": "Crime and law enforcement", 
+        "title": "Second Amendment Restoration Act", 
+        "type": "hr"
+    }, 
+    "hr2159-111": {
+        "introduced": "2009-04-29", 
+        "lobbied": [
+            "National Rifle Assn", 
+            "Citizens Cmte for Right Keep & Bear Arms", 
+            "Brady Campaign to Prevent Gun Violence", 
+            "Mayors Against Illegal Guns"
+        ], 
+        "number": "hr2159-111", 
+        "official-title": "To increase public safety by permitting the Attorney General to deny the transfer of a firearm or the issuance of firearms or explosives licenses to a known or suspected dangerous terrorist.", 
+        "purpose": "To increase public safety by permitting the Attorney General to deny the transfer of a firearm or the issuance of firearms or explosives licenses to a known or suspected dangerous terrorist.", 
+        "short-title": "Denying Firearms and Explosives to Dangerous Terrorists Act of 2009", 
+        "sponsor": {
+            "chamber": "house", 
+            "facebook_id": null, 
+            "first_name": "Peter", 
+            "govtrack_id": "400219", 
+            "in_office": true, 
+            "last_name": "King", 
+            "party": "R", 
+            "state": "NY", 
+            "state_name": "New York", 
+            "title": "Rep", 
+            "twitter_id": "RepPeteKing", 
+            "website": "http://peteking.house.gov", 
+            "youtube_id": "RepPeterKing"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2009-04-29", 
+        "subjects-top-term": "Crime and law enforcement", 
+        "title": "Denying Firearms and Explosives to Dangerous Terrorists Act of 2009", 
+        "type": "hr"
+    }, 
+    "hr2193-111": {
+        "introduced": "2009-04-30", 
+        "lobbied": [
+            "National Shooting Sports Foundation"
+        ], 
+        "number": "hr2193-111", 
+        "official-title": "To prohibit the Secretary of Defense from implementing any policy to prevent or place undue restriction on the sale of intact spent military small arms ammunition casings to domestic manufacturers of small arms ammunition that are approved under trade security controls.", 
+        "purpose": "To prohibit the Secretary of Defense from implementing any policy to prevent or place undue restriction on the sale of intact spent military small arms ammunition casings to domestic manufacturers of small arms ammunition that are approved under trade security controls.", 
+        "short-title": "Affordable Reloaded Munitions Supply (ARMS) Act of 2009", 
+        "sponsor": {
+            "chamber": "house", 
+            "facebook_id": "390419731073316", 
+            "first_name": "Jason", 
+            "govtrack_id": "412270", 
+            "in_office": true, 
+            "last_name": "Chaffetz", 
+            "party": "R", 
+            "state": "UT", 
+            "state_name": "Utah", 
+            "title": "Rep", 
+            "twitter_id": "JasonInTheHouse", 
+            "website": "http://chaffetz.house.gov", 
+            "youtube_id": "JasonChaffetz"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2009-04-30", 
+        "subjects-top-term": "Armed forces and national security", 
+        "title": "Affordable Reloaded Munitions Supply (ARMS) Act of 2009", 
+        "type": "hr"
+    }, 
+    "hr2200-111": {
+        "introduced": "2009-04-30", 
+        "lobbied": [
+            "National Rifle Assn"
+        ], 
+        "number": "hr2200-111", 
+        "official-title": "To authorize the Transportation Security Administration's programs relating to the provision of transportation security, and for other purposes.", 
+        "purpose": "Transportation Security Administration Authorization Act", 
+        "short-title": "Transportation Security Administration Authorization Act", 
+        "sponsor": {
+            "chamber": "house", 
+            "facebook_id": "169479190984", 
+            "first_name": "Sheila", 
+            "govtrack_id": "400199", 
+            "in_office": true, 
+            "last_name": "Jackson Lee", 
+            "party": "D", 
+            "state": "TX", 
+            "state_name": "Texas", 
+            "title": "Rep", 
+            "twitter_id": "JacksonLeeTX18", 
+            "website": "http://jacksonlee.house.gov", 
+            "youtube_id": "TX18SJL"
+        }, 
+        "status": [
+            "Introduced", 
+            "Passed House"
+        ], 
+        "status-at": "2009-06-04T16:55:00-04:00", 
+        "subjects-top-term": "Transportation and public works", 
+        "title": "Transportation Security Administration Authorization Act", 
+        "type": "hr"
+    }, 
+    "hr2202-111": {
+        "introduced": "2009-04-30", 
+        "lobbied": [
+            "Citizens Cmte for Right Keep & Bear Arms"
+        ], 
+        "number": "hr2202-111", 
+        "official-title": "To amend the Internal Revenue Code of 1986 to provide for a nonrefundable tax credit against income tax for individuals who purchase a residential safe storage device for the safe storage of firearms.", 
+        "purpose": "To amend the Internal Revenue Code of 1986 to provide for a nonrefundable tax credit against income tax for individuals who purchase a residential safe storage device for the safe storage of firearms.", 
+        "short-title": "Child Safety and Home Security Act of 2009", 
+        "sponsor": {
+            "first_name": "Dennis", 
+            "last_name": "Cardoza", 
+            "party": "D", 
+            "state": "CA", 
+            "title": "Rep"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2009-04-30", 
+        "subjects-top-term": "Taxation", 
+        "title": "Child Safety and Home Security Act of 2009", 
+        "type": "hr"
+    }, 
+    "hr2296-111": {
+        "introduced": "2009-05-07", 
+        "lobbied": [
+            "National Rifle Assn", 
+            "Gun Owners of America", 
+            "Citizens Cmte for Right Keep & Bear Arms", 
+            "National Shooting Sports Foundation", 
+            "Mayors Against Illegal Guns"
+        ], 
+        "number": "hr2296-111", 
+        "official-title": "To reform the Bureau of Alcohol, Tobacco, Firearms, and Explosives, modernize firearms laws and regulations, protect the community from criminals, and for other purposes.", 
+        "purpose": "To reform the Bureau of Alcohol, Tobacco, Firearms, and Explosives, modernize firearms laws and regulations, protect the community from criminals, and for other purposes.", 
+        "short-title": "Bureau of Alcohol, Tobacco, Firearms, and Explosives Reform and Firearms Modernization Act of 2009", 
+        "sponsor": {
+            "chamber": "house", 
+            "facebook_id": "134325379926458", 
+            "first_name": "Steve", 
+            "govtrack_id": "400220", 
+            "in_office": true, 
+            "last_name": "King", 
+            "party": "R", 
+            "state": "IA", 
+            "state_name": "Iowa", 
+            "title": "Rep", 
+            "twitter_id": "SteveKingIA", 
+            "website": "https://steveking.house.gov", 
+            "youtube_id": "stevekingia"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2009-05-07", 
+        "subjects-top-term": "Crime and law enforcement", 
+        "title": "Bureau of Alcohol, Tobacco, Firearms, and Explosives Reform and Firearms Modernization Act of 2009", 
+        "type": "hr"
+    }, 
+    "hr2308-111": {
+        "introduced": "2009-05-07", 
+        "lobbied": [
+            "Safari Club International"
+        ], 
+        "number": "hr2308-111", 
+        "official-title": "To amend title 18, United States Code, to prohibit certain interstate conduct relating to exotic animals and certain computer-assisted remote hunting, and for other purposes.", 
+        "purpose": "To amend title 18, United States Code, to prohibit certain interstate conduct relating to exotic animals and certain computer-assisted remote hunting, and for other purposes.", 
+        "short-title": "Sportsmanship in Hunting Act of 2009", 
+        "sponsor": {
+            "chamber": "house", 
+            "facebook_id": "111456965545421", 
+            "first_name": "Steve", 
+            "govtrack_id": "412236", 
+            "in_office": true, 
+            "last_name": "Cohen", 
+            "party": "D", 
+            "state": "TN", 
+            "state_name": "Tennessee", 
+            "title": "Rep", 
+            "twitter_id": "RepCohen", 
+            "website": "http://cohen.house.gov", 
+            "youtube_id": "repcohen"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2009-05-07", 
+        "subjects-top-term": "Crime and law enforcement", 
+        "title": "Sportsmanship in Hunting Act of 2009", 
+        "type": "hr"
+    }, 
+    "hr2324-111": {
+        "introduced": "2009-05-07", 
+        "lobbied": [
+            "National Rifle Assn", 
+            "Gun Owners of America", 
+            "Citizens Cmte for Right Keep & Bear Arms", 
+            "Coalition to Stop Gun Violence", 
+            "Brady Campaign to Prevent Gun Violence", 
+            "Mayors Against Illegal Guns"
+        ], 
+        "number": "hr2324-111", 
+        "official-title": "To require criminal background checks on all firearms transactions occurring at gun shows.", 
+        "purpose": "To require criminal background checks on all firearms transactions occurring at gun shows.", 
+        "short-title": "Gun Show Loophole Closing Act of 2009", 
+        "sponsor": {
+            "first_name": "Michael", 
+            "last_name": "Castle", 
+            "party": "R", 
+            "state": "DE", 
+            "title": "Rep"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2009-05-07", 
+        "subjects-top-term": "Crime and law enforcement", 
+        "title": "Gun Show Loophole Closing Act of 2009", 
+        "type": "hr"
+    }, 
+    "hr2401-111": {
+        "introduced": "2009-05-13", 
+        "lobbied": [
+            "Gun Owners of America", 
+            "Citizens Cmte for Right Keep & Bear Arms", 
+            "Brady Campaign to Prevent Gun Violence"
+        ], 
+        "number": "hr2401-111", 
+        "official-title": "To increase public safety and reduce the threat to domestic security by including persons who may be prevented from boarding an aircraft in the National Instant Criminal Background Check System, and for other purposes.", 
+        "purpose": "To increase public safety and reduce the threat to domestic security by including persons who may be prevented from boarding an aircraft in the National Instant Criminal Background Check System, and for other purposes.", 
+        "short-title": "No Fly, No Buy Act of 2009", 
+        "sponsor": {
+            "first_name": "Carolyn", 
+            "last_name": "McCarthy", 
+            "party": "D", 
+            "state": "NY", 
+            "title": "Rep"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2009-05-13", 
+        "subjects-top-term": "Crime and law enforcement", 
+        "title": "No Fly, No Buy Act of 2009", 
+        "type": "hr"
+    }, 
+    "hr2410-111": {
+        "introduced": "2009-05-14", 
+        "lobbied": [
+            "National Rifle Assn", 
+            "National Shooting Sports Foundation"
+        ], 
+        "number": "hr2410-111", 
+        "official-title": "To authorize appropriations for the Department of State and the Peace Corps for fiscal years 2010 and 2011, to modernize the Foreign Service, to authorize democratic, economic, and social development assistance for Pakistan, to authorize security assistance for Pakistan, and for other purposes.", 
+        "purpose": "Daniel Pearl Freedom of the Press Act of 2009", 
+        "short-title": "Foreign Relations Authorization Act, Fiscal Years 2010 and 2011", 
+        "sponsor": {
+            "first_name": "Howard", 
+            "last_name": "Berman", 
+            "party": "D", 
+            "state": "CA", 
+            "title": "Rep"
+        }, 
+        "status": [
+            "Introduced", 
+            "Passed House"
+        ], 
+        "status-at": "2009-06-10T18:49:00-04:00", 
+        "subjects-top-term": "International affairs", 
+        "title": "Foreign Relations Authorization Act, Fiscal Years 2010 and 2011", 
+        "type": "hr"
+    }, 
+    "hr2425-111": {
+        "introduced": "2009-05-14", 
+        "lobbied": [
+            "Gun Owners of America"
+        ], 
+        "number": "hr2425-111", 
+        "official-title": "To amend title XVIII of the Social Security Act to improve access to diabetes self-management training by designating certain certified diabetes educators as certified providers for purposes of outpatient diabetes self-management training services under part B of the Medicare Program.", 
+        "purpose": "To amend title XVIII of the Social Security Act to improve access to diabetes self-management training by designating certain certified diabetes educators as certified providers for purposes of outpatient diabetes self-management training services under part B of the Medicare Program.", 
+        "short-title": "Medicare Diabetes Self-Management Training Act of 2009", 
+        "sponsor": {
+            "chamber": "house", 
+            "facebook_id": "110757973488", 
+            "first_name": "Diana", 
+            "govtrack_id": "400101", 
+            "in_office": true, 
+            "last_name": "DeGette", 
+            "party": "D", 
+            "state": "CO", 
+            "state_name": "Colorado", 
+            "title": "Rep", 
+            "twitter_id": "RepDianaDeGette", 
+            "website": "http://degette.house.gov", 
+            "youtube_id": "RepDianaDeGette"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2009-05-14", 
+        "subjects-top-term": "Health", 
+        "title": "Medicare Diabetes Self-Management Training Act of 2009", 
+        "type": "hr"
+    }, 
+    "hr2547-111": {
+        "introduced": "2009-05-21", 
+        "lobbied": [
+            "National Rifle Assn", 
+            "Gun Owners of America", 
+            "Citizens Cmte for Right Keep & Bear Arms"
+        ], 
+        "number": "hr2547-111", 
+        "official-title": "To amend title 38, United States Code, to clarify the conditions under which certain persons may be treated as adjudicated mentally incompetent for certain purposes.", 
+        "purpose": "To amend title 38, United States Code, to clarify the conditions under which certain persons may be treated as adjudicated mentally incompetent for certain purposes.", 
+        "short-title": "Veterans 2nd Amendment Protection Act", 
+        "sponsor": {
+            "chamber": "senate", 
+            "facebook_id": "171578807105", 
+            "first_name": "Jerry", 
+            "govtrack_id": "400284", 
+            "in_office": true, 
+            "last_name": "Moran", 
+            "party": "R", 
+            "state": "KS", 
+            "state_name": "Kansas", 
+            "title": "Sen", 
+            "twitter_id": "JerryMoran", 
+            "website": "http://www.moran.senate.gov", 
+            "youtube_id": "senatorjerrymoran"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2009-05-21", 
+        "subjects-top-term": "Armed forces and national security", 
+        "title": "Veterans 2nd Amendment Protection Act", 
+        "type": "hr"
+    }, 
+    "hr257-111": {
+        "introduced": "2009-01-07", 
+        "lobbied": [
+            "Citizens Cmte for Right Keep & Bear Arms"
+        ], 
+        "number": "hr257-111", 
+        "official-title": "To prevent children's access to firearms.", 
+        "purpose": "To prevent children's access to firearms.", 
+        "short-title": "Child Gun Safety and Gun Access Prevention Act of 2009", 
+        "sponsor": {
+            "chamber": "house", 
+            "facebook_id": "169479190984", 
+            "first_name": "Sheila", 
+            "govtrack_id": "400199", 
+            "in_office": true, 
+            "last_name": "Jackson Lee", 
+            "party": "D", 
+            "state": "TX", 
+            "state_name": "Texas", 
+            "title": "Rep", 
+            "twitter_id": "JacksonLeeTX18", 
+            "website": "http://jacksonlee.house.gov", 
+            "youtube_id": "TX18SJL"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2009-01-07", 
+        "subjects-top-term": "Crime and law enforcement", 
+        "title": "Child Gun Safety and Gun Access Prevention Act of 2009", 
+        "type": "hr"
+    }, 
+    "hr2647-111": {
+        "introduced": "2009-06-02", 
+        "lobbied": [
+            "Gun Owners of America"
+        ], 
+        "number": "hr2647-111", 
+        "official-title": "The title was amended in conference to read as follows: \"to authorize appropriations for fiscal year 2010 for military activities of the Department of Defense, to prescribe military personnel strengths for fiscal year 2010, and for other purposes\".", 
+        "purpose": "National Defense Authorization Act for Fiscal Year 2010", 
+        "short-title": "National Defense Authorization Act for Fiscal Year 2010", 
+        "sponsor": {
+            "first_name": "Ike", 
+            "last_name": "Skelton", 
+            "party": "D", 
+            "state": "MO", 
+            "title": "Rep"
+        }, 
+        "status": [
+            "Introduced", 
+            "Passed House", 
+            "Passed Senate", 
+            "Resolving Differences", 
+            "To President", 
+            "Became Law"
+        ], 
+        "status-at": "2009-10-28", 
+        "subjects-top-term": "Armed forces and national security", 
+        "title": "National Defense Authorization Act for Fiscal Year 2010", 
+        "type": "hr"
+    }, 
+    "hr2811-111": {
+        "introduced": "2009-06-10", 
+        "lobbied": [
+            "Safari Club International"
+        ], 
+        "number": "hr2811-111", 
+        "official-title": "To amend title 18, United States Code, to include constrictor snakes of the species Python genera as an injurious animal.", 
+        "purpose": "To amend title 18, United States Code, to include constrictor snakes of the species Python genera as an injurious animal.", 
+        "short-title": null, 
+        "sponsor": {
+            "first_name": "Kendrick", 
+            "last_name": "Meek", 
+            "party": "D", 
+            "state": "FL", 
+            "title": "Rep"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2009-07-29", 
+        "subjects-top-term": "Crime and law enforcement", 
+        "title": "To amend title 18, United States Code, to include constrictor snakes of the species Python genera as an injurious animal.", 
+        "type": "hr"
+    }, 
+    "hr2847-111": {
+        "introduced": "2009-06-12", 
+        "lobbied": [
+            "National Rifle Assn", 
+            "Safari Club International", 
+            "National Shooting Sports Foundation"
+        ], 
+        "number": "hr2847-111", 
+        "official-title": "Making appropriations for the Departments of Commerce and Justice, and Science, and Related Agencies for the fiscal year ending September 30, 2010, and for other purposes.", 
+        "purpose": "Department of Commerce Appropriations Act, 2010", 
+        "short-title": "Hiring Incentives to Restore Employment Act", 
+        "sponsor": {
+            "first_name": "Alan", 
+            "last_name": "Mollohan", 
+            "party": "D", 
+            "state": "WV", 
+            "title": "Rep"
+        }, 
+        "status": [
+            "Introduced", 
+            "Passed House", 
+            "Passed Senate", 
+            "Resolving Differences", 
+            "To President", 
+            "Became Law"
+        ], 
+        "status-at": "2010-03-18", 
+        "subjects-top-term": "Economics and public finance", 
+        "title": "Commerce, Justice, Science, and Related Agencies Appropriations Act, 2010", 
+        "type": "hr"
+    }, 
+    "hr2892-111": {
+        "introduced": "2009-06-16", 
+        "lobbied": [
+            "National Rifle Assn", 
+            "National Shooting Sports Foundation"
+        ], 
+        "number": "hr2892-111", 
+        "official-title": "Making appropriations for the Department of Homeland Security for the fiscal year ending September 30, 2010, and for other purposes.", 
+        "purpose": "Department of Homeland Security Appropriations Act, 2010", 
+        "short-title": "Department of Homeland Security Appropriations Act, 2010", 
+        "sponsor": {
+            "chamber": "house", 
+            "facebook_id": null, 
+            "first_name": "David", 
+            "govtrack_id": "400326", 
+            "in_office": true, 
+            "last_name": "Price", 
+            "party": "D", 
+            "state": "NC", 
+            "state_name": "North Carolina", 
+            "title": "Rep", 
+            "twitter_id": "RepDavidEPrice", 
+            "website": "http://price.house.gov", 
+            "youtube_id": "RepDavidPrice"
+        }, 
+        "status": [
+            "Introduced", 
+            "Passed House", 
+            "Passed Senate", 
+            "Resolving Differences", 
+            "To President", 
+            "Became Law"
+        ], 
+        "status-at": "2009-10-28", 
+        "subjects-top-term": "Economics and public finance", 
+        "title": "Department of Homeland Security Appropriations Act, 2010", 
+        "type": "hr"
+    }, 
+    "hr2996-111": {
+        "introduced": "2009-06-23", 
+        "lobbied": [
+            "National Rifle Assn", 
+            "Safari Club International"
+        ], 
+        "number": "hr2996-111", 
+        "official-title": "Making appropriations for the Department of the Interior, environment, and related agencies for the fiscal year ending September 30, 2010, and for other purposes.", 
+        "purpose": "Department of the Interior, Environment, and Related Agencies Appropriations Act, 2010", 
+        "short-title": "Department of the Interior, Environment, and Related Agencies Appropriations Act, 2010", 
+        "sponsor": {
+            "first_name": "Norman", 
+            "last_name": "Dicks", 
+            "party": "D", 
+            "state": "WA", 
+            "title": "Rep"
+        }, 
+        "status": [
+            "Introduced", 
+            "Passed House", 
+            "Passed Senate", 
+            "Resolving Differences", 
+            "To President", 
+            "Became Law"
+        ], 
+        "status-at": "2009-10-30", 
+        "subjects-top-term": "Economics and public finance", 
+        "title": "Department of the Interior, Environment, and Related Agencies Appropriations Act, 2010", 
+        "type": "hr"
+    }, 
+    "hr3021-111": {
+        "introduced": "2009-06-24", 
+        "lobbied": [
+            "Gun Owners of America"
+        ], 
+        "number": "hr3021-111", 
+        "official-title": "To repeal the Gun-Free School Zones Act of 1990 and amendments to that Act.", 
+        "purpose": "To repeal the Gun-Free School Zones Act of 1990 and amendments to that Act.", 
+        "short-title": "Citizens Protection Act of 2009", 
+        "sponsor": {
+            "first_name": "Ron", 
+            "last_name": "Paul", 
+            "party": "R", 
+            "state": "TX", 
+            "title": "Rep"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2009-06-24", 
+        "subjects-top-term": "Crime and law enforcement", 
+        "title": "Citizens Protection Act of 2009", 
+        "type": "hr"
+    }, 
+    "hr3022-111": {
+        "introduced": "2009-06-24", 
+        "lobbied": [
+            "Gun Owners of America"
+        ], 
+        "number": "hr3022-111", 
+        "official-title": "To restore the second amendment rights of all Americans.", 
+        "purpose": "To restore the second amendment rights of all Americans.", 
+        "short-title": "Second Amendment Protection Act of 2009", 
+        "sponsor": {
+            "first_name": "Ron", 
+            "last_name": "Paul", 
+            "party": "R", 
+            "state": "TX", 
+            "title": "Rep"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2009-06-24", 
+        "subjects-top-term": "Crime and law enforcement", 
+        "title": "Second Amendment Protection Act of 2009", 
+        "type": "hr"
+    }, 
+    "hr3045-111": {
+        "introduced": "2009-06-25", 
+        "lobbied": [
+            "National Rifle Assn"
+        ], 
+        "number": "hr3045-111", 
+        "official-title": "To reform the housing choice voucher program under section 8 of the United States Housing Act of 1937.", 
+        "purpose": "Section 8 Voucher Reform Act of 2009", 
+        "short-title": "Section 8 Voucher Reform Act of 2009", 
+        "sponsor": {
+            "chamber": "house", 
+            "facebook_id": "117483585008", 
+            "first_name": "Maxine", 
+            "govtrack_id": "400422", 
+            "in_office": true, 
+            "last_name": "Waters", 
+            "party": "D", 
+            "state": "CA", 
+            "state_name": "California", 
+            "title": "Rep", 
+            "twitter_id": "MaxineWaters", 
+            "website": "http://waters.house.gov", 
+            "youtube_id": "MaxineWaters"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2009-07-23", 
+        "subjects-top-term": "Housing and community development", 
+        "title": "Section 8 Voucher Reform Act of 2009", 
+        "type": "hr"
+    }, 
+    "hr3081-111": {
+        "introduced": "2009-06-26", 
+        "lobbied": [
+            "National Rifle Assn", 
+            "Safari Club International"
+        ], 
+        "number": "hr3081-111", 
+        "official-title": "Making continuing appropriations for fiscal year 2011, and for other purposes.", 
+        "purpose": "Department of State, Foreign Operations, and Related Programs Appropriations Act, 2010", 
+        "short-title": "Continuing Appropriations Act, 2011", 
+        "sponsor": {
+            "chamber": "house", 
+            "facebook_id": "158290607551599", 
+            "first_name": "Nita", 
+            "govtrack_id": "400246", 
+            "in_office": true, 
+            "last_name": "Lowey", 
+            "party": "D", 
+            "state": "NY", 
+            "state_name": "New York", 
+            "title": "Rep", 
+            "twitter_id": "NitaLowey", 
+            "website": "http://lowey.house.gov", 
+            "youtube_id": "nitalowey"
+        }, 
+        "status": [
+            "Introduced", 
+            "Passed House", 
+            "Passed Senate", 
+            "Resolving Differences", 
+            "To President", 
+            "Became Law"
+        ], 
+        "status-at": "2010-09-30", 
+        "subjects-top-term": "Economics and public finance", 
+        "title": "Department of State, Foreign Operations, and Related Programs Appropriations Act, 2010", 
+        "type": "hr"
+    }, 
+    "hr3200-111": {
+        "introduced": "2009-07-14", 
+        "lobbied": [
+            "Gun Owners of America"
+        ], 
+        "number": "hr3200-111", 
+        "official-title": "To provide affordable, quality health care for all Americans and reduce the growth in health care spending, and for other purposes.", 
+        "purpose": "America's Affordable Health Choices Act of 2009", 
+        "short-title": "America's Affordable Health Choices Act of 2009", 
+        "sponsor": {
+            "first_name": "John", 
+            "last_name": "Dingell", 
+            "party": "D", 
+            "state": "MI", 
+            "title": "Rep"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2009-07-17", 
+        "subjects-top-term": "Health", 
+        "title": "America's Affordable Health Choices Act of 2009", 
+        "type": "hr"
+    }, 
+    "hr3288-111": {
+        "introduced": "2009-07-22", 
+        "lobbied": [
+            "National Rifle Assn", 
+            "Gun Owners of America"
+        ], 
+        "number": "hr3288-111", 
+        "official-title": "Making appropriations for the Departments of Transportation, and Housing and Urban Development, and related agencies for the fiscal year ending September 30, 2010, and for other purposes.", 
+        "purpose": "Department of Housing and Urban Development Appropriations Act, 2010", 
+        "short-title": "Consolidated Appropriations Act, 2010", 
+        "sponsor": {
+            "first_name": "John", 
+            "last_name": "Olver", 
+            "party": "D", 
+            "state": "MA", 
+            "title": "Rep"
+        }, 
+        "status": [
+            "Introduced", 
+            "Passed House", 
+            "Passed Senate", 
+            "Resolving Differences", 
+            "To President", 
+            "Became Law"
+        ], 
+        "status-at": "2009-12-16", 
+        "subjects-top-term": "Economics and public finance", 
+        "title": "Transportation, Housing and Urban Development, and Related Agencies Appropriations Act, 2010", 
+        "type": "hr"
+    }, 
+    "hr3293-111": {
+        "introduced": "2009-07-22", 
+        "lobbied": [
+            "National Rifle Assn"
+        ], 
+        "number": "hr3293-111", 
+        "official-title": "Making appropriations for the Departments of Labor, Health and Human Services, and Education, and related agencies for the fiscal year ending September 30, 2010, and for other purposes.", 
+        "purpose": "Department of Health and Human Services Appropriations Act, 2010", 
+        "short-title": "Department of Education Appropriations Act, 2010", 
+        "sponsor": {
+            "first_name": "David", 
+            "last_name": "Obey", 
+            "party": "D", 
+            "state": "WI", 
+            "title": "Rep"
+        }, 
+        "status": [
+            "Introduced", 
+            "Passed House"
+        ], 
+        "status-at": "2009-07-24T15:03:00-04:00", 
+        "subjects-top-term": "Economics and public finance", 
+        "title": "Department of Education Appropriations Act, 2010", 
+        "type": "hr"
+    }, 
+    "hr3326-111": {
+        "introduced": "2009-07-24", 
+        "lobbied": [
+            "National Rifle Assn"
+        ], 
+        "number": "hr3326-111", 
+        "official-title": "Making appropriations for the Department of Defense for the fiscal year ending September 30, 2010, and for other purposes.", 
+        "purpose": "Department of Defense Appropriations Act, 2010", 
+        "short-title": "Department of Defense Appropriations Act, 2010", 
+        "sponsor": {
+            "first_name": "John", 
+            "last_name": "Murtha", 
+            "party": "D", 
+            "state": "PA", 
+            "title": "Rep"
+        }, 
+        "status": [
+            "Introduced", 
+            "Passed House", 
+            "Passed Senate", 
+            "Resolving Differences", 
+            "To President", 
+            "Became Law"
+        ], 
+        "status-at": "2009-12-19", 
+        "subjects-top-term": "Armed forces and national security", 
+        "title": "Department of Defense Appropriations Act, 2010", 
+        "type": "hr"
+    }, 
+    "hr3376-111": {
+        "introduced": "2009-07-29", 
+        "lobbied": [
+            "Citizens Cmte for Right Keep & Bear Arms"
+        ], 
+        "number": "hr3376-111", 
+        "official-title": "To amend title 46, United States Code, to ensure the traditional right of self-defense of United States mariners against acts of piracy, and for other purposes.", 
+        "purpose": "To amend title 46, United States Code, to ensure the traditional right of self-defense of United States mariners against acts of piracy, and for other purposes.", 
+        "short-title": "United States Mariner and Vessel Protection Act of 2009", 
+        "sponsor": {
+            "chamber": "house", 
+            "facebook_id": "FrankLoBiondo", 
+            "first_name": "Frank", 
+            "govtrack_id": "400244", 
+            "in_office": true, 
+            "last_name": "LoBiondo", 
+            "party": "R", 
+            "state": "NJ", 
+            "state_name": "New Jersey", 
+            "title": "Rep", 
+            "twitter_id": "RepLoBiondo", 
+            "website": "http://lobiondo.house.gov", 
+            "youtube_id": "USRepFrankLoBiondo"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2009-07-30", 
+        "subjects-top-term": "Transportation and public works", 
+        "title": "United States Mariner and Vessel Protection Act of 2009", 
+        "type": "hr"
+    }, 
+    "hr3590-111": {
+        "introduced": "2009-09-17", 
+        "lobbied": [
+            "National Rifle Assn", 
+            "Gun Owners of America", 
+            "Citizens Cmte for Right Keep & Bear Arms"
+        ], 
+        "number": "hr3590-111", 
+        "official-title": "An act entitled The Patient Protection and Affordable Care Act.", 
+        "purpose": "Service Members Home Ownership Tax Act of 2009", 
+        "short-title": "Patient Protection and Affordable Care Act", 
+        "sponsor": {
+            "chamber": "house", 
+            "facebook_id": "7390589055", 
+            "first_name": "Charles", 
+            "govtrack_id": "400333", 
+            "in_office": true, 
+            "last_name": "Rangel", 
+            "party": "D", 
+            "state": "NY", 
+            "state_name": "New York", 
+            "title": "Rep", 
+            "twitter_id": "CBRangel", 
+            "website": "http://rangel.house.gov", 
+            "youtube_id": "RepRangel"
+        }, 
+        "status": [
+            "Introduced", 
+            "Passed House", 
+            "Passed Senate", 
+            "Resolving Differences", 
+            "To President", 
+            "Became Law"
+        ], 
+        "status-at": "2010-03-23", 
+        "subjects-top-term": "Health", 
+        "title": "Health care reform bill", 
+        "type": "hr"
+    }, 
+    "hr3692-111": {
+        "introduced": "2009-10-01", 
+        "lobbied": [
+            "Gun Owners of America"
+        ], 
+        "number": "hr3692-111", 
+        "official-title": "To protect inventoried roadless areas in the National Forest System.", 
+        "purpose": "To protect inventoried roadless areas in the National Forest System.", 
+        "short-title": "National Forest Roadless Area Conservation Act", 
+        "sponsor": {
+            "first_name": "Jay", 
+            "last_name": "Inslee", 
+            "party": "D", 
+            "state": "WA", 
+            "title": "Rep"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2009-10-01", 
+        "subjects-top-term": "Public lands and natural resources", 
+        "title": "National Forest Roadless Area Conservation Act", 
+        "type": "hr"
+    }, 
+    "hr3710-111": {
+        "introduced": "2009-10-01", 
+        "lobbied": [
+            "National Rifle Assn"
+        ], 
+        "number": "hr3710-111", 
+        "official-title": "To end the use of body-gripping traps in the National Wildlife Refuge System.", 
+        "purpose": "To end the use of body-gripping traps in the National Wildlife Refuge System.", 
+        "short-title": "Refuge from Cruel Trapping Act", 
+        "sponsor": {
+            "chamber": "house", 
+            "facebook_id": "158290607551599", 
+            "first_name": "Nita", 
+            "govtrack_id": "400246", 
+            "in_office": true, 
+            "last_name": "Lowey", 
+            "party": "D", 
+            "state": "NY", 
+            "state_name": "New York", 
+            "title": "Rep", 
+            "twitter_id": "NitaLowey", 
+            "website": "http://lowey.house.gov", 
+            "youtube_id": "nitalowey"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2009-10-01", 
+        "subjects-top-term": "Public lands and natural resources", 
+        "title": "Refuge from Cruel Trapping Act", 
+        "type": "hr"
+    }, 
+    "hr3749-111": {
+        "introduced": "2009-10-07", 
+        "lobbied": [
+            "National Rifle Assn", 
+            "Citizens Cmte for Right Keep & Bear Arms", 
+            "Safari Club International", 
+            "National Shooting Sports Foundation"
+        ], 
+        "number": "hr3749-111", 
+        "official-title": "To recognize the heritage of recreational fishing, hunting, and shooting on Federal public lands and ensure continued opportunities for these activities.", 
+        "purpose": "To recognize the heritage of recreational fishing, hunting, and shooting on Federal public lands and ensure continued opportunities for these activities.", 
+        "short-title": "Recreational Fishing and Hunting Heritage and Opportunities Act", 
+        "sponsor": {
+            "first_name": "Dan", 
+            "last_name": "Boren", 
+            "party": "D", 
+            "state": "OK", 
+            "title": "Rep"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2009-10-07", 
+        "subjects-top-term": "Public lands and natural resources", 
+        "title": "Recreational Fishing and Hunting Heritage and Opportunities Act", 
+        "type": "hr"
+    }, 
+    "hr3752-111": {
+        "introduced": "2009-10-07", 
+        "lobbied": [
+            "National Rifle Assn", 
+            "Gun Owners of America"
+        ], 
+        "number": "hr3752-111", 
+        "official-title": "To amend title 18, United States Code, to improve the provisions relating to the carrying of concealed weapons by law enforcement officers, and for other purposes.", 
+        "purpose": "To amend title 18, United States Code, to improve the provisions relating to the carrying of concealed weapons by law enforcement officers, and for other purposes.", 
+        "short-title": "Law Enforcement Officers Safety Act Improvements Act of 2009", 
+        "sponsor": {
+            "chamber": "house", 
+            "facebook_id": "356330225020", 
+            "first_name": "J.", 
+            "govtrack_id": "400137", 
+            "in_office": true, 
+            "last_name": "Forbes", 
+            "party": "R", 
+            "state": "VA", 
+            "state_name": "Virginia", 
+            "title": "Rep", 
+            "twitter_id": "Randy_Forbes", 
+            "website": "http://forbes.house.gov", 
+            "youtube_id": "RepRandyForbes"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2009-10-07", 
+        "subjects-top-term": "Crime and law enforcement", 
+        "title": "Law Enforcement Officers Safety Act Improvements Act of 2009", 
+        "type": "hr"
+    }, 
+    "hr3789-111": {
+        "introduced": "2009-10-13", 
+        "lobbied": [
+            "National Rifle Assn", 
+            "Gun Owners of America", 
+            "Citizens Cmte for Right Keep & Bear Arms"
+        ], 
+        "number": "hr3789-111", 
+        "official-title": "To permit Amtrak passengers to safely transport firearms and ammunition in their checked baggage.", 
+        "purpose": "To permit Amtrak passengers to safely transport firearms and ammunition in their checked baggage.", 
+        "short-title": "Amtrak Secure Transportation of Firearms Act", 
+        "sponsor": {
+            "chamber": "house", 
+            "facebook_id": "372154186772", 
+            "first_name": "John", 
+            "govtrack_id": "412275", 
+            "in_office": true, 
+            "last_name": "Fleming", 
+            "party": "R", 
+            "state": "LA", 
+            "state_name": "Louisiana", 
+            "title": "Rep", 
+            "twitter_id": "RepFleming", 
+            "website": "http://fleming.house.gov", 
+            "youtube_id": "larep04"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2009-10-13", 
+        "subjects-top-term": "Transportation and public works", 
+        "title": "Amtrak Secure Transportation of Firearms Act", 
+        "type": "hr"
+    }, 
+    "hr411-111": {
+        "introduced": "2009-01-09", 
+        "lobbied": [
+            "Safari Club International"
+        ], 
+        "number": "hr411-111", 
+        "official-title": "To assist in the conservation of rare felids and rare canids by supporting and providing financial resources for the conservation programs of nations within the range of rare felid and rare canid populations and projects of persons with demonstrated expertise in the conservation of rare felid and rare canid populations.", 
+        "purpose": "Great Cats and Rare Canids Act of 2009", 
+        "short-title": "Great Cats and Rare Canids Act of 2009", 
+        "sponsor": {
+            "first_name": "Jay", 
+            "last_name": "Inslee", 
+            "party": "D", 
+            "state": "WA", 
+            "title": "Rep"
+        }, 
+        "status": [
+            "Introduced", 
+            "Passed House"
+        ], 
+        "status-at": "2009-04-21T19:20:00-04:00", 
+        "subjects-top-term": "Animals", 
+        "title": "Great Cats and Rare Canids Act of 2009", 
+        "type": "hr"
+    }, 
+    "hr4298-111": {
+        "introduced": "2009-12-11", 
+        "lobbied": [
+            "National Rifle Assn", 
+            "Citizens Cmte for Right Keep & Bear Arms", 
+            "Brady Campaign to Prevent Gun Violence"
+        ], 
+        "number": "hr4298-111", 
+        "official-title": "To prevent gun trafficking in the United States.", 
+        "purpose": "To prevent gun trafficking in the United States.", 
+        "short-title": "Gun Trafficking Prevention Act of 2009", 
+        "sponsor": {
+            "first_name": "Carolyn", 
+            "last_name": "McCarthy", 
+            "party": "D", 
+            "state": "NY", 
+            "title": "Rep"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2009-12-11", 
+        "subjects-top-term": "Crime and law enforcement", 
+        "title": "Gun Trafficking Prevention Act of 2009", 
+        "type": "hr"
+    }, 
+    "hr442-111": {
+        "introduced": "2009-01-09", 
+        "lobbied": [
+            "National Rifle Assn", 
+            "Citizens Cmte for Right Keep & Bear Arms"
+        ], 
+        "number": "hr442-111", 
+        "official-title": "To provide an amnesty period during which veterans and their family members can register certain firearms in the National Firearms Registration and Transfer Record, and for other purposes.", 
+        "purpose": "To provide an amnesty period during which veterans and their family members can register certain firearms in the National Firearms Registration and Transfer Record, and for other purposes.", 
+        "short-title": "Veterans' Heritage Firearms Act of 2009", 
+        "sponsor": {
+            "first_name": "Denny", 
+            "last_name": "Rehberg", 
+            "party": "R", 
+            "state": "MT", 
+            "title": "Rep"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2009-01-09", 
+        "subjects-top-term": "Crime and law enforcement", 
+        "title": "Veterans' Heritage Firearms Act of 2009", 
+        "type": "hr"
+    }, 
+    "hr45-111": {
+        "introduced": "2009-01-06", 
+        "lobbied": [
+            "National Rifle Assn", 
+            "Gun Owners of America", 
+            "Citizens Cmte for Right Keep & Bear Arms", 
+            "National Shooting Sports Foundation"
+        ], 
+        "number": "hr45-111", 
+        "official-title": "To provide for the implementation of a system of licensing for purchasers of certain firearms and for a record of sale system for those firearms, and for other purposes.", 
+        "purpose": "To provide for the implementation of a system of licensing for purchasers of certain firearms and for a record of sale system for those firearms, and for other purposes.", 
+        "short-title": "Blair Holt's Firearm Licensing and Record of Sale Act of 2009", 
+        "sponsor": {
+            "chamber": "house", 
+            "facebook_id": "230753786936538", 
+            "first_name": "Bobby", 
+            "govtrack_id": "400350", 
+            "in_office": true, 
+            "last_name": "Rush", 
+            "party": "D", 
+            "state": "IL", 
+            "state_name": "Illinois", 
+            "title": "Rep", 
+            "twitter_id": "RepBobbyRush", 
+            "website": "http://rush.house.gov", 
+            "youtube_id": "CongressmanRush"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2009-01-06", 
+        "subjects-top-term": "Crime and law enforcement", 
+        "title": "Blair Holt's Firearm Licensing and Record of Sale Act of 2009", 
+        "type": "hr"
+    }, 
+    "hr495-111": {
+        "introduced": "2009-01-14", 
+        "lobbied": [
+            "Citizens Cmte for Right Keep & Bear Arms", 
+            "National Shooting Sports Foundation"
+        ], 
+        "number": "hr495-111", 
+        "official-title": "To authorize additional resources to identify and eliminate illicit sources of firearms smuggled into Mexico for use by violent drug trafficking organizations, and for other purposes.", 
+        "purpose": "To authorize additional resources to identify and eliminate illicit sources of firearms smuggled into Mexico for use by violent drug trafficking organizations, and for other purposes.", 
+        "short-title": "Southwest Border Violence Reduction Act of 2009", 
+        "sponsor": {
+            "first_name": "Ciro", 
+            "last_name": "Rodriguez", 
+            "party": "D", 
+            "state": "TX", 
+            "title": "Rep"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2009-01-14", 
+        "subjects-top-term": "Crime and law enforcement", 
+        "title": "Southwest Border Violence Reduction Act of 2009", 
+        "type": "hr"
+    }, 
+    "hr510-111": {
+        "introduced": "2009-01-14", 
+        "lobbied": [
+            "National Rifle Assn", 
+            "Safari Club International", 
+            "National Shooting Sports Foundation"
+        ], 
+        "number": "hr510-111", 
+        "official-title": "To amend the Internal Revenue Code of 1986 to require that the payment of the manufacturers' excise tax on recreational equipment be paid quarterly.", 
+        "purpose": "To amend the Internal Revenue Code of 1986 to require that the payment of the manufacturers' excise tax on recreational equipment be paid quarterly.", 
+        "short-title": null, 
+        "sponsor": {
+            "chamber": "house", 
+            "facebook_id": "89152017954", 
+            "first_name": "Ron", 
+            "govtrack_id": "400218", 
+            "in_office": true, 
+            "last_name": "Kind", 
+            "party": "D", 
+            "state": "WI", 
+            "state_name": "Wisconsin", 
+            "title": "Rep", 
+            "twitter_id": "RepRonKind", 
+            "website": "http://kind.house.gov", 
+            "youtube_id": "RepRonKind"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2009-01-14", 
+        "subjects-top-term": "Taxation", 
+        "title": "To amend the Internal Revenue Code of 1986 to require that the payment of the manufacturers' excise tax on recreational equipment be paid quarterly.", 
+        "type": "hr"
+    }, 
+    "hr627-111": {
+        "introduced": "2009-01-22", 
+        "lobbied": [
+            "National Rifle Assn"
+        ], 
+        "number": "hr627-111", 
+        "official-title": "To amend the Truth in Lending Act to establish fair and transparent practices relating to the extension of credit under an open end consumer credit plan, and for other purposes.", 
+        "purpose": "Credit Cardholders' Bill of Rights Act of 2009", 
+        "short-title": "Credit Card Accountability Responsibility and Disclosure Act of 2009", 
+        "sponsor": {
+            "chamber": "house", 
+            "facebook_id": "397176447066236", 
+            "first_name": "Carolyn", 
+            "govtrack_id": "400251", 
+            "in_office": true, 
+            "last_name": "Maloney", 
+            "party": "D", 
+            "state": "NY", 
+            "state_name": "New York", 
+            "title": "Rep", 
+            "twitter_id": "RepMaloney", 
+            "website": "http://maloney.house.gov", 
+            "youtube_id": null
+        }, 
+        "status": [
+            "Introduced", 
+            "Passed House", 
+            "Passed Senate", 
+            "Resolving Differences", 
+            "To President", 
+            "Became Law"
+        ], 
+        "status-at": "2009-05-22", 
+        "subjects-top-term": "Finance and financial sector", 
+        "title": "Credit Cardholders' Bill of Rights Act of 2009", 
+        "type": "hr"
+    }, 
+    "hr642-111": {
+        "introduced": "2009-01-22", 
+        "lobbied": [
+            "National Rifle Assn", 
+            "National Shooting Sports Foundation"
+        ], 
+        "number": "hr642-111", 
+        "official-title": "To provide opportunities for continued recreational shooting on certain Federal public land.", 
+        "purpose": "To provide opportunities for continued recreational shooting on certain Federal public land.", 
+        "short-title": "Recreational Shooting Protection Act", 
+        "sponsor": {
+            "chamber": "senate", 
+            "facebook_id": "senatorjeffflake", 
+            "first_name": "Jeff", 
+            "govtrack_id": "400134", 
+            "in_office": true, 
+            "last_name": "Flake", 
+            "party": "R", 
+            "state": "AZ", 
+            "state_name": "Arizona", 
+            "title": "Sen", 
+            "twitter_id": "JeffFlake", 
+            "website": "http://www.flake.senate.gov", 
+            "youtube_id": "flakeoffice"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2009-01-22", 
+        "subjects-top-term": "Public lands and natural resources", 
+        "title": "Recreational Shooting Protection Act", 
+        "type": "hr"
+    }, 
+    "hr669-111": {
+        "introduced": "2009-01-26", 
+        "lobbied": [
+            "National Rifle Assn", 
+            "Safari Club International"
+        ], 
+        "number": "hr669-111", 
+        "official-title": "To prevent the introduction and establishment of nonnative wildlife species that negatively impact the economy, environment, or other animal species' or human health, and for other purposes.", 
+        "purpose": "To prevent the introduction and establishment of nonnative wildlife species that negatively impact the economy, environment, or other animal species' or human health, and for other purposes.", 
+        "short-title": "Nonnative Wildlife Invasion Prevention Act", 
+        "sponsor": {
+            "chamber": "house", 
+            "facebook_id": "161729837225622", 
+            "first_name": "Madeleine", 
+            "govtrack_id": "400041", 
+            "in_office": true, 
+            "last_name": "Bordallo", 
+            "party": "D", 
+            "state": "GU", 
+            "state_name": "Guam", 
+            "title": "Del", 
+            "twitter_id": null, 
+            "website": "http://bordallo.house.gov"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2009-01-26", 
+        "subjects-top-term": "Animals", 
+        "title": "Nonnative Wildlife Invasion Prevention Act", 
+        "type": "hr"
+    }, 
+    "hr834-111": {
+        "introduced": "2009-02-03", 
+        "lobbied": [
+            "Citizens Cmte for Right Keep & Bear Arms"
+        ], 
+        "number": "hr834-111", 
+        "official-title": "To amend chapter 44 of title 18, United States Code, to exempt certain peace officers from certain minimum sentencing requirements for using a firearm to commit a crime of violence during or in relation to their employment.", 
+        "purpose": "To amend chapter 44 of title 18, United States Code, to exempt certain peace officers from certain minimum sentencing requirements for using a firearm to commit a crime of violence during or in relation to their employment.", 
+        "short-title": "Ramos and Compean Justice Act of 2009", 
+        "sponsor": {
+            "chamber": "house", 
+            "facebook_id": "106631626049851", 
+            "first_name": "Ted", 
+            "govtrack_id": "400652", 
+            "in_office": true, 
+            "last_name": "Poe", 
+            "party": "R", 
+            "state": "TX", 
+            "state_name": "Texas", 
+            "title": "Rep", 
+            "twitter_id": "JudgeTedPoe", 
+            "website": "https://poe.house.gov", 
+            "youtube_id": "CongressmanTedPoe"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2009-02-03", 
+        "subjects-top-term": "Crime and law enforcement", 
+        "title": "Ramos and Compean Justice Act of 2009", 
+        "type": "hr"
+    }, 
+    "hr866-111": {
+        "introduced": "2009-02-04", 
+        "lobbied": [
+            "Citizens Cmte for Right Keep & Bear Arms"
+        ], 
+        "number": "hr866-111", 
+        "official-title": "To provide an exception to certain mandatory minimum sentence requirements for a law enforcement officer who uses, carries, or possesses a firearm during and in relation to a crime of violence committed while pursuing or apprehending a suspect.", 
+        "purpose": "To provide an exception to certain mandatory minimum sentence requirements for a law enforcement officer who uses, carries, or possesses a firearm during and in relation to a crime of violence committed while pursuing or apprehending a suspect.", 
+        "short-title": "Law Enforcement Protection Act", 
+        "sponsor": {
+            "chamber": "house", 
+            "facebook_id": "9307301412", 
+            "first_name": "Kevin", 
+            "govtrack_id": "400046", 
+            "in_office": true, 
+            "last_name": "Brady", 
+            "party": "R", 
+            "state": "TX", 
+            "state_name": "Texas", 
+            "title": "Rep", 
+            "twitter_id": "RepKevinBrady", 
+            "website": "http://kevinbrady.house.gov", 
+            "youtube_id": "KBrady8"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2009-02-04", 
+        "subjects-top-term": "Crime and law enforcement", 
+        "title": "Law Enforcement Protection Act", 
+        "type": "hr"
+    }, 
+    "hres270-111": {
+        "introduced": "2009-03-19", 
+        "lobbied": [
+            "Safari Club International"
+        ], 
+        "number": "hres270-111", 
+        "official-title": "Recognizing the establishment of Hunters for the Hungry programs across the United States and the contributions of those programs efforts to decrease hunger and help feed those in need.", 
+        "purpose": "Recognizing the establishment of Hunters for the Hungry programs across the United States and the contributions of those programs efforts to decrease hunger and help feed those in need.", 
+        "short-title": null, 
+        "sponsor": {
+            "first_name": "Robert", 
+            "last_name": "Latta", 
+            "party": "R", 
+            "state": "OH", 
+            "title": "Rep"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2009-07-21T17:57:00-04:00", 
+        "subjects-top-term": "Agriculture and food", 
+        "title": "Recognizing the establishment of Hunters for the Hungry programs across the United States and the contributions of those programs efforts to decrease hunger and help feed those in need.", 
+        "type": "hres"
+    }, 
+    "s1018-111": {
+        "introduced": "2009-05-11", 
+        "lobbied": [
+            "Safari Club International"
+        ], 
+        "number": "s1018-111", 
+        "official-title": "A bill to authorize the Secretary of the Interior to enter into an agreement with Northwestern State University in Natchitoches, Louisiana, to construct a curatorial center for the use of Cane River Creole National Historical Park, the National Center for Preservation Technology and Training, and the University, and for other purposes.", 
+        "purpose": "National Park Service and Northwestern State University Collections Conservation Center Act", 
+        "short-title": "National Park Service and Northwestern State University Collections Conservation Center Act", 
+        "sponsor": {
+            "first_name": "Mary", 
+            "last_name": "Landrieu", 
+            "party": "D", 
+            "state": "LA", 
+            "title": "Sen"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2010-06-21", 
+        "subjects-top-term": "Public lands and natural resources", 
+        "title": "National Park Service and Northwestern State University Collections Conservation Center Act", 
+        "type": "s"
+    }, 
+    "s1132-111": {
+        "introduced": "2009-05-21", 
+        "lobbied": [
+            "Citizens Cmte for Right Keep & Bear Arms"
+        ], 
+        "number": "s1132-111", 
+        "official-title": "A bill to amend title 18, United States Code, to improve the provisions relating to the carrying of concealed weapons by law enforcement officers, and for other purposes.", 
+        "purpose": "Law Enforcement Officers Safety Act Improvements Act of 2010", 
+        "short-title": "Law Enforcement Officers Safety Act Improvements Act of 2010", 
+        "sponsor": {
+            "chamber": "senate", 
+            "facebook_id": "178569152181267", 
+            "first_name": "Patrick", 
+            "govtrack_id": "300065", 
+            "in_office": true, 
+            "last_name": "Leahy", 
+            "party": "D", 
+            "state": "VT", 
+            "state_name": "Vermont", 
+            "title": "Sen", 
+            "twitter_id": "SenatorLeahy", 
+            "website": "http://www.leahy.senate.gov", 
+            "youtube_id": "SenatorPatrickLeahy"
+        }, 
+        "status": [
+            "Introduced", 
+            "Passed Senate", 
+            "Passed House", 
+            "To President", 
+            "Became Law"
+        ], 
+        "status-at": "2010-10-12", 
+        "subjects-top-term": "Crime and law enforcement", 
+        "title": "Law Enforcement Officers Safety Act Improvements Act of 2009", 
+        "type": "s"
+    }, 
+    "s1298-111": {
+        "introduced": "2009-06-18", 
+        "lobbied": [
+            "National Rifle Assn"
+        ], 
+        "number": "s1298-111", 
+        "official-title": "An original bill making appropriations for the Department of Homeland Security for the fiscal year ending September 30, 2010, and for other purposes.", 
+        "purpose": "Department of Homeland Security Appropriations Act, 2010", 
+        "short-title": "Department of Homeland Security Appropriations Act, 2010", 
+        "sponsor": {
+            "first_name": "Robert", 
+            "last_name": "Byrd", 
+            "party": "D", 
+            "state": "WV", 
+            "title": "Sen"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2009-06-18", 
+        "subjects-top-term": "Economics and public finance", 
+        "title": "Department of Homeland Security Appropriations Act, 2010", 
+        "type": "s"
+    }, 
+    "s1317-111": {
+        "introduced": "2009-06-22", 
+        "lobbied": [
+            "National Rifle Assn", 
+            "Gun Owners of America", 
+            "Citizens Cmte for Right Keep & Bear Arms", 
+            "Brady Campaign to Prevent Gun Violence", 
+            "Mayors Against Illegal Guns"
+        ], 
+        "number": "s1317-111", 
+        "official-title": "A bill to increase public safety by permitting the Attorney General to deny the transfer of firearms or the issuance of firearms and explosives licenses to known or suspected dangerous terrorists.", 
+        "purpose": "A bill to increase public safety by permitting the Attorney General to deny the transfer of firearms or the issuance of firearms and explosives licenses to known or suspected dangerous terrorists.", 
+        "short-title": "Denying Firearms and Explosives to Dangerous Terrorists Act of 2009", 
+        "sponsor": {
+            "first_name": "Frank", 
+            "last_name": "Lautenberg", 
+            "party": "D", 
+            "state": "NJ", 
+            "title": "Sen"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2009-06-22", 
+        "subjects-top-term": "Crime and law enforcement", 
+        "title": "Denying Firearms and Explosives to Dangerous Terrorists Act of 2009", 
+        "type": "s"
+    }, 
+    "s1390-111": {
+        "introduced": "2009-07-02", 
+        "lobbied": [
+            "National Rifle Assn", 
+            "Gun Owners of America", 
+            "Coalition to Stop Gun Violence", 
+            "Brady Campaign to Prevent Gun Violence", 
+            "Ceasefire PA"
+        ], 
+        "number": "s1390-111", 
+        "official-title": "An original bill to authorize appropriations for fiscal year 2010 for military activities of the Department of Defense, for military construction, and for defense activities of the Department of Energy, to prescribe military personnel strengths for such fiscal year, and for other purposes.", 
+        "purpose": "Captain James A. Lovell Federal Health Care Center Act of 2009", 
+        "short-title": "National Defense Authorization Act for Fiscal Year 2010", 
+        "sponsor": {
+            "first_name": "Carl", 
+            "last_name": "Levin", 
+            "party": "D", 
+            "state": "MI", 
+            "title": "Sen"
+        }, 
+        "status": [
+            "Introduced", 
+            "Passed Senate"
+        ], 
+        "status-at": "2009-07-23", 
+        "subjects-top-term": "Armed forces and national security", 
+        "title": "National Defense Authorization Act for Fiscal Year 2010", 
+        "type": "s"
+    }, 
+    "s1395-111": {
+        "introduced": "2009-07-06", 
+        "lobbied": [
+            "National Rifle Assn", 
+            "Safari Club International"
+        ], 
+        "number": "s1395-111", 
+        "official-title": "A bill to amend the Marine Mammal Protection Act of 1972 to allow importation of polar bear trophies taken in sport hunts in Canada before the date on which the polar bear was determined to be a threatened species under the Endangered Species Act of 1973.", 
+        "purpose": "A bill to amend the Marine Mammal Protection Act of 1972 to allow importation of polar bear trophies taken in sport hunts in Canada before the date on which the polar bear was determined to be a threatened species under the Endangered Species Act of 1973.", 
+        "short-title": null, 
+        "sponsor": {
+            "chamber": "senate", 
+            "facebook_id": "80335332266", 
+            "first_name": "Michael", 
+            "govtrack_id": "300030", 
+            "in_office": true, 
+            "last_name": "Crapo", 
+            "party": "R", 
+            "state": "ID", 
+            "state_name": "Idaho", 
+            "title": "Sen", 
+            "twitter_id": "MikeCrapo", 
+            "website": "http://www.crapo.senate.gov", 
+            "youtube_id": "senatorcrapo"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2009-07-06", 
+        "subjects-top-term": "Animals", 
+        "title": "A bill to amend the Marine Mammal Protection Act of 1972 to allow importation of polar bear trophies taken in sport hunts in Canada before the date on which the polar bear was determined to be a threatened species under the Endangered Species Act of 1973.", 
+        "type": "s"
+    }, 
+    "s1434-111": {
+        "introduced": "2009-07-09", 
+        "lobbied": [
+            "National Shooting Sports Foundation"
+        ], 
+        "number": "s1434-111", 
+        "official-title": "An original bill making appropriations for the Department of State, foreign operations, and related programs for the fiscal year ending September 30, 2010, and for other purposes.", 
+        "purpose": "Department of State, Foreign Operations, and Related Programs Appropriations Act, 2010", 
+        "short-title": "Department of State, Foreign Operations, and Related Programs Appropriations Act, 2010", 
+        "sponsor": {
+            "chamber": "senate", 
+            "facebook_id": "178569152181267", 
+            "first_name": "Patrick", 
+            "govtrack_id": "300065", 
+            "in_office": true, 
+            "last_name": "Leahy", 
+            "party": "D", 
+            "state": "VT", 
+            "state_name": "Vermont", 
+            "title": "Sen", 
+            "twitter_id": "SenatorLeahy", 
+            "website": "http://www.leahy.senate.gov", 
+            "youtube_id": "SenatorPatrickLeahy"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2009-07-09", 
+        "subjects-top-term": "International affairs", 
+        "title": "Department of State, Foreign Operations, and Related Programs Appropriations Act, 2010", 
+        "type": "s"
+    }, 
+    "s1526-111": {
+        "introduced": "2009-07-28", 
+        "lobbied": [
+            "Gun Owners of America", 
+            "Citizens Cmte for Right Keep & Bear Arms"
+        ], 
+        "number": "s1526-111", 
+        "official-title": "A bill to establish and clarify that Congress does not authorize persons convicted of dangerous crimes in foreign courts to freely possess firearms in the United States.", 
+        "purpose": "A bill to establish and clarify that Congress does not authorize persons convicted of dangerous crimes in foreign courts to freely possess firearms in the United States.", 
+        "short-title": "No Firearms for Foreign Felons Act of 2009", 
+        "sponsor": {
+            "chamber": "senate", 
+            "facebook_id": "334887279867783", 
+            "first_name": "Dianne", 
+            "govtrack_id": "300043", 
+            "in_office": true, 
+            "last_name": "Feinstein", 
+            "party": "D", 
+            "state": "CA", 
+            "state_name": "California", 
+            "title": "Sen", 
+            "twitter_id": "SenFeinstein", 
+            "website": "http://www.feinstein.senate.gov", 
+            "youtube_id": "SenatorFeinstein"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2009-07-28", 
+        "subjects-top-term": "Crime and law enforcement", 
+        "title": "No Firearms for Foreign Felons Act of 2009", 
+        "type": "s"
+    }, 
+    "s160-111": {
+        "introduced": "2009-01-06", 
+        "lobbied": [
+            "National Rifle Assn", 
+            "Gun Owners of America", 
+            "Citizens Cmte for Right Keep & Bear Arms", 
+            "Coalition to Stop Gun Violence", 
+            "Brady Campaign to Prevent Gun Violence"
+        ], 
+        "number": "s160-111", 
+        "official-title": "A bill to provide the District of Columbia a voting seat and the State of Utah an additional seat in the House of Representatives.", 
+        "purpose": "District of Columbia House Voting Rights Act of 2009", 
+        "short-title": "District of Columbia House Voting Rights Act of 2009", 
+        "sponsor": {
+            "first_name": "Joseph", 
+            "last_name": "Lieberman", 
+            "party": "ID", 
+            "state": "CT", 
+            "title": "Sen"
+        }, 
+        "status": [
+            "Introduced", 
+            "Passed Senate"
+        ], 
+        "status-at": "2009-02-26", 
+        "subjects-top-term": "Congress", 
+        "title": "District of Columbia House Voting Rights Act of 2009", 
+        "type": "s"
+    }, 
+    "s1638-111": {
+        "introduced": "2009-08-06", 
+        "lobbied": [
+            "National Rifle Assn", 
+            "Gun Owners of America", 
+            "Citizens Cmte for Right Keep & Bear Arms"
+        ], 
+        "number": "s1638-111", 
+        "official-title": "A bill to permit Amtrak passengers to safely transport firearms and ammunition in their checked baggage.", 
+        "purpose": "A bill to permit Amtrak passengers to safely transport firearms and ammunition in their checked baggage.", 
+        "short-title": "Amtrak Secure Transportation of Firearms Act", 
+        "sponsor": {
+            "chamber": "senate", 
+            "facebook_id": "158401580882385", 
+            "first_name": "Roger", 
+            "govtrack_id": "400432", 
+            "in_office": true, 
+            "last_name": "Wicker", 
+            "party": "R", 
+            "state": "MS", 
+            "state_name": "Mississippi", 
+            "title": "Sen", 
+            "twitter_id": "SenatorWicker", 
+            "website": "http://www.wicker.senate.gov", 
+            "youtube_id": "SenatorWicker"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2009-08-06", 
+        "subjects-top-term": "Transportation and public works", 
+        "title": "Amtrak Secure Transportation of Firearms Act", 
+        "type": "s"
+    }, 
+    "s1702-111": {
+        "introduced": "2009-09-23", 
+        "lobbied": [
+            "National Rifle Assn"
+        ], 
+        "number": "s1702-111", 
+        "official-title": "A bill to amend the Pittman-Robertson Wildlife Restoration Act to facilitate the establishment of additional or expanded public target ranges in certain states.", 
+        "purpose": "A bill to amend the Pittman-Robertson Wildlife Restoration Act to facilitate the establishment of additional or expanded public target ranges in certain states.", 
+        "short-title": "Target Practice and Marksmanship Training Support Act", 
+        "sponsor": {
+            "first_name": "Mark", 
+            "last_name": "Udall", 
+            "party": "D", 
+            "state": "CO", 
+            "title": "Sen"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2009-09-23", 
+        "subjects-top-term": "Public lands and natural resources", 
+        "title": "Target Practice and Marksmanship Training Support Act", 
+        "type": "s"
+    }, 
+    "s1770-111": {
+        "introduced": "2009-10-08", 
+        "lobbied": [
+            "National Rifle Assn", 
+            "Citizens Cmte for Right Keep & Bear Arms", 
+            "Safari Club International", 
+            "National Shooting Sports Foundation"
+        ], 
+        "number": "s1770-111", 
+        "official-title": "A bill to recognize the heritage of recreational fishing, hunting, and shooting on Federal public lands and ensure continued opportunities for these activities.", 
+        "purpose": "A bill to recognize the heritage of recreational fishing, hunting, and shooting on Federal public lands and ensure continued opportunities for these activities.", 
+        "short-title": "Recreational Fishing and Hunting Heritage and Opportunities Act", 
+        "sponsor": {
+            "chamber": "senate", 
+            "facebook_id": "25271170290", 
+            "first_name": "Lisa", 
+            "govtrack_id": "300075", 
+            "in_office": true, 
+            "last_name": "Murkowski", 
+            "party": "R", 
+            "state": "AK", 
+            "state_name": "Alaska", 
+            "title": "Sen", 
+            "twitter_id": "LisaMurkowski", 
+            "website": "https://www.murkowski.senate.gov", 
+            "youtube_id": "senatormurkowski"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2009-10-08", 
+        "subjects-top-term": "Public lands and natural resources", 
+        "title": "Recreational Fishing and Hunting Heritage and Opportunities Act", 
+        "type": "s"
+    }, 
+    "s2-111": {
+        "introduced": "2009-01-06", 
+        "lobbied": [
+            "National Rifle Assn", 
+            "Brady Campaign to Prevent Gun Violence"
+        ], 
+        "number": "s2-111", 
+        "official-title": "A bill to improve the lives of middle class families and provide them with greater opportunity to achieve the American dream.", 
+        "purpose": "A bill to improve the lives of middle class families and provide them with greater opportunity to achieve the American dream.", 
+        "short-title": "Middle Class Opportunity Act of 2009", 
+        "sponsor": {
+            "chamber": "senate", 
+            "facebook_id": "360249323990357", 
+            "first_name": "Harry", 
+            "govtrack_id": "300082", 
+            "in_office": true, 
+            "last_name": "Reid", 
+            "party": "D", 
+            "state": "NV", 
+            "state_name": "Nevada", 
+            "title": "Sen", 
+            "twitter_id": "SenatorReid", 
+            "website": "http://www.reid.senate.gov", 
+            "youtube_id": "SenatorReid"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2009-01-07", 
+        "subjects-top-term": "Economics and public finance", 
+        "title": "Middle Class Opportunity Act of 2009", 
+        "type": "s"
+    }, 
+    "s2010-111": {
+        "introduced": "2009-10-28", 
+        "lobbied": [
+            "National Rifle Assn", 
+            "National Shooting Sports Foundation"
+        ], 
+        "number": "s2010-111", 
+        "official-title": "A bill to suspend temporarily the duty on Daminozide.", 
+        "purpose": "A bill to suspend temporarily the duty on Daminozide.", 
+        "short-title": null, 
+        "sponsor": {
+            "first_name": "Saxby", 
+            "last_name": "Chambliss", 
+            "party": "R", 
+            "state": "GA", 
+            "title": "Sen"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2009-10-28", 
+        "subjects-top-term": "Foreign trade and international finance", 
+        "title": "A bill to suspend temporarily the duty on Daminozide.", 
+        "type": "s"
+    }, 
+    "s2011-111": {
+        "introduced": "2009-10-28", 
+        "lobbied": [
+            "National Rifle Assn"
+        ], 
+        "number": "s2011-111", 
+        "official-title": "A bill to extend temporarily the suspension of duty on nylon woolpacks used to package wool.", 
+        "purpose": "A bill to extend temporarily the suspension of duty on nylon woolpacks used to package wool.", 
+        "short-title": null, 
+        "sponsor": {
+            "chamber": "senate", 
+            "facebook_id": "21146775942", 
+            "first_name": "John", 
+            "govtrack_id": "412251", 
+            "in_office": true, 
+            "last_name": "Barrasso", 
+            "party": "R", 
+            "state": "WY", 
+            "state_name": "Wyoming", 
+            "title": "Sen", 
+            "twitter_id": "SenJohnBarrasso", 
+            "website": "http://www.barrasso.senate.gov", 
+            "youtube_id": "barrassowyo"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2009-10-28", 
+        "subjects-top-term": "Foreign trade and international finance", 
+        "title": "A bill to extend temporarily the suspension of duty on nylon woolpacks used to package wool.", 
+        "type": "s"
+    }, 
+    "s205-111": {
+        "introduced": "2009-01-12", 
+        "lobbied": [
+            "National Shooting Sports Foundation"
+        ], 
+        "number": "s205-111", 
+        "official-title": "A bill to authorize additional resources to identify and eliminate illicit sources of firearms smuggled into Mexico for use by violent drug trafficking organizations, and for other purposes.", 
+        "purpose": "A bill to authorize additional resources to identify and eliminate illicit sources of firearms smuggled into Mexico for use by violent drug trafficking organizations, and for other purposes.", 
+        "short-title": "Southwest Border Violence Reduction Act of 2009", 
+        "sponsor": {
+            "first_name": "Jeff", 
+            "last_name": "Bingaman", 
+            "party": "D", 
+            "state": "NM", 
+            "title": "Sen"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2009-01-12", 
+        "subjects-top-term": "Crime and law enforcement", 
+        "title": "Southwest Border Violence Reduction Act of 2009", 
+        "type": "s"
+    }, 
+    "s208-111": {
+        "introduced": "2009-01-12", 
+        "lobbied": [
+            "National Shooting Sports Foundation"
+        ], 
+        "number": "s208-111", 
+        "official-title": "A bill to provide Federal coordination and assistance in preventing gang violence.", 
+        "purpose": "A bill to provide Federal coordination and assistance in preventing gang violence.", 
+        "short-title": "Mynisha's Law", 
+        "sponsor": {
+            "chamber": "senate", 
+            "facebook_id": "116513005087055", 
+            "first_name": "Barbara", 
+            "govtrack_id": "300011", 
+            "in_office": true, 
+            "last_name": "Boxer", 
+            "party": "D", 
+            "state": "CA", 
+            "state_name": "California", 
+            "title": "Sen", 
+            "twitter_id": "SenatorBoxer", 
+            "website": "https://www.boxer.senate.gov", 
+            "youtube_id": "SenatorBoxer"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2009-01-12", 
+        "subjects-top-term": "Crime and law enforcement", 
+        "title": "Mynisha's Law", 
+        "type": "s"
+    }, 
+    "s22-111": {
+        "introduced": "2009-01-07", 
+        "lobbied": [
+            "National Rifle Assn", 
+            "Gun Owners of America", 
+            "Safari Club International"
+        ], 
+        "number": "s22-111", 
+        "official-title": "A bill to designate certain land as components of the National Wilderness Preservation System, to authorize certain programs and activities in the Department of the Interior and the Department of Agriculture, and for other purposes.", 
+        "purpose": "Christopher and Dana Reeve Paralysis Act", 
+        "short-title": "Omnibus Public Land Management Act of 2009", 
+        "sponsor": {
+            "first_name": "Jeff", 
+            "last_name": "Bingaman", 
+            "party": "D", 
+            "state": "NM", 
+            "title": "Sen"
+        }, 
+        "status": [
+            "Introduced", 
+            "Passed Senate", 
+            "Failed House"
+        ], 
+        "status-at": "2009-03-11T12:39:00-04:00", 
+        "subjects-top-term": "Public lands and natural resources", 
+        "title": "Omnibus Public Land Management Act of 2009", 
+        "type": "s"
+    }, 
+    "s2747-111": {
+        "introduced": "2009-11-06", 
+        "lobbied": [
+            "Safari Club International"
+        ], 
+        "number": "s2747-111", 
+        "official-title": "A bill to amend the Land and Water Conservation Fund Act of 1965 to provide consistent and reliable authority for, and for the funding of, the land and water conservation fund to maximize the effectiveness of the fund for future generations, and for other purposes.", 
+        "purpose": "A bill to amend the Land and Water Conservation Fund Act of 1965 to provide consistent and reliable authority for, and for the funding of, the land and water conservation fund to maximize the effectiveness of the fund for future generations, and for other purposes.", 
+        "short-title": "Land and Water Conservation Authorization and Funding Act of 2009", 
+        "sponsor": {
+            "first_name": "Jeff", 
+            "last_name": "Bingaman", 
+            "party": "D", 
+            "state": "NM", 
+            "title": "Sen"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2009-11-06", 
+        "subjects-top-term": "Public lands and natural resources", 
+        "title": "Land and Water Conservation Authorization and Funding Act of 2009", 
+        "type": "s"
+    }, 
+    "s2820-111": {
+        "introduced": "2009-12-01", 
+        "lobbied": [
+            "National Rifle Assn", 
+            "Gun Owners of America", 
+            "Citizens Cmte for Right Keep & Bear Arms"
+        ], 
+        "number": "s2820-111", 
+        "official-title": "A bill to prevent the destruction of terrorist and criminal national instant criminal background check system records.", 
+        "purpose": "PROTECT Act of 2009", 
+        "short-title": "Preserving Records of Terrorist & Criminal Transactions Act of 2009", 
+        "sponsor": {
+            "first_name": "Frank", 
+            "last_name": "Lautenberg", 
+            "party": "D", 
+            "state": "NJ", 
+            "title": "Sen"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2009-12-01", 
+        "subjects-top-term": "Crime and law enforcement", 
+        "title": "Preserving Records of Terrorist & Criminal Transactions Act of 2009", 
+        "type": "s"
+    }, 
+    "s2878-111": {
+        "introduced": "2009-12-11", 
+        "lobbied": [
+            "National Rifle Assn", 
+            "Citizens Cmte for Right Keep & Bear Arms", 
+            "Brady Campaign to Prevent Gun Violence"
+        ], 
+        "number": "s2878-111", 
+        "official-title": "A bill to prevent gun trafficking in the United States.", 
+        "purpose": "A bill to prevent gun trafficking in the United States.", 
+        "short-title": "Gun Trafficking Prevention Act of 2009", 
+        "sponsor": {
+            "chamber": "senate", 
+            "facebook_id": "KirstenGillibrand", 
+            "first_name": "Kirsten", 
+            "govtrack_id": "412223", 
+            "in_office": true, 
+            "last_name": "Gillibrand", 
+            "party": "D", 
+            "state": "NY", 
+            "state_name": "New York", 
+            "title": "Sen", 
+            "twitter_id": "SenGillibrand", 
+            "website": "http://www.gillibrand.senate.gov", 
+            "youtube_id": "KirstenEGillibrand"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2009-12-11", 
+        "subjects-top-term": "Crime and law enforcement", 
+        "title": "Gun Trafficking Prevention Act of 2009", 
+        "type": "s"
+    }, 
+    "s371-111": {
+        "introduced": "2009-02-03", 
+        "lobbied": [
+            "National Rifle Assn", 
+            "Gun Owners of America", 
+            "Citizens Cmte for Right Keep & Bear Arms"
+        ], 
+        "number": "s371-111", 
+        "official-title": "A bill to amend chapter 44 of title 18, United States Code, to allow citizens who have concealed carry permits from the State in which they reside to carry concealed firearms in another State that grants concealed carry permits, if the individual complies with the laws of the State.", 
+        "purpose": "A bill to amend chapter 44 of title 18, United States Code, to allow citizens who have concealed carry permits from the State in which they reside to carry concealed firearms in another State that grants concealed carry permits, if the individual complies with the laws of the State.", 
+        "short-title": "Respecting States Rights and Concealed Carry Reciprocity Act of 2009", 
+        "sponsor": {
+            "chamber": "senate", 
+            "facebook_id": null, 
+            "first_name": "John", 
+            "govtrack_id": "400546", 
+            "in_office": true, 
+            "last_name": "Thune", 
+            "party": "R", 
+            "state": "SD", 
+            "state_name": "South Dakota", 
+            "title": "Sen", 
+            "twitter_id": "SenJohnThune", 
+            "website": "http://www.thune.senate.gov", 
+            "youtube_id": "johnthune"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2009-02-03", 
+        "subjects-top-term": "Crime and law enforcement", 
+        "title": "Respecting States Rights and Concealed Carry Reciprocity Act of 2009", 
+        "type": "s"
+    }, 
+    "s386-111": {
+        "introduced": "2009-02-05", 
+        "lobbied": [
+            "Brady Campaign to Prevent Gun Violence"
+        ], 
+        "number": "s386-111", 
+        "official-title": "An Act to improve enforcement of mortgage fraud, securities and commodities fraud, financial institution fraud, and other frauds related to Federal assistance and relief programs, for the recovery of funds lost to these frauds, and for other purposes.", 
+        "purpose": "Fraud Enforcement and Recovery Act of 2009", 
+        "short-title": "FERA", 
+        "sponsor": {
+            "chamber": "senate", 
+            "facebook_id": "178569152181267", 
+            "first_name": "Patrick", 
+            "govtrack_id": "300065", 
+            "in_office": true, 
+            "last_name": "Leahy", 
+            "party": "D", 
+            "state": "VT", 
+            "state_name": "Vermont", 
+            "title": "Sen", 
+            "twitter_id": "SenatorLeahy", 
+            "website": "http://www.leahy.senate.gov", 
+            "youtube_id": "SenatorPatrickLeahy"
+        }, 
+        "status": [
+            "Introduced", 
+            "Passed Senate", 
+            "Passed House", 
+            "Resolving Differences", 
+            "To President", 
+            "Became Law"
+        ], 
+        "status-at": "2009-05-20", 
+        "subjects-top-term": "Crime and law enforcement", 
+        "title": "FERA", 
+        "type": "s"
+    }, 
+    "s414-111": {
+        "introduced": "2009-02-11", 
+        "lobbied": [
+            "National Rifle Assn"
+        ], 
+        "number": "s414-111", 
+        "official-title": "A bill to amend the Consumer Credit Protection Act, to ban abusive credit practices, enhance consumer disclosures, protect underage consumers, and for other purposes.", 
+        "purpose": "Credit CARD Act of 2009", 
+        "short-title": "Credit Card Accountability Responsibility and Disclosure Act of 2009", 
+        "sponsor": {
+            "first_name": "Christopher", 
+            "last_name": "Dodd", 
+            "party": "D", 
+            "state": "CT", 
+            "title": "Sen"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2009-03-31", 
+        "subjects-top-term": "Finance and financial sector", 
+        "title": "Credit Card Accountability Responsibility and Disclosure Act of 2009", 
+        "type": "s"
+    }, 
+    "s529-111": {
+        "introduced": "2009-03-05", 
+        "lobbied": [
+            "Safari Club International"
+        ], 
+        "number": "s529-111", 
+        "official-title": "A bill to assist in the conservation of rare felids and rare canids by supporting and providing financial resources for the conservation programs of countries within the range of rare felid and rare canid populations and projects of persons with demonstrated expertise in the conservation of rare felid and rare canid populations.", 
+        "purpose": "Great Cats and Rare Canids Act of 2009", 
+        "short-title": "Great Cats and Rare Canids Act of 2009", 
+        "sponsor": {
+            "first_name": "Joseph", 
+            "last_name": "Lieberman", 
+            "party": "ID", 
+            "state": "CT", 
+            "title": "Sen"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2009-05-14", 
+        "subjects-top-term": "Animals", 
+        "title": "Great Cats and Rare Canids Act of 2009", 
+        "type": "s"
+    }, 
+    "s556-111": {
+        "introduced": "2009-03-10", 
+        "lobbied": [
+            "National Rifle Assn", 
+            "Gun Owners of America", 
+            "Citizens Cmte for Right Keep & Bear Arms"
+        ], 
+        "number": "s556-111", 
+        "official-title": "A bill to amend chapter 44 of title 18, United States Code, to modernize the process by which interstate firearms transactions are conducted by Federal firearms licensees.", 
+        "purpose": "A bill to amend chapter 44 of title 18, United States Code, to modernize the process by which interstate firearms transactions are conducted by Federal firearms licensees.", 
+        "short-title": "Firearms Transfer Improvement Act", 
+        "sponsor": {
+            "chamber": "senate", 
+            "facebook_id": null, 
+            "first_name": "David", 
+            "govtrack_id": "400418", 
+            "in_office": true, 
+            "last_name": "Vitter", 
+            "party": "R", 
+            "state": "LA", 
+            "state_name": "Louisiana", 
+            "title": "Sen", 
+            "twitter_id": null, 
+            "website": "http://www.vitter.senate.gov", 
+            "youtube_id": "SenatorVitter"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2009-03-10", 
+        "subjects-top-term": "Crime and law enforcement", 
+        "title": "Firearms Transfer Improvement Act", 
+        "type": "s"
+    }, 
+    "s561-111": {
+        "introduced": "2009-03-10", 
+        "lobbied": [
+            "Safari Club International"
+        ], 
+        "number": "s561-111", 
+        "official-title": "A bill to authorize a supplemental funding source for catastrophic emergency wildland fire suppression activities on Department of the Interior and National Forest System lands, to require the Secretary of the Interior and the Secretary of Agriculture to develop a cohesive wildland fire management strategy, and for other purposes.", 
+        "purpose": "FLAME Act", 
+        "short-title": "Federal Land Assistance, Management and Enhancement Act", 
+        "sponsor": {
+            "first_name": "Jeff", 
+            "last_name": "Bingaman", 
+            "party": "D", 
+            "state": "NM", 
+            "title": "Sen"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2009-03-10", 
+        "subjects-top-term": "Public lands and natural resources", 
+        "title": "Federal Land Assistance, Management and Enhancement Act", 
+        "type": "s"
+    }, 
+    "s632-111": {
+        "introduced": "2009-03-18", 
+        "lobbied": [
+            "National Rifle Assn", 
+            "Citizens Cmte for Right Keep & Bear Arms", 
+            "National Shooting Sports Foundation"
+        ], 
+        "number": "s632-111", 
+        "official-title": "A bill to amend the Internal Revenue Code of 1986 to require that the payment of the manufacturers' excise tax on recreational equipment be paid quarterly.", 
+        "purpose": "A bill to amend the Internal Revenue Code of 1986 to require that the payment of the manufacturers' excise tax on recreational equipment be paid quarterly.", 
+        "short-title": "Firearms Fairness and Affordability Act", 
+        "sponsor": {
+            "first_name": "Max", 
+            "last_name": "Baucus", 
+            "party": "D", 
+            "state": "MT", 
+            "title": "Sen"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2009-03-18", 
+        "subjects-top-term": "Taxation", 
+        "title": "Firearms Fairness and Affordability Act", 
+        "type": "s"
+    }, 
+    "s669-111": {
+        "introduced": "2009-03-23", 
+        "lobbied": [
+            "National Rifle Assn", 
+            "Gun Owners of America", 
+            "Citizens Cmte for Right Keep & Bear Arms", 
+            "National Shooting Sports Foundation", 
+            "Brady Campaign to Prevent Gun Violence"
+        ], 
+        "number": "s669-111", 
+        "official-title": "A bill to amend title 38, United States Code, to clarify the conditions under which certain persons may be treated as adjudicated mentally incompetent for certain purposes.", 
+        "purpose": "Veterans 2nd Amendment Protection Act", 
+        "short-title": "Veterans 2nd Amendment Protection Act", 
+        "sponsor": {
+            "chamber": "senate", 
+            "facebook_id": "132653626787856", 
+            "first_name": "Richard", 
+            "govtrack_id": "400054", 
+            "in_office": true, 
+            "last_name": "Burr", 
+            "party": "R", 
+            "state": "NC", 
+            "state_name": "North Carolina", 
+            "title": "Sen", 
+            "twitter_id": "SenatorBurr", 
+            "website": "http://www.burr.senate.gov", 
+            "youtube_id": "SenatorRichardBurr"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2009-05-21", 
+        "subjects-top-term": "Armed forces and national security", 
+        "title": "Veterans 2nd Amendment Protection Act", 
+        "type": "s"
+    }, 
+    "s787-111": {
+        "introduced": "2009-04-02", 
+        "lobbied": [
+            "National Rifle Assn", 
+            "Safari Club International"
+        ], 
+        "number": "s787-111", 
+        "official-title": "A bill to amend the Federal Water Pollution Control Act to clarify the jurisdiction of the United States over waters of the United States.", 
+        "purpose": "Clean Water Restoration Act", 
+        "short-title": "Clean Water Restoration Act", 
+        "sponsor": {
+            "first_name": "Russell", 
+            "last_name": "Feingold", 
+            "party": "D", 
+            "state": "WI", 
+            "title": "Sen"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2009-06-18", 
+        "subjects-top-term": "Environmental protection", 
+        "title": "Clean Water Restoration Act", 
+        "type": "s"
+    }, 
+    "s812-111": {
+        "introduced": "2009-04-02", 
+        "lobbied": [
+            "Safari Club International"
+        ], 
+        "number": "s812-111", 
+        "official-title": "A bill to amend the Internal Revenue Code of 1986 to make permanent the special rule for contributions of qualified conservation contributions.", 
+        "purpose": "A bill to amend the Internal Revenue Code of 1986 to make permanent the special rule for contributions of qualified conservation contributions.", 
+        "short-title": "Rural Heritage Conservation Extension Act of 2009", 
+        "sponsor": {
+            "first_name": "Max", 
+            "last_name": "Baucus", 
+            "party": "D", 
+            "state": "MT", 
+            "title": "Sen"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2009-04-02", 
+        "subjects-top-term": "Taxation", 
+        "title": "Rural Heritage Conservation Extension Act of 2009", 
+        "type": "s"
+    }, 
+    "s816-111": {
+        "introduced": "2009-04-02", 
+        "lobbied": [
+            "National Rifle Assn", 
+            "Citizens Cmte for Right Keep & Bear Arms", 
+            "Brady Campaign to Prevent Gun Violence"
+        ], 
+        "number": "s816-111", 
+        "official-title": "A bill to preserve the rights granted under second amendment to the Constitution in national parks and national wildlife refuge areas.", 
+        "purpose": "A bill to preserve the rights granted under second amendment to the Constitution in national parks and national wildlife refuge areas.", 
+        "short-title": "Preservation of the Second Amendment in National Parks and National Wildlife Refuges Act", 
+        "sponsor": {
+            "chamber": "senate", 
+            "facebook_id": "80335332266", 
+            "first_name": "Michael", 
+            "govtrack_id": "300030", 
+            "in_office": true, 
+            "last_name": "Crapo", 
+            "party": "R", 
+            "state": "ID", 
+            "state_name": "Idaho", 
+            "title": "Sen", 
+            "twitter_id": "MikeCrapo", 
+            "website": "http://www.crapo.senate.gov", 
+            "youtube_id": "senatorcrapo"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2009-04-02", 
+        "subjects-top-term": "Public lands and natural resources", 
+        "title": "Preservation of the Second Amendment in National Parks and National Wildlife Refuges Act", 
+        "type": "s"
+    }, 
+    "s843-111": {
+        "introduced": "2009-04-21", 
+        "lobbied": [
+            "National Rifle Assn", 
+            "Gun Owners of America", 
+            "Citizens Cmte for Right Keep & Bear Arms", 
+            "Coalition to Stop Gun Violence", 
+            "Brady Campaign to Prevent Gun Violence", 
+            "Mayors Against Illegal Guns"
+        ], 
+        "number": "s843-111", 
+        "official-title": "A bill to establish background check procedures for gun shows.", 
+        "purpose": "A bill to establish background check procedures for gun shows.", 
+        "short-title": "Gun Show Background Check Act of 2009", 
+        "sponsor": {
+            "first_name": "Frank", 
+            "last_name": "Lautenberg", 
+            "party": "D", 
+            "state": "NJ", 
+            "title": "Sen"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2009-04-21", 
+        "subjects-top-term": "Crime and law enforcement", 
+        "title": "Gun Show Background Check Act of 2009", 
+        "type": "s"
+    }, 
+    "s845-111": {
+        "introduced": "2009-04-21", 
+        "lobbied": [
+            "National Rifle Assn", 
+            "Gun Owners of America", 
+            "Citizens Cmte for Right Keep & Bear Arms", 
+            "Coalition to Stop Gun Violence", 
+            "Ceasefire PA", 
+            "Mayors Against Illegal Guns"
+        ], 
+        "number": "s845-111", 
+        "official-title": "A bill to amend chapter 44 of title 18, United States Code, to allow citizens who have concealed carry permits from the State in which they reside to carry concealed firearms in another State that grants concealed carry permits, if the individual complies with the laws of the State.", 
+        "purpose": "A bill to amend chapter 44 of title 18, United States Code, to allow citizens who have concealed carry permits from the State in which they reside to carry concealed firearms in another State that grants concealed carry permits, if the individual complies with the laws of the State.", 
+        "short-title": "Respecting States Rights and Concealed Carry Reciprocity Act of 2009", 
+        "sponsor": {
+            "chamber": "senate", 
+            "facebook_id": null, 
+            "first_name": "John", 
+            "govtrack_id": "400546", 
+            "in_office": true, 
+            "last_name": "Thune", 
+            "party": "R", 
+            "state": "SD", 
+            "state_name": "South Dakota", 
+            "title": "Sen", 
+            "twitter_id": "SenJohnThune", 
+            "website": "http://www.thune.senate.gov", 
+            "youtube_id": "johnthune"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2009-04-21", 
+        "subjects-top-term": "Crime and law enforcement", 
+        "title": "Respecting States Rights and Concealed Carry Reciprocity Act of 2009", 
+        "type": "s"
+    }, 
+    "s941-111": {
+        "introduced": "2009-04-30", 
+        "lobbied": [
+            "National Rifle Assn", 
+            "Gun Owners of America", 
+            "Citizens Cmte for Right Keep & Bear Arms", 
+            "National Shooting Sports Foundation", 
+            "Mayors Against Illegal Guns"
+        ], 
+        "number": "s941-111", 
+        "official-title": "A bill to reform the Bureau of Alcohol, Tobacco, Firearms, and Explosives, modernize firearm laws and regulations, protect the community from criminals, and for other purposes.", 
+        "purpose": "A bill to reform the Bureau of Alcohol, Tobacco, Firearms, and Explosives, modernize firearm laws and regulations, protect the community from criminals, and for other purposes.", 
+        "short-title": "Bureau of Alcohol, Tobacco, Firearms, and Explosives Reform and Firearms Modernization Act of 2009", 
+        "sponsor": {
+            "chamber": "senate", 
+            "facebook_id": "80335332266", 
+            "first_name": "Michael", 
+            "govtrack_id": "300030", 
+            "in_office": true, 
+            "last_name": "Crapo", 
+            "party": "R", 
+            "state": "ID", 
+            "state_name": "Idaho", 
+            "title": "Sen", 
+            "twitter_id": "MikeCrapo", 
+            "website": "http://www.crapo.senate.gov", 
+            "youtube_id": "senatorcrapo"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2009-04-30", 
+        "subjects-top-term": "Crime and law enforcement", 
+        "title": "Bureau of Alcohol, Tobacco, Firearms, and Explosives Reform and Firearms Modernization Act of 2009", 
+        "type": "s"
+    }, 
+    "sconres13-111": {
+        "introduced": "2009-03-27", 
+        "lobbied": [
+            "National Rifle Assn", 
+            "Gun Owners of America", 
+            "Brady Campaign to Prevent Gun Violence"
+        ], 
+        "number": "sconres13-111", 
+        "official-title": "An original concurrent resolution setting forth the congressional budget for the United States Government for fiscal year 2010, revising the appropriate budgetary levels for fiscal year 2009, and setting forth the appropriate budgetary levels for fiscal years 2011 through 2014.", 
+        "purpose": "An original concurrent resolution setting forth the congressional budget for the United States Government for fiscal year 2010, revising the appropriate budgetary levels for fiscal year 2009, and setting forth the appropriate budgetary levels for fiscal years 2011 through 2014.", 
+        "short-title": null, 
+        "sponsor": {
+            "first_name": "Johnny", 
+            "last_name": "Isakson", 
+            "party": "R", 
+            "state": "GA", 
+            "title": "Sen"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2009-04-29", 
+        "subjects-top-term": "Economics and public finance", 
+        "title": "An original concurrent resolution setting forth the congressional budget for the United States Government for fiscal year 2010, revising the appropriate budgetary levels for fiscal year 2009, and setting forth the appropriate budgetary levels for fiscal years 2011 through 2014.", 
+        "type": "sconres"
+    }
+}

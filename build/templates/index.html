@@ -1,0 +1,349 @@
+{%extends 'base.html'%}
+{%import 'partials/img.html' as img%}
+
+
+{%block custom_meta%}
+<meta content="{{keywords|join(',')}}" name="keywords" />
+
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+<meta content="{{shareText}}" name="description" />
+<title>{{pageTitle}}</title>
+<meta property="og:url" content="{{url}}" />
+<meta property="og:title" content="{{shareTitle}}"/>
+<meta property="og:description" content="{{shareText}}" name="description"/>
+<meta property="og:image" content="{{imgURL}}"/>
+<meta property="og:image:height" content="{{imgHeight}}"/>
+<meta property="og:image:width" content="{{imgWidth}}"/>
+<meta property="og:type" content="article" />
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@{{sectionTwitter}}" />
+<meta name="twitter:creator" content="@{{authorTwitter}}" />
+
+<meta name="liveFyreID" content="{{id}}" />
+
+<meta name="parsely-page" id='parsely-page' content='{"title": "{{shareTitle}}", "link": "{{url}}", "image_url": "{{imgURL}}", "type": "post", "post_id": "{{id}}", "pub_date": "{{publishDate}}", "section": "{{section}}", "author": ["{{authors}}"], "tags": ["{{keywords|join('","')|safe}}"]}' />
+
+<meta property="og:keywords" content="{{keywords|join(',')}}"/>
+
+<meta name="news_keywords" content="{{keywords|join(',')}}"/>
+{%endblock%}
+
+
+{%block custom_head%}
+{%endblock%}
+
+
+
+{%block ad%}
+<script type="text/javascript" src="http://www.googletagservices.com/tag/js/gpt.js"></script>
+<script type="text/javascript">
+DFP_networkId = "11222444";
+var DFPSlotSizes = [];
+if (jQuery(window).width() < 768)
+{
+var DFP_sitepage = "m.DMN/interactives";
+DFPSlotSizes = [320,50]
+var adSlot0 = googletag.defineSlot('/' + DFP_networkId + '/' + DFP_sitepage, DFPSlotSizes, "dfpAdPositionTop");
+adSlot0.setTargeting("position", "x01");
+adSlot0.addService(googletag.pubads());
+
+/*
+var adSlot1 = googletag.defineSlot('/' + DFP_networkId + '/' + DFP_sitepage, DFPSlotSizes, "dfpAdPositionMiddle");
+adSlot1.setTargeting("position", "x02");
+adSlot1.addService(googletag.pubads());
+*/
+
+/*
+var adSlot2 = googletag.defineSlot('/' + DFP_networkId + '/' + DFP_sitepage, DFPSlotSizes, "dfpAdPositionBottom");
+adSlot2.setTargeting("position", "x03");
+adSlot2.addService(googletag.pubads());
+*/
+}
+else
+{
+var DFP_sitepage = "DMN/interactives";
+ DFPSlotSizes = [728,90]
+var adSlot0 = googletag.defineSlot('/' + DFP_networkId + '/' + DFP_sitepage, DFPSlotSizes, "dfpAdPositionTop");
+adSlot0.setTargeting("position", "Top");
+adSlot0.addService(googletag.pubads());
+
+/*
+var adSlot1 = googletag.defineSlot('/' + DFP_networkId + '/' + DFP_sitepage, DFPSlotSizes, "dfpAdPositionMiddle");
+adSlot1.setTargeting("position", "Top");
+adSlot1.addService(googletag.pubads());
+*/
+
+/*
+var adSlot2 = googletag.defineSlot('/' + DFP_networkId + '/' + DFP_sitepage, DFPSlotSizes, "dfpAdPositionBottom");
+adSlot2.setTargeting("position", "Top");
+adSlot2.addService(googletag.pubads());
+*/
+ }
+</script>
+<script type="text/javascript">
+googletag.pubads().enableSingleRequest();
+googletag.pubads().enableSyncRendering();
+googletag.enableServices();
+</script>
+{%endblock%}
+
+
+{%block content%}
+
+<section id="flex-body">
+	<!-- <div id="tag">
+		GUN FIGHT
+	</div> -->
+	<div id="hero">
+		{{ img.jpg('hero-gun-control','Hero image of capital and gun', id='hero-gc') }}
+		{{ img.jpg('hero-gun-rights','Hero image of capital and gun', id='hero-gr') }}
+	</div>
+	<!-- end hero -->
+	<div id="pick-a-side">
+		<span class="instruction">PICK A SIDE</span>
+		<span class="chatter">Choosing a side will adjust the perspective of the page. It will not change the data. When you choose to share, the active side will be the shared perspective.</span>
+		<div class="buttons">
+			<div class="button-side" id="button-gc">
+				Gun control
+			</div>
+			<div class="button-side" id="button-gr">
+				Gun rights
+			</div>
+		</div>
+	</div>
+	<!-- end pick-a-side -->
+	<div class="gc" id="intro">
+		<h1>The battle for America’s guns</h1>
+		<h2>There’s no denying the gun lobby’s influence in Washington. But depending on which side you advocate, it may not be such a bad thing. </h2>
+	</div>
+	<!-- end intro -->
+	<div class="gc shareComments shareCommentsTop">
+		<ul id="share-bar1" class="width-auto-hack"></ul>
+	</div>
+	<!-- end shareComments -->
+
+	<div class="gc intro-box">
+		<div class="text-box">
+<span class="dropcap">A</span><span class='chatter'>nother mass shooting, another futile attempt at passing meaningful gun control legislation. While gun violence continues to ravage our nation, one of the most influential groups in Washington - the gun lobby - continues its decades-long fight to block reasonable legislation. A look at how money is used to fight the war in Washington. (This will change depending on the slider)</span>
+		</div>
+ 	</div>
+	<!-- end intro -->
+	<div class="chart gc-dark" id="total-chart">
+		<div class="chatter">
+			<span class="head">Outspent</span>
+			<span class="intro">Since 2000, the gun rights lobby has outspent the gun control lobby by a margin of 10 to 1.</span>
+		</div>
+		<div class="chart-container">
+			<div class="bar" id="gcBar">
+				<span class="bar-label">Gun control groups:</span>
+				<span class="bar-label">$10 million</span>
+			</div>
+			<div class="bar" id="grBar">
+				<span class="bar-label">Gun rights groups:</span>
+				<span class="bar-label">$100 million</span>
+			</div>
+		</div>
+	</div>
+
+	<div class="gc intro-box">
+ 	</div>
+	<!-- end spacer -->
+
+	<div class="chart gc-dark" >
+		<div class="chart-container">
+			<div id="yearChart"></div>
+		</div>
+		<div class="chatter">
+			<span class="head">Consistently outspent</span>
+			<span class="intro">Money spent by both gun rights groups and gun control groups to lobby Congress fell steadily towards the end of Bush's presidency and slowly increased during President Obama's first term. When Adam Lanza walked into Sandy Hook Elementary School and killed 28 children at the end of 2012, lobbying efforts on both sides spiked to recent highs. </span>
+		</div>
+	</div>
+	<!-- end yearly-chart -->
+
+	<div class="gc intro-box">
+ 	</div>
+	<!-- end spacer -->
+
+	<div class="chart gc-dark">
+		<div class="chatter">
+			<span class="head">Consistently outspent</span>
+			<span class="intro">Gun rights groups consistently outspend gun controls by a large margin. A look at some of the major organizations and how much they spent on lobbying for a particular year. </span>
+
+			<ul class="year-select">
+     			<li>Select a year
+     				<ul class="year-list">
+
+     				</ul>
+     			</li>
+			</ul>
+
+		</div>
+		<div class="chart-container">
+			<div id="treeChart"></div>
+		</div>
+	</div>
+	<!-- end tree-chart -->
+
+	<div class="gc intro-box">
+ 	</div>
+	<!-- end spacer -->
+
+	<div class="chart gc-dark">
+		<div class="chart-container">
+			<div class="breakdowns byOrg"></div>
+			<span class="note">*This space is reserved for notes.</span>
+
+			<div class="breakdowns bySponsor"></div>
+			<span class="note">*This space is reserved for notes.</span>
+
+			<div class="breakdowns byStatus"></div>
+			<span class="note">*This space is reserved for notes.</span>
+
+			<div class="breakdowns byParty"></div>
+		</div>
+		<div class="chatter">
+			<span class="head">A look at gun legislation in <span class="head-year"></span></span>
+			<span class="intro">Breakouts of each data point that will illustrate which organization is most active along with which member of Congress. Beakouts include current status and will show how nothing really ever gets done. It will also show which parties are doing what each year.</span>
+
+			<ul class="year-select">
+     			<li>Select a year
+     				<ul class="year-list">
+
+     				</ul>
+     			</li>
+			</ul>
+
+		</div>
+
+	</div>
+	<!-- end bill breakdowns -->
+
+	<div class="gc intro-box">
+ 	</div>
+	<!-- end spacer -->
+
+	<div class="chart gc-dark">
+		<div class="chatter">
+			<span class="head">Gun bills introduced in <span class="head-year"></span></span>
+			<span class="intro">A list of every piece of legislation lobbied that year.</span>
+			<ul class="year-select">
+     			<li>Select a year
+     				<ul class="year-list">
+
+     				</ul>
+     			</li>
+			</ul>
+			<div class="bills" id="bill-tags">Tags:<br/></br/></div>
+		</div>
+		<div class="chart-container">
+			<div class="bills" id="bill-list"></div>
+		</div>
+
+	</div>
+	<!-- end bill list -->
+
+
+</section>
+
+<section class="content-well clearfix">
+
+    {%include "adblock1.html" %}
+
+    <p class="twitter-tag">Follow writer name on Twitter at <a href="urlhere">@twittertag.</a></p>
+
+
+	<!-- <section class="credits clearfix">
+        <p><strong>Author:</strong> <a href="mailto:emailaddress">Name</a></p>
+        <p><strong>Editor:</strong> <a href="mailto:emailaddress">Name</a></p>
+        <p><strong>Copy Editor:</strong> <a href="mailto:emailaddress">Name</a></p>
+        <p><strong>Photos:</strong> <a href="mailto:emailaddress">Name</a></p>
+        <p><strong>Graphics:</strong> <a href="mailto:emailaddress">Name</a></p>
+        <p><strong>Designer:</strong> <a href="mailto:emailaddress">Name</a></p>
+	</section> -->
+	<!-- end credits -->
+
+	<section class="more clearfix">
+		<h5>Read more from The Dallas Morning News</h5>
+		<a class="clearfix" href="#">
+			<img src="images/_defaultImage.jpg" alt="#" />
+			<h6>Story title goes here</h6>
+			<p>Description of the story goes in this spot here</p>
+		</a>
+		<a class="clearfix" href="#">
+			<img src="images/_defaultImage.jpg" alt="#" />
+			<h6>Story title goes here</h6>
+			<p>Description of the story goes in this spot here</p>
+		</a>
+		<a class="clearfix" href="#">
+			<img src="images/_defaultImage.jpg" alt="#" />
+			<h6>Story title goes here</h6>
+			<p>Description of the story goes in this spot here</p>
+		</a>
+	</section>
+	<!-- end more -->
+
+		<div class="shareComments">
+		<ul id="share-bar2" class="width-auto-hack"></ul>
+        <div id="comments"></div>
+	</div>
+	<!-- end shareComments -->
+
+
+	<!-- <header id="story-head">
+          <h3>Gun fights</h3>
+		<h1>Battling for America’s guns</h1>
+		<h2>The gun lobby’s influence in Washington is undeniable.<br/>
+			You decide if that’s a good thing.</h2>
+	</header> -->
+		<!-- end storyHead -->
+
+    <!-- <div class="byline-block">
+        <p>By <a target="_blank" href="mailto:emailaddresshere">Writer Name</a> | Staff Writer</p>
+        <p>Published Month Date, Year</p>
+    </div> -->
+    <!-- end bylineBlock -->
+
+
+	<!-- <div class="sliding-intro">
+	<p class="intro gun-rights hide-gun-rights">
+		<span class="dropcap">U</span>nder the guise of “reasonable regulation” gun control groups have released constant legislative barages on individual liberties. Gun rights group have been successful in beating back most of the attacks thanks to donations from its base. Here’s a look at how that money is used to fight the war in Washington.
+	</p>
+</div> -->
+
+
+
+
+
+</section>
+<!-- end contentWell -->
+{%endblock%}
+
+
+
+
+{%block custom_foot%}
+	<script type="text/javascript"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.16.4/lodash.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+{%endblock%}
+
+
+
+
+
+{%block custom_social_meta%}
+<script type="text/javascript">
+  var storyTitle = "{{tweetText}}", // headline in tweet card
+	storyURL = "{{url}}",
+	leadText = "{{shareText}}", //description in tweet card
+	storyIMG = "{{imgURL}}",
+	storyAuthor = "{{authors}}",
+	twitterTag = "{{sectionTwitter}}",
+	comments = true,
+	share = true;
+	OAS_sitepage = 'www.dallasnews.com/{{desk}}/{{section}}/';
+</script>
+{%endblock%}

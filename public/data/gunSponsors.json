@@ -1,0 +1,1726 @@
+{
+    "billSponsors": [
+        {
+            "300038": {
+                "bioguideID": "D000563", 
+                "end": "2021-01-03", 
+                "first": "Richard", 
+                "last": "Durbin", 
+                "party": "Democrat", 
+                "start": "2015-01-06", 
+                "state": "IL", 
+                "title": "Sen.", 
+                "twitter": "SenatorDurbin", 
+                "youtube": "SenatorDurbin"
+            }
+        }, 
+        {
+            "300043": {
+                "bioguideID": "F000062", 
+                "end": "2019-01-03", 
+                "first": "Dianne", 
+                "last": "Feinstein", 
+                "party": "Democrat", 
+                "start": "2013-01-03", 
+                "state": "CA", 
+                "title": "Sen.", 
+                "twitter": "SenFeinstein", 
+                "youtube": "SenatorFeinstein"
+            }
+        }, 
+        {
+            "300047": {
+                "bioguideID": "G000359", 
+                "end": "2021-01-03", 
+                "first": "Lindsey", 
+                "last": "Graham", 
+                "party": "Republican", 
+                "start": "2015-01-06", 
+                "state": "SC", 
+                "title": "Sen.", 
+                "twitter": "GrahamBlog", 
+                "youtube": "USSenLindseyGraham"
+            }
+        }, 
+        {
+            "300051": {
+                "bioguideID": "H000206", 
+                "end": "2015-01-03", 
+                "first": "Thomas", 
+                "last": "Harkin", 
+                "party": "Democrat", 
+                "start": "2009-01-06", 
+                "state": "IA", 
+                "title": "Sen.", 
+                "twitter": null, 
+                "youtube": null
+            }
+        }, 
+        {
+            "400407": {
+                "bioguideID": "T000266", 
+                "end": "2015-01-03", 
+                "first": "John", 
+                "last": "Tierney", 
+                "party": "Democrat", 
+                "start": "2013-01-03", 
+                "state": "MA", 
+                "title": "Rep.", 
+                "twitter": null, 
+                "youtube": null
+            }
+        }, 
+        {
+            "400412": {
+                "bioguideID": "U000038", 
+                "end": "2015-01-03", 
+                "first": "Mark", 
+                "last": "Udall", 
+                "party": "Democrat", 
+                "start": "2009-01-06", 
+                "state": "CO", 
+                "title": "Sen.", 
+                "twitter": null, 
+                "youtube": null
+            }
+        }, 
+        {
+            "400413": {
+                "bioguideID": "U000039", 
+                "end": "2021-01-03", 
+                "first": "Tom", 
+                "last": "Udall", 
+                "party": "Democrat", 
+                "start": "2015-01-06", 
+                "state": "NM", 
+                "title": "Sen.", 
+                "twitter": "SenatorTomUdall", 
+                "youtube": "senatortomudall"
+            }
+        }, 
+        {
+            "400415": {
+                "bioguideID": "V000128", 
+                "end": "2017-01-03", 
+                "first": "Chris", 
+                "last": "Van Hollen", 
+                "party": "Democrat", 
+                "start": "2015-01-06", 
+                "state": "MD", 
+                "title": "Rep.", 
+                "twitter": "ChrisVanHollen", 
+                "youtube": "RepChrisVanHollen"
+            }
+        }, 
+        {
+            "300064": {
+                "bioguideID": "L000123", 
+                "end": "2013-06-03", 
+                "first": "Frank", 
+                "last": "Lautenberg", 
+                "party": "Democrat", 
+                "start": "2009-01-06", 
+                "state": "NJ", 
+                "title": "Sen.", 
+                "twitter": null, 
+                "youtube": null
+            }
+        }, 
+        {
+            "300065": {
+                "bioguideID": "L000174", 
+                "end": "2017-01-03", 
+                "first": "Patrick", 
+                "last": "Leahy", 
+                "party": "Democrat", 
+                "start": "2011-01-05", 
+                "state": "VT", 
+                "title": "Sen.", 
+                "twitter": "SenatorLeahy", 
+                "youtube": "SenatorPatrickLeahy"
+            }
+        }, 
+        {
+            "300066": {
+                "bioguideID": "L000261", 
+                "end": "2015-01-03", 
+                "first": "Carl", 
+                "last": "Levin", 
+                "party": "Democrat", 
+                "start": "2009-01-06", 
+                "state": "MI", 
+                "title": "Sen.", 
+                "twitter": null, 
+                "youtube": null
+            }
+        }, 
+        {
+            "412199": {
+                "bioguideID": "J000288", 
+                "end": "2017-01-03", 
+                "first": "Henry", 
+                "last": "Johnson", 
+                "party": "Democrat", 
+                "start": "2015-01-06", 
+                "state": "GA", 
+                "title": "Rep.", 
+                "twitter": "RepHankJohnson", 
+                "youtube": "RepHankJohnson"
+            }
+        }, 
+        {
+            "412200": {
+                "bioguideID": "H001042", 
+                "end": "2019-01-03", 
+                "first": "Mazie", 
+                "last": "Hirono", 
+                "party": "Democrat", 
+                "start": "2013-01-03", 
+                "state": "HI", 
+                "title": "Sen.", 
+                "twitter": "MazieHirono", 
+                "youtube": "CongresswomanHirono"
+            }
+        }, 
+        {
+            "300073": {
+                "bioguideID": "M000702", 
+                "end": "2017-01-03", 
+                "first": "Barbara", 
+                "last": "Mikulski", 
+                "party": "Democrat", 
+                "start": "2011-01-05", 
+                "state": "MD", 
+                "title": "Sen.", 
+                "twitter": "SenatorBarb", 
+                "youtube": "senatormikulski"
+            }
+        }, 
+        {
+            "300075": {
+                "bioguideID": "M001153", 
+                "end": "2017-01-03", 
+                "first": "Lisa", 
+                "last": "Murkowski", 
+                "party": "Republican", 
+                "start": "2011-01-05", 
+                "state": "AK", 
+                "title": "Sen.", 
+                "twitter": "LisaMurkowski", 
+                "youtube": "senatormurkowski"
+            }
+        }, 
+        {
+            "300076": {
+                "bioguideID": "M001111", 
+                "end": "2017-01-03", 
+                "first": "Patty", 
+                "last": "Murray", 
+                "party": "Democrat", 
+                "start": "2011-01-05", 
+                "state": "WA", 
+                "title": "Sen.", 
+                "twitter": "PattyMurray", 
+                "youtube": "SenatorPattyMurray"
+            }
+        }, 
+        {
+            "300078": {
+                "bioguideID": "N000032", 
+                "end": "2019-01-03", 
+                "first": "Bill", 
+                "last": "Nelson", 
+                "party": "Democrat", 
+                "start": "2013-01-03", 
+                "state": "FL", 
+                "title": "Sen.", 
+                "twitter": "SenBillNelson", 
+                "youtube": "senbillnelson"
+            }
+        }, 
+        {
+            "300081": {
+                "bioguideID": "R000122", 
+                "end": "2021-01-03", 
+                "first": "John", 
+                "last": "Reed", 
+                "party": "Democrat", 
+                "start": "2015-01-06", 
+                "state": "RI", 
+                "title": "Sen.", 
+                "twitter": "SenJackReed", 
+                "youtube": "SenatorReed"
+            }
+        }, 
+        {
+            "300082": {
+                "bioguideID": "R000146", 
+                "end": "2017-01-03", 
+                "first": "Harry", 
+                "last": "Reid", 
+                "party": "Democrat", 
+                "start": "2011-01-05", 
+                "state": "NV", 
+                "title": "Sen.", 
+                "twitter": "SenatorReid", 
+                "youtube": "SenatorReid"
+            }
+        }, 
+        {
+            "400435": {
+                "bioguideID": "W000672", 
+                "end": "2015-01-03", 
+                "first": "Frank", 
+                "last": "Wolf", 
+                "party": "Republican", 
+                "start": "2013-01-03", 
+                "state": "VA", 
+                "title": "Rep.", 
+                "twitter": null, 
+                "youtube": null
+            }
+        }, 
+        {
+            "300087": {
+                "bioguideID": "S000148", 
+                "end": "2017-01-03", 
+                "first": "Charles", 
+                "last": "Schumer", 
+                "party": "Democrat", 
+                "start": "2011-01-05", 
+                "state": "NY", 
+                "title": "Sen.", 
+                "twitter": "SenSchumer", 
+                "youtube": "SenatorSchumer"
+            }
+        }, 
+        {
+            "400440": {
+                "bioguideID": "Y000033", 
+                "end": "2017-01-03", 
+                "first": "Don", 
+                "last": "Young", 
+                "party": "Republican", 
+                "start": "2015-01-06", 
+                "state": "AK", 
+                "title": "Rep.", 
+                "twitter": "RepDonYoung", 
+                "youtube": "RepDonYoung"
+            }
+        }, 
+        {
+            "300093": {
+                "bioguideID": "S000770", 
+                "end": "2019-01-03", 
+                "first": "Debbie", 
+                "last": "Stabenow", 
+                "party": "Democrat", 
+                "start": "2013-01-03", 
+                "state": "MI", 
+                "title": "Sen.", 
+                "twitter": "SenStabenow", 
+                "youtube": "senatorstabenow"
+            }
+        }, 
+        {
+            "412223": {
+                "bioguideID": "G000555", 
+                "end": "2019-01-03", 
+                "first": "Kirsten", 
+                "last": "Gillibrand", 
+                "party": "Democrat", 
+                "start": "2013-01-03", 
+                "state": "NY", 
+                "title": "Sen.", 
+                "twitter": "SenGillibrand", 
+                "youtube": "KirstenEGillibrand"
+            }
+        }, 
+        {
+            "412226": {
+                "bioguideID": "J000289", 
+                "end": "2017-01-03", 
+                "first": "Jim", 
+                "last": "Jordan", 
+                "party": "Republican", 
+                "start": "2015-01-06", 
+                "state": "OH", 
+                "title": "Rep.", 
+                "twitter": "Jim_Jordan", 
+                "youtube": "RepJimJordan"
+            }
+        }, 
+        {
+            "412236": {
+                "bioguideID": "C001068", 
+                "end": "2017-01-03", 
+                "first": "Steve", 
+                "last": "Cohen", 
+                "party": "Democrat", 
+                "start": "2015-01-06", 
+                "state": "TN", 
+                "title": "Rep.", 
+                "twitter": "RepCohen", 
+                "youtube": "repcohen"
+            }
+        }, 
+        {
+            "412242": {
+                "bioguideID": "K000367", 
+                "end": "2019-01-03", 
+                "first": "Amy", 
+                "last": "Klobuchar", 
+                "party": "Democrat", 
+                "start": "2013-01-03", 
+                "state": "MN", 
+                "title": "Sen.", 
+                "twitter": null, 
+                "youtube": "senatorklobuchar"
+            }
+        }, 
+        {
+            "412244": {
+                "bioguideID": "T000464", 
+                "end": "2019-01-03", 
+                "first": "Jon", 
+                "last": "Tester", 
+                "party": "Democrat", 
+                "start": "2013-01-03", 
+                "state": "MT", 
+                "title": "Sen.", 
+                "twitter": "SenatorTester", 
+                "youtube": "senatorjontester"
+            }
+        }, 
+        {
+            "412251": {
+                "bioguideID": "B001261", 
+                "end": "2019-01-03", 
+                "first": "John", 
+                "last": "Barrasso", 
+                "party": "Republican", 
+                "start": "2013-01-03", 
+                "state": "WY", 
+                "title": "Sen.", 
+                "twitter": "SenJohnBarrasso", 
+                "youtube": "barrassowyo"
+            }
+        }, 
+        {
+            "412255": {
+                "bioguideID": "W000804", 
+                "end": "2017-01-03", 
+                "first": "Robert", 
+                "last": "Wittman", 
+                "party": "Republican", 
+                "start": "2015-01-06", 
+                "state": "VA", 
+                "title": "Rep.", 
+                "twitter": "RobWittman", 
+                "youtube": "RobWittman"
+            }
+        }, 
+        {
+            "412256": {
+                "bioguideID": "L000566", 
+                "end": "2017-01-03", 
+                "first": "Robert", 
+                "last": "Latta", 
+                "party": "Republican", 
+                "start": "2015-01-06", 
+                "state": "OH", 
+                "title": "Rep.", 
+                "twitter": "BobLatta", 
+                "youtube": "CongressmanBobLatta"
+            }
+        }, 
+        {
+            "412259": {
+                "bioguideID": "S001175", 
+                "end": "2017-01-03", 
+                "first": "Jackie", 
+                "last": "Speier", 
+                "party": "Democrat", 
+                "start": "2015-01-06", 
+                "state": "CA", 
+                "title": "Rep.", 
+                "twitter": "RepSpeier", 
+                "youtube": "jackiespeierca12"
+            }
+        }, 
+        {
+            "412261": {
+                "bioguideID": "S001176", 
+                "end": "2017-01-03", 
+                "first": "Steve", 
+                "last": "Scalise", 
+                "party": "Republican", 
+                "start": "2015-01-06", 
+                "state": "LA", 
+                "title": "Rep.", 
+                "twitter": "SteveScalise", 
+                "youtube": "RepSteveScalise"
+            }
+        }, 
+        {
+            "412270": {
+                "bioguideID": "C001076", 
+                "end": "2017-01-03", 
+                "first": "Jason", 
+                "last": "Chaffetz", 
+                "party": "Republican", 
+                "start": "2015-01-06", 
+                "state": "UT", 
+                "title": "Rep.", 
+                "twitter": "JasonInTheHouse", 
+                "youtube": "JasonChaffetz"
+            }
+        }, 
+        {
+            "400403": {
+                "bioguideID": "T000460", 
+                "end": "2017-01-03", 
+                "first": "Mike", 
+                "last": "Thompson", 
+                "party": "Democrat", 
+                "start": "2015-01-06", 
+                "state": "CA", 
+                "title": "Rep.", 
+                "twitter": "RepThompson", 
+                "youtube": "CongressmanMThompson"
+            }
+        }, 
+        {
+            "412281": {
+                "bioguideID": "H001046", 
+                "end": "2019-01-03", 
+                "first": "Martin", 
+                "last": "Heinrich", 
+                "party": "Democrat", 
+                "start": "2013-01-03", 
+                "state": "NM", 
+                "title": "Sen.", 
+                "twitter": "MartinHeinrich", 
+                "youtube": "SenMartinHeinrich"
+            }
+        }, 
+        {
+            "412283": {
+                "bioguideID": "H001048", 
+                "end": "2017-01-03", 
+                "first": "Duncan", 
+                "last": "Hunter", 
+                "party": "Republican", 
+                "start": "2015-01-06", 
+                "state": "CA", 
+                "title": "Rep.", 
+                "twitter": "Rep_Hunter", 
+                "youtube": "CongressmanHunter"
+            }
+        }, 
+        {
+            "412294": {
+                "bioguideID": "L000571", 
+                "end": "2017-01-03", 
+                "first": "Cynthia", 
+                "last": "Lummis", 
+                "party": "Republican", 
+                "start": "2015-01-06", 
+                "state": "WY", 
+                "title": "Rep.", 
+                "twitter": "CynthiaLummis", 
+                "youtube": "CynthiaLummis"
+            }
+        }, 
+        {
+            "300055": {
+                "bioguideID": "I000024", 
+                "end": "2021-01-03", 
+                "first": "James", 
+                "last": "Inhofe", 
+                "party": "Republican", 
+                "start": "2015-01-06", 
+                "state": "OK", 
+                "title": "Sen.", 
+                "twitter": "InhofePress", 
+                "youtube": "jiminhofepressoffice"
+            }
+        }, 
+        {
+            "400031": {
+                "bioguideID": "B001242", 
+                "end": "2015-01-03", 
+                "first": "Timothy", 
+                "last": "Bishop", 
+                "party": "Democrat", 
+                "start": "2013-01-03", 
+                "state": "NY", 
+                "title": "Rep.", 
+                "twitter": null, 
+                "youtube": null
+            }
+        }, 
+        {
+            "400032": {
+                "bioguideID": "B001243", 
+                "end": "2017-01-03", 
+                "first": "Marsha", 
+                "last": "Blackburn", 
+                "party": "Republican", 
+                "start": "2015-01-06", 
+                "state": "TN", 
+                "title": "Rep.", 
+                "twitter": "MarshaBlackburn", 
+                "youtube": "RepMarshaBlackburn"
+            }
+        }, 
+        {
+            "400546": {
+                "bioguideID": "T000250", 
+                "end": "2017-01-03", 
+                "first": "John", 
+                "last": "Thune", 
+                "party": "Republican", 
+                "start": "2011-01-05", 
+                "state": "SD", 
+                "title": "Sen.", 
+                "twitter": "SenJohnThune", 
+                "youtube": "johnthune"
+            }
+        }, 
+        {
+            "400218": {
+                "bioguideID": "K000188", 
+                "end": "2017-01-03", 
+                "first": "Ron", 
+                "last": "Kind", 
+                "party": "Democrat", 
+                "start": "2015-01-06", 
+                "state": "WI", 
+                "title": "Rep.", 
+                "twitter": "RepRonKind", 
+                "youtube": "RepRonKind"
+            }
+        }, 
+        {
+            "412324": {
+                "bioguideID": "H001049", 
+                "end": "2015-01-03", 
+                "first": "Kay", 
+                "last": "Hagan", 
+                "party": "Democrat", 
+                "start": "2009-01-06", 
+                "state": "NC", 
+                "title": "Sen.", 
+                "twitter": null, 
+                "youtube": null
+            }
+        }, 
+        {
+            "410396": {
+                "bioguideID": "S000937", 
+                "end": "2015-01-03", 
+                "first": "Steve", 
+                "last": "Stockman", 
+                "party": "Republican", 
+                "start": "2013-01-03", 
+                "state": "TX", 
+                "title": "Rep.", 
+                "twitter": null, 
+                "youtube": null
+            }
+        }, 
+        {
+            "412330": {
+                "bioguideID": "B001267", 
+                "end": "2017-01-03", 
+                "first": "Michael", 
+                "last": "Bennet", 
+                "party": "Democrat", 
+                "start": "2011-01-05", 
+                "state": "CO", 
+                "title": "Sen.", 
+                "twitter": "SenBennetCo", 
+                "youtube": "SenatorBennet"
+            }
+        }, 
+        {
+            "412331": {
+                "bioguideID": "Q000023", 
+                "end": "2017-01-03", 
+                "first": "Mike", 
+                "last": "Quigley", 
+                "party": "Democrat", 
+                "start": "2015-01-06", 
+                "state": "IL", 
+                "title": "Rep.", 
+                "twitter": "RepMikeQuigley", 
+                "youtube": "RepMikeQuigley"
+            }
+        }, 
+        {
+            "412275": {
+                "bioguideID": "F000456", 
+                "end": "2017-01-03", 
+                "first": "John", 
+                "last": "Fleming", 
+                "party": "Republican", 
+                "start": "2015-01-06", 
+                "state": "LA", 
+                "title": "Rep.", 
+                "twitter": "RepFleming", 
+                "youtube": "larep04"
+            }
+        }, 
+        {
+            "400054": {
+                "bioguideID": "B001135", 
+                "end": "2017-01-03", 
+                "first": "Richard", 
+                "last": "Burr", 
+                "party": "Republican", 
+                "start": "2011-01-05", 
+                "state": "NC", 
+                "title": "Sen.", 
+                "twitter": "SenatorBurr", 
+                "youtube": "SenatorRichardBurr"
+            }
+        }, 
+        {
+            "400068": {
+                "bioguideID": "C001051", 
+                "end": "2017-01-03", 
+                "first": "John", 
+                "last": "Carter", 
+                "party": "Republican", 
+                "start": "2015-01-06", 
+                "state": "TX", 
+                "title": "Rep.", 
+                "twitter": "JudgeCarter", 
+                "youtube": "repjohncarter"
+            }
+        }, 
+        {
+            "400076": {
+                "bioguideID": "C000556", 
+                "end": "2015-01-03", 
+                "first": "Howard", 
+                "last": "Coble", 
+                "party": "Republican", 
+                "start": "2013-01-03", 
+                "state": "NC", 
+                "title": "Rep.", 
+                "twitter": null, 
+                "youtube": null
+            }
+        }, 
+        {
+            "400418": {
+                "bioguideID": "V000127", 
+                "end": "2017-01-03", 
+                "first": "David", 
+                "last": "Vitter", 
+                "party": "Republican", 
+                "start": "2011-01-05", 
+                "state": "LA", 
+                "title": "Sen.", 
+                "twitter": null, 
+                "youtube": "SenatorVitter"
+            }
+        }, 
+        {
+            "412451": {
+                "bioguideID": "G000569", 
+                "end": "2015-01-03", 
+                "first": "Michael", 
+                "last": "Grimm", 
+                "party": "Republican", 
+                "start": "2013-01-03", 
+                "state": "NY", 
+                "title": "Rep.", 
+                "twitter": null, 
+                "youtube": null
+            }
+        }, 
+        {
+            "400093": {
+                "bioguideID": "D000096", 
+                "end": "2017-01-03", 
+                "first": "Danny", 
+                "last": "Davis", 
+                "party": "Democrat", 
+                "start": "2015-01-06", 
+                "state": "IL", 
+                "title": "Rep.", 
+                "twitter": "RepDannyDavis", 
+                "youtube": "dannykdavis07"
+            }
+        }, 
+        {
+            "412385": {
+                "bioguideID": "D000610", 
+                "end": "2017-01-03", 
+                "first": "Theodore", 
+                "last": "Deutch", 
+                "party": "Democrat", 
+                "start": "2015-01-06", 
+                "state": "FL", 
+                "title": "Rep.", 
+                "twitter": "RepTedDeutch", 
+                "youtube": "congressmanteddeutch"
+            }
+        }, 
+        {
+            "400103": {
+                "bioguideID": "D000216", 
+                "end": "2017-01-03", 
+                "first": "Rosa", 
+                "last": "DeLauro", 
+                "party": "Democrat", 
+                "start": "2015-01-06", 
+                "state": "CT", 
+                "title": "Rep.", 
+                "twitter": "RosaDeLauro", 
+                "youtube": "rosadelauro"
+            }
+        }, 
+        {
+            "412392": {
+                "bioguideID": "S001188", 
+                "end": "2017-01-03", 
+                "first": "Marlin", 
+                "last": "Stutzman", 
+                "party": "Republican", 
+                "start": "2015-01-06", 
+                "state": "IN", 
+                "title": "Rep.", 
+                "twitter": "RepStutzman", 
+                "youtube": "repstutzman"
+            }
+        }, 
+        {
+            "412397": {
+                "bioguideID": "G000565", 
+                "end": "2017-01-03", 
+                "first": "Paul", 
+                "last": "Gosar", 
+                "party": "Republican", 
+                "start": "2015-01-06", 
+                "state": "AZ", 
+                "title": "Rep.", 
+                "twitter": "RepGosar", 
+                "youtube": "repgosar"
+            }
+        }, 
+        {
+            "412399": {
+                "bioguideID": "S001183", 
+                "end": "2017-01-03", 
+                "first": "David", 
+                "last": "Schweikert", 
+                "party": "Republican", 
+                "start": "2015-01-06", 
+                "state": "AZ", 
+                "title": "Rep.", 
+                "twitter": "RepDavid", 
+                "youtube": "RepDavidSchweikert"
+            }
+        }, 
+        {
+            "412405": {
+                "bioguideID": "T000470", 
+                "end": "2017-01-03", 
+                "first": "Scott", 
+                "last": "Tipton", 
+                "party": "Republican", 
+                "start": "2015-01-06", 
+                "state": "CO", 
+                "title": "Rep.", 
+                "twitter": "RepTipton", 
+                "youtube": "RepScottTipton"
+            }
+        }, 
+        {
+            "400425": {
+                "bioguideID": "W000215", 
+                "end": "2015-01-03", 
+                "first": "Henry", 
+                "last": "Waxman", 
+                "party": "Democrat", 
+                "start": "2013-01-03", 
+                "state": "CA", 
+                "title": "Rep.", 
+                "twitter": null, 
+                "youtube": null
+            }
+        }, 
+        {
+            "412409": {
+                "bioguideID": "N000185", 
+                "end": "2017-01-03", 
+                "first": "Richard", 
+                "last": "Nugent", 
+                "party": "Republican", 
+                "start": "2015-01-06", 
+                "state": "FL", 
+                "title": "Rep.", 
+                "twitter": "RepRichNugent", 
+                "youtube": "RepRichNugent"
+            }
+        }, 
+        {
+            "400122": {
+                "bioguideID": "E000179", 
+                "end": "2017-01-03", 
+                "first": "Eliot", 
+                "last": "Engel", 
+                "party": "Democrat", 
+                "start": "2015-01-06", 
+                "state": "NY", 
+                "title": "Rep.", 
+                "twitter": "RepEliotEngel", 
+                "youtube": "engel2161"
+            }
+        }, 
+        {
+            "412412": {
+                "bioguideID": "W000808", 
+                "end": "2017-01-03", 
+                "first": "Frederica", 
+                "last": "Wilson", 
+                "party": "Democrat", 
+                "start": "2015-01-06", 
+                "state": "FL", 
+                "title": "Rep.", 
+                "twitter": "RepWilson", 
+                "youtube": "repfredericawilson"
+            }
+        }, 
+        {
+            "400646": {
+                "bioguideID": "F000451", 
+                "end": "2017-01-03", 
+                "first": "Michael", 
+                "last": "Fitzpatrick", 
+                "party": "Republican", 
+                "start": "2015-01-06", 
+                "state": "PA", 
+                "title": "Rep.", 
+                "twitter": "RepFitzpatrick", 
+                "youtube": "RepFitzpatrickPA8"
+            }
+        }, 
+        {
+            "400142": {
+                "bioguideID": "F000372", 
+                "end": "2017-01-03", 
+                "first": "Rodney", 
+                "last": "Frelinghuysen", 
+                "party": "Republican", 
+                "start": "2015-01-06", 
+                "state": "NJ", 
+                "title": "Rep.", 
+                "twitter": "USRepRodney", 
+                "youtube": "RepFrelinghuysen"
+            }
+        }, 
+        {
+            "412436": {
+                "bioguideID": "B001271", 
+                "end": "2017-01-03", 
+                "first": "Dan", 
+                "last": "Benishek", 
+                "party": "Republican", 
+                "start": "2015-01-06", 
+                "state": "MI", 
+                "title": "Rep.", 
+                "twitter": "CongressmanDan", 
+                "youtube": null
+            }
+        }, 
+        {
+            "400151": {
+                "bioguideID": "G000550", 
+                "end": "2015-01-03", 
+                "first": "Phil", 
+                "last": "Gingrey", 
+                "party": "Republican", 
+                "start": "2013-01-03", 
+                "state": "GA", 
+                "title": "Rep.", 
+                "twitter": null, 
+                "youtube": null
+            }
+        }, 
+        {
+            "412444": {
+                "bioguideID": "H001053", 
+                "end": "2017-01-03", 
+                "first": "Vicky", 
+                "last": "Hartzler", 
+                "party": "Republican", 
+                "start": "2015-01-06", 
+                "state": "MO", 
+                "title": "Rep.", 
+                "twitter": "RepHartzler", 
+                "youtube": "repvickyhartzler"
+            }
+        }, 
+        {
+            "400157": {
+                "bioguideID": "G000377", 
+                "end": "2017-01-03", 
+                "first": "Kay", 
+                "last": "Granger", 
+                "party": "Republican", 
+                "start": "2015-01-06", 
+                "state": "TX", 
+                "title": "Rep.", 
+                "twitter": "RepKayGranger", 
+                "youtube": "RepKayGranger"
+            }
+        }, 
+        {
+            "400158": {
+                "bioguideID": "G000546", 
+                "end": "2017-01-03", 
+                "first": "Sam", 
+                "last": "Graves", 
+                "party": "Republican", 
+                "start": "2015-01-06", 
+                "state": "MO", 
+                "title": "Rep.", 
+                "twitter": "RepSamGraves", 
+                "youtube": null
+            }
+        }, 
+        {
+            "400163": {
+                "bioguideID": "G000535", 
+                "end": "2017-01-03", 
+                "first": "Luis", 
+                "last": "Guti\u00e9rrez", 
+                "party": "Democrat", 
+                "start": "2015-01-06", 
+                "state": "IL", 
+                "title": "Rep.", 
+                "twitter": "LuisGutierrez", 
+                "youtube": "repluisgutierrez"
+            }
+        }, 
+        {
+            "400171": {
+                "bioguideID": "H000329", 
+                "end": "2015-01-03", 
+                "first": "Doc", 
+                "last": "Hastings", 
+                "party": "Republican", 
+                "start": "2013-01-03", 
+                "state": "WA", 
+                "title": "Rep.", 
+                "twitter": null, 
+                "youtube": null
+            }
+        }, 
+        {
+            "412463": {
+                "bioguideID": "G000563", 
+                "end": "2017-01-03", 
+                "first": "Bob", 
+                "last": "Gibbs", 
+                "party": "Republican", 
+                "start": "2015-01-06", 
+                "state": "OH", 
+                "title": "Rep.", 
+                "twitter": "RepBobGibbs", 
+                "youtube": "RepBobGibbs"
+            }
+        }, 
+        {
+            "412465": {
+                "bioguideID": "K000376", 
+                "end": "2017-01-03", 
+                "first": "Mike", 
+                "last": "Kelly", 
+                "party": "Republican", 
+                "start": "2015-01-06", 
+                "state": "PA", 
+                "title": "Rep.", 
+                "twitter": "MikeKellyPA", 
+                "youtube": "repmikekelly"
+            }
+        }, 
+        {
+            "412470": {
+                "bioguideID": "C001084", 
+                "end": "2017-01-03", 
+                "first": "David", 
+                "last": "Cicilline", 
+                "party": "Democrat", 
+                "start": "2015-01-06", 
+                "state": "RI", 
+                "title": "Rep.", 
+                "twitter": "RepCicilline", 
+                "youtube": "RepDavidCicilline"
+            }
+        }, 
+        {
+            "400184": {
+                "bioguideID": "H001032", 
+                "end": "2015-01-03", 
+                "first": "Rush", 
+                "last": "Holt", 
+                "party": "Democrat", 
+                "start": "2013-01-03", 
+                "state": "NJ", 
+                "title": "Rep.", 
+                "twitter": null, 
+                "youtube": null
+            }
+        }, 
+        {
+            "400185": {
+                "bioguideID": "H001034", 
+                "end": "2017-01-03", 
+                "first": "Michael", 
+                "last": "Honda", 
+                "party": "Democrat", 
+                "start": "2015-01-06", 
+                "state": "CA", 
+                "title": "Rep.", 
+                "twitter": "RepMikeHonda", 
+                "youtube": "RepMikeHonda"
+            }
+        }, 
+        {
+            "412474": {
+                "bioguideID": "M001182", 
+                "end": "2017-01-03", 
+                "first": "Mick", 
+                "last": "Mulvaney", 
+                "party": "Republican", 
+                "start": "2015-01-06", 
+                "state": "SC", 
+                "title": "Rep.", 
+                "twitter": "RepMickMulvaney", 
+                "youtube": "RepMickMulvaney"
+            }
+        }, 
+        {
+            "412475": {
+                "bioguideID": "N000184", 
+                "end": "2017-01-03", 
+                "first": "Kristi", 
+                "last": "Noem", 
+                "party": "Republican", 
+                "start": "2015-01-06", 
+                "state": "SD", 
+                "title": "Rep.", 
+                "twitter": "RepKristiNoem", 
+                "youtube": "RepKristiNoem"
+            }
+        }, 
+        {
+            "400195": {
+                "bioguideID": "I000057", 
+                "end": "2017-01-03", 
+                "first": "Steve", 
+                "last": "Israel", 
+                "party": "Democrat", 
+                "start": "2015-01-06", 
+                "state": "NY", 
+                "title": "Rep.", 
+                "twitter": "RepSteveIsrael", 
+                "youtube": "repsteveisrael"
+            }
+        }, 
+        {
+            "412485": {
+                "bioguideID": "G000568", 
+                "end": "2017-01-03", 
+                "first": "H.", 
+                "last": "Griffith", 
+                "party": "Republican", 
+                "start": "2015-01-06", 
+                "state": "VA", 
+                "title": "Rep.", 
+                "twitter": "RepMGriffith", 
+                "youtube": "RepMorganGriffith"
+            }
+        }, 
+        {
+            "400199": {
+                "bioguideID": "J000032", 
+                "end": "2017-01-03", 
+                "first": "Sheila", 
+                "last": "Jackson Lee", 
+                "party": "Democrat", 
+                "start": "2015-01-06", 
+                "state": "TX", 
+                "title": "Rep.", 
+                "twitter": "JacksonLeeTX18", 
+                "youtube": "TX18SJL"
+            }
+        }, 
+        {
+            "412490": {
+                "bioguideID": "B001277", 
+                "end": "2017-01-03", 
+                "first": "Richard", 
+                "last": "Blumenthal", 
+                "party": "Democrat", 
+                "start": "2011-01-05", 
+                "state": "CT", 
+                "title": "Sen.", 
+                "twitter": "SenBlumenthal", 
+                "youtube": "SenatorBlumenthal"
+            }
+        }, 
+        {
+            "400439": {
+                "bioguideID": "Y000031", 
+                "end": "2013-10-18", 
+                "first": "C.", 
+                "last": "Young", 
+                "party": "Republican", 
+                "start": "2013-01-03", 
+                "state": "FL", 
+                "title": "Rep.", 
+                "twitter": null, 
+                "youtube": null
+            }
+        }, 
+        {
+            "412492": {
+                "bioguideID": "P000603", 
+                "end": "2017-01-03", 
+                "first": "Rand", 
+                "last": "Paul", 
+                "party": "Republican", 
+                "start": "2011-01-05", 
+                "state": "KY", 
+                "title": "Sen.", 
+                "twitter": null, 
+                "youtube": "SenatorRandPaul"
+            }
+        }, 
+        {
+            "412498": {
+                "bioguideID": "H001063", 
+                "end": "2017-01-03", 
+                "first": "Janice", 
+                "last": "Hahn", 
+                "party": "Democrat", 
+                "start": "2015-01-06", 
+                "state": "CA", 
+                "title": "Rep.", 
+                "twitter": "Rep_JaniceHahn", 
+                "youtube": "RepJaniceHahn"
+            }
+        }, 
+        {
+            "412500": {
+                "bioguideID": "A000369", 
+                "end": "2017-01-03", 
+                "first": "Mark", 
+                "last": "Amodei", 
+                "party": "Republican", 
+                "start": "2015-01-06", 
+                "state": "NV", 
+                "title": "Rep.", 
+                "twitter": "MarkAmodeiNV2", 
+                "youtube": "markamodeinv2"
+            }
+        }, 
+        {
+            "412502": {
+                "bioguideID": "B001279", 
+                "end": "2015-01-03", 
+                "first": "Ron", 
+                "last": "Barber", 
+                "party": "Democrat", 
+                "start": "2013-01-03", 
+                "state": "AZ", 
+                "title": "Rep.", 
+                "twitter": null, 
+                "youtube": null
+            }
+        }, 
+        {
+            "412503": {
+                "bioguideID": "M001184", 
+                "end": "2017-01-03", 
+                "first": "Thomas", 
+                "last": "Massie", 
+                "party": "Republican", 
+                "start": "2015-01-06", 
+                "state": "KY", 
+                "title": "Rep.", 
+                "twitter": "RepThomasMassie", 
+                "youtube": "repthomasmassie"
+            }
+        }, 
+        {
+            "412506": {
+                "bioguideID": "P000604", 
+                "end": "2017-01-03", 
+                "first": "Donald", 
+                "last": "Payne", 
+                "party": "Democrat", 
+                "start": "2015-01-06", 
+                "state": "NJ", 
+                "title": "Rep.", 
+                "twitter": "RepDonaldPayne", 
+                "youtube": null
+            }
+        }, 
+        {
+            "400219": {
+                "bioguideID": "K000210", 
+                "end": "2017-01-03", 
+                "first": "Peter", 
+                "last": "King", 
+                "party": "Republican", 
+                "start": "2015-01-06", 
+                "state": "NY", 
+                "title": "Rep.", 
+                "twitter": "RepPeteKing", 
+                "youtube": "RepPeterKing"
+            }
+        }, 
+        {
+            "400230": {
+                "bioguideID": "L000559", 
+                "end": "2017-01-03", 
+                "first": "James", 
+                "last": "Langevin", 
+                "party": "Democrat", 
+                "start": "2015-01-06", 
+                "state": "RI", 
+                "title": "Rep.", 
+                "twitter": "JimLangevin", 
+                "youtube": "jimlangevin"
+            }
+        }, 
+        {
+            "400233": {
+                "bioguideID": "L000557", 
+                "end": "2017-01-03", 
+                "first": "John", 
+                "last": "Larson", 
+                "party": "Democrat", 
+                "start": "2015-01-06", 
+                "state": "CT", 
+                "title": "Rep.", 
+                "twitter": "RepJohnLarson", 
+                "youtube": "RepJohnLarson"
+            }
+        }, 
+        {
+            "412524": {
+                "bioguideID": "E000293", 
+                "end": "2017-01-03", 
+                "first": "Elizabeth", 
+                "last": "Esty", 
+                "party": "Democrat", 
+                "start": "2015-01-06", 
+                "state": "CT", 
+                "title": "Rep.", 
+                "twitter": "RepEsty", 
+                "youtube": "RepEsty"
+            }
+        }, 
+        {
+            "400237": {
+                "bioguideID": "L000551", 
+                "end": "2017-01-03", 
+                "first": "Barbara", 
+                "last": "Lee", 
+                "party": "Democrat", 
+                "start": "2015-01-06", 
+                "state": "CA", 
+                "title": "Rep.", 
+                "twitter": "RepBarbaraLee", 
+                "youtube": "RepLee"
+            }
+        }, 
+        {
+            "412531": {
+                "bioguideID": "C001093", 
+                "end": "2017-01-03", 
+                "first": "Doug", 
+                "last": "Collins", 
+                "party": "Republican", 
+                "start": "2015-01-06", 
+                "state": "GA", 
+                "title": "Rep.", 
+                "twitter": "RepDougCollins", 
+                "youtube": "repdougcollins"
+            }
+        }, 
+        {
+            "400247": {
+                "bioguideID": "L000491", 
+                "end": "2017-01-03", 
+                "first": "Frank", 
+                "last": "Lucas", 
+                "party": "Republican", 
+                "start": "2015-01-06", 
+                "state": "OK", 
+                "title": "Rep.", 
+                "twitter": "RepFrankLucas", 
+                "youtube": "RepFrankLucas"
+            }
+        }, 
+        {
+            "412536": {
+                "bioguideID": "D000619", 
+                "end": "2017-01-03", 
+                "first": "Rodney", 
+                "last": "Davis", 
+                "party": "Republican", 
+                "start": "2015-01-06", 
+                "state": "IL", 
+                "title": "Rep.", 
+                "twitter": "RodneyDavis", 
+                "youtube": "RepRodneyDavis"
+            }
+        }, 
+        {
+            "400251": {
+                "bioguideID": "M000087", 
+                "end": "2017-01-03", 
+                "first": "Carolyn", 
+                "last": "Maloney", 
+                "party": "Democrat", 
+                "start": "2015-01-06", 
+                "state": "NY", 
+                "title": "Rep.", 
+                "twitter": "RepMaloney", 
+                "youtube": null
+            }
+        }, 
+        {
+            "400257": {
+                "bioguideID": "M000309", 
+                "end": "2015-01-03", 
+                "first": "Carolyn", 
+                "last": "McCarthy", 
+                "party": "Democrat", 
+                "start": "2013-01-03", 
+                "state": "NY", 
+                "title": "Rep.", 
+                "twitter": null, 
+                "youtube": null
+            }
+        }, 
+        {
+            "412552": {
+                "bioguideID": "M001187", 
+                "end": "2017-01-03", 
+                "first": "Mark", 
+                "last": "Meadows", 
+                "party": "Republican", 
+                "start": "2015-01-06", 
+                "state": "NC", 
+                "title": "Rep.", 
+                "twitter": "RepMarkMeadows", 
+                "youtube": "RepMarkMeadows"
+            }
+        }, 
+        {
+            "400267": {
+                "bioguideID": "M000508", 
+                "end": "2015-01-03", 
+                "first": "Howard", 
+                "last": "McKeon", 
+                "party": "Republican", 
+                "start": "2013-01-03", 
+                "state": "CA", 
+                "title": "Rep.", 
+                "twitter": null, 
+                "youtube": null
+            }
+        }, 
+        {
+            "412560": {
+                "bioguideID": "M001188", 
+                "end": "2017-01-03", 
+                "first": "Grace", 
+                "last": "Meng", 
+                "party": "Democrat", 
+                "start": "2015-01-06", 
+                "state": "NY", 
+                "title": "Rep.", 
+                "twitter": "RepGraceMeng", 
+                "youtube": null
+            }
+        }, 
+        {
+            "412563": {
+                "bioguideID": "C001092", 
+                "end": "2017-01-03", 
+                "first": "Chris", 
+                "last": "Collins", 
+                "party": "Republican", 
+                "start": "2015-01-06", 
+                "state": "NY", 
+                "title": "Rep.", 
+                "twitter": "RepChrisCollins", 
+                "youtube": "RepChrisCollins"
+            }
+        }, 
+        {
+            "400279": {
+                "bioguideID": "M001144", 
+                "end": "2017-01-03", 
+                "first": "Jeff", 
+                "last": "Miller", 
+                "party": "Republican", 
+                "start": "2015-01-06", 
+                "state": "FL", 
+                "title": "Rep.", 
+                "twitter": null, 
+                "youtube": "RepJeffMiller"
+            }
+        }, 
+        {
+            "400283": {
+                "bioguideID": "M000933", 
+                "end": "2015-01-03", 
+                "first": "James", 
+                "last": "Moran", 
+                "party": "Democrat", 
+                "start": "2013-01-03", 
+                "state": "VA", 
+                "title": "Rep.", 
+                "twitter": null, 
+                "youtube": null
+            }
+        }, 
+        {
+            "400284": {
+                "bioguideID": "M000934", 
+                "end": "2017-01-03", 
+                "first": "Jerry", 
+                "last": "Moran", 
+                "party": "Republican", 
+                "start": "2011-01-05", 
+                "state": "KS", 
+                "title": "Sen.", 
+                "twitter": "JerryMoran", 
+                "youtube": "senatorjerrymoran"
+            }
+        }, 
+        {
+            "412573": {
+                "bioguideID": "C001098", 
+                "end": "2019-01-03", 
+                "first": "Ted", 
+                "last": "Cruz", 
+                "party": "Republican", 
+                "start": "2013-01-03", 
+                "state": "TX", 
+                "title": "Sen.", 
+                "twitter": "SenTedCruz", 
+                "youtube": "sentedcruz"
+            }
+        }, 
+        {
+            "400289": {
+                "bioguideID": "N000002", 
+                "end": "2017-01-03", 
+                "first": "Jerrold", 
+                "last": "Nadler", 
+                "party": "Democrat", 
+                "start": "2015-01-06", 
+                "state": "NY", 
+                "title": "Rep.", 
+                "twitter": "RepJerryNadler", 
+                "youtube": "congressmannadler"
+            }
+        }, 
+        {
+            "412595": {
+                "bioguideID": "K000385", 
+                "end": "2017-01-03", 
+                "first": "Robin", 
+                "last": "Kelly", 
+                "party": "Democrat", 
+                "start": "2015-01-06", 
+                "state": "IL", 
+                "title": "Rep.", 
+                "twitter": "RepRobinKelly", 
+                "youtube": null
+            }
+        }, 
+        {
+            "400325": {
+                "bioguideID": "P000449", 
+                "end": "2017-01-03", 
+                "first": "Robert", 
+                "last": "Portman", 
+                "party": "Republican", 
+                "start": "2011-01-05", 
+                "state": "OH", 
+                "title": "Sen.", 
+                "twitter": "SenRobPortman", 
+                "youtube": "SenRobPortman"
+            }
+        }, 
+        {
+            "400333": {
+                "bioguideID": "R000053", 
+                "end": "2017-01-03", 
+                "first": "Charles", 
+                "last": "Rangel", 
+                "party": "Democrat", 
+                "start": "2015-01-06", 
+                "state": "NY", 
+                "title": "Rep.", 
+                "twitter": "CBRangel", 
+                "youtube": "RepRangel"
+            }
+        }, 
+        {
+            "400340": {
+                "bioguideID": "R000395", 
+                "end": "2017-01-03", 
+                "first": "Harold", 
+                "last": "Rogers", 
+                "party": "Republican", 
+                "start": "2015-01-06", 
+                "state": "KY", 
+                "title": "Rep.", 
+                "twitter": "RepHalRogers", 
+                "youtube": "RepHalRogers"
+            }
+        }, 
+        {
+            "400350": {
+                "bioguideID": "R000515", 
+                "end": "2017-01-03", 
+                "first": "Bobby", 
+                "last": "Rush", 
+                "party": "Democrat", 
+                "start": "2015-01-06", 
+                "state": "IL", 
+                "title": "Rep.", 
+                "twitter": "RepBobbyRush", 
+                "youtube": "CongressmanRush"
+            }
+        }, 
+        {
+            "400355": {
+                "bioguideID": "S001156", 
+                "end": "2017-01-03", 
+                "first": "Linda", 
+                "last": "S\u00e1nchez", 
+                "party": "Democrat", 
+                "start": "2015-01-06", 
+                "state": "CA", 
+                "title": "Rep.", 
+                "twitter": "RepLindaSanchez", 
+                "youtube": "LindaTSanchez"
+            }
+        }, 
+        {
+            "300005": {
+                "bioguideID": "B000243", 
+                "end": "2014-02-06", 
+                "first": "Max", 
+                "last": "Baucus", 
+                "party": "Democrat", 
+                "start": "2009-01-06", 
+                "state": "MT", 
+                "title": "Sen.", 
+                "twitter": null, 
+                "youtube": null
+            }
+        }, 
+        {
+            "400361": {
+                "bioguideID": "S001150", 
+                "end": "2017-01-03", 
+                "first": "Adam", 
+                "last": "Schiff", 
+                "party": "Democrat", 
+                "start": "2015-01-06", 
+                "state": "CA", 
+                "title": "Rep.", 
+                "twitter": "RepAdamSchiff", 
+                "youtube": "adamschiff"
+            }
+        }, 
+        {
+            "300011": {
+                "bioguideID": "B000711", 
+                "end": "2017-01-03", 
+                "first": "Barbara", 
+                "last": "Boxer", 
+                "party": "Democrat", 
+                "start": "2011-01-05", 
+                "state": "CA", 
+                "title": "Sen.", 
+                "twitter": "SenatorBoxer", 
+                "youtube": "SenatorBoxer"
+            }
+        }, 
+        {
+            "300019": {
+                "bioguideID": "C000174", 
+                "end": "2019-01-03", 
+                "first": "Thomas", 
+                "last": "Carper", 
+                "party": "Democrat", 
+                "start": "2013-01-03", 
+                "state": "DE", 
+                "title": "Sen.", 
+                "twitter": "SenatorCarper", 
+                "youtube": "senatorcarper"
+            }
+        }, 
+        {
+            "300027": {
+                "bioguideID": "C001056", 
+                "end": "2021-01-03", 
+                "first": "John", 
+                "last": "Cornyn", 
+                "party": "Republican", 
+                "start": "2015-01-06", 
+                "state": "TX", 
+                "title": "Sen.", 
+                "twitter": "JohnCornyn", 
+                "youtube": "senjohncornyn"
+            }
+        }, 
+        {
+            "400381": {
+                "bioguideID": "S000583", 
+                "end": "2017-01-03", 
+                "first": "Lamar", 
+                "last": "Smith", 
+                "party": "Republican", 
+                "start": "2015-01-06", 
+                "state": "TX", 
+                "title": "Rep.", 
+                "twitter": "LamarSmithTX21", 
+                "youtube": "lamarsmithtexas21"
+            }
+        }, 
+        {
+            "300030": {
+                "bioguideID": "C000880", 
+                "end": "2017-01-03", 
+                "first": "Michael", 
+                "last": "Crapo", 
+                "party": "Republican", 
+                "start": "2011-01-05", 
+                "state": "ID", 
+                "title": "Sen.", 
+                "twitter": "MikeCrapo", 
+                "youtube": "senatorcrapo"
+            }
+        }
+    ]
+}

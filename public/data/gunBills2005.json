@@ -1,0 +1,834 @@
+{
+    "hr1136-109": {
+        "introduced": "2005-03-07", 
+        "lobbied": [
+            "Brady Campaign to Prevent Gun Violence"
+        ], 
+        "number": "hr1136-109", 
+        "official-title": "To protect the Nation's law enforcement officers by banning the Five-seveN Pistol and 5.7 x 28mm SS190 and SS192 cartridges, testing handguns and ammunition for capability to penetrate body armor, and prohibiting the manufacture, importation, sale, or purchase of such handguns or ammunition by civilians.", 
+        "purpose": "Protect Law Enforcement Armor Act", 
+        "short-title": "PLEA Act", 
+        "sponsor": {
+            "chamber": "house", 
+            "facebook_id": "103355984852", 
+            "first_name": "Eliot", 
+            "govtrack_id": "400122", 
+            "in_office": true, 
+            "last_name": "Engel", 
+            "party": "D", 
+            "state": "NY", 
+            "state_name": "New York", 
+            "title": "Rep", 
+            "twitter_id": "RepEliotEngel", 
+            "website": "http://engel.house.gov", 
+            "youtube_id": "engel2161"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2005-03-07", 
+        "subjects-top-term": "Crime and law enforcement", 
+        "title": "PLEA Act", 
+        "type": "hr"
+    }, 
+    "hr1195-109": {
+        "introduced": "2005-03-09", 
+        "lobbied": [
+            "Brady Campaign to Prevent Gun Violence"
+        ], 
+        "number": "hr1195-109", 
+        "official-title": "To increase public safety and reduce the threat to domestic security by including persons who may be prevented from boarding an aircraft in the National Instant Criminal Background Check System, and for other purposes.", 
+        "purpose": "To increase public safety and reduce the threat to domestic security by including persons who may be prevented from boarding an aircraft in the National Instant Criminal Background Check System, and for other purposes.", 
+        "short-title": null, 
+        "sponsor": {
+            "first_name": "Carolyn", 
+            "last_name": "McCarthy", 
+            "party": "D", 
+            "state": "NY", 
+            "title": "Rep"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2005-03-09", 
+        "subjects-top-term": "Crime and law enforcement", 
+        "title": "To increase public safety and reduce the threat to domestic security by including persons who may be prevented from boarding an aircraft in the National Instant Criminal Background Check System, and for other purposes.", 
+        "type": "hr"
+    }, 
+    "hr1225-109": {
+        "introduced": "2005-03-10", 
+        "lobbied": [
+            "Brady Campaign to Prevent Gun Violence"
+        ], 
+        "number": "hr1225-109", 
+        "official-title": "To better manage the national instant criminal background check system and terrorism matches.", 
+        "purpose": "To better manage the national instant criminal background check system and terrorism matches.", 
+        "short-title": "Terrorist Apprehension and Record Retention Act of 2005", 
+        "sponsor": {
+            "chamber": "house", 
+            "facebook_id": "206947066849", 
+            "first_name": "John", 
+            "govtrack_id": "400080", 
+            "in_office": true, 
+            "last_name": "Conyers", 
+            "party": "D", 
+            "state": "MI", 
+            "state_name": "Michigan", 
+            "title": "Rep", 
+            "twitter_id": "RepJohnConyers", 
+            "website": "https://conyers.house.gov", 
+            "youtube_id": "JCMI14"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2005-03-10", 
+        "subjects-top-term": "Crime and law enforcement", 
+        "title": "Terrorist Apprehension and Record Retention Act of 2005", 
+        "type": "hr"
+    }, 
+    "hr1243-109": {
+        "introduced": "2005-03-10", 
+        "lobbied": [
+            "Gun Owners of America", 
+            "Brady Campaign to Prevent Gun Violence"
+        ], 
+        "number": "hr1243-109", 
+        "official-title": "To amend title 18 of the United States Code to provide for reciprocity in regard to the manner in which nonresidents of a State may carry certain concealed firearms in that State.", 
+        "purpose": "To amend title 18 of the United States Code to provide for reciprocity in regard to the manner in which nonresidents of a State may carry certain concealed firearms in that State.", 
+        "short-title": "Secure Access to Firearms Enhancement (SAFE) Act of 2005", 
+        "sponsor": {
+            "first_name": "John", 
+            "last_name": "Hostettler", 
+            "party": "R", 
+            "state": "IN", 
+            "title": "Rep"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2005-03-10", 
+        "subjects-top-term": "Crime and law enforcement", 
+        "title": "Secure Access to Firearms Enhancement (SAFE) Act of 2005", 
+        "type": "hr"
+    }, 
+    "hr1279-109": {
+        "introduced": "2005-03-14", 
+        "lobbied": [
+            "Brady Campaign to Prevent Gun Violence"
+        ], 
+        "number": "hr1279-109", 
+        "official-title": "To amend title 18, United States Code, to reduce violent gang crime and protect law-abiding citizens and communities from violent criminals, and for other purposes.", 
+        "purpose": "Gang Deterrence and Community Protection Act of 2005", 
+        "short-title": "Gang Deterrence and Community Protection Act of 2005", 
+        "sponsor": {
+            "chamber": "house", 
+            "facebook_id": "356330225020", 
+            "first_name": "J.", 
+            "govtrack_id": "400137", 
+            "in_office": true, 
+            "last_name": "Forbes", 
+            "party": "R", 
+            "state": "VA", 
+            "state_name": "Virginia", 
+            "title": "Rep", 
+            "twitter_id": "Randy_Forbes", 
+            "website": "http://forbes.house.gov", 
+            "youtube_id": "RepRandyForbes"
+        }, 
+        "status": [
+            "Introduced", 
+            "Passed House"
+        ], 
+        "status-at": "2005-05-11T17:33:00-04:00", 
+        "subjects-top-term": "Crime and law enforcement", 
+        "title": "Gang Violence bill", 
+        "type": "hr"
+    }, 
+    "hr1288-109": {
+        "introduced": "2005-03-14", 
+        "lobbied": [
+            "National Rifle Assn", 
+            "Gun Owners of America", 
+            "Violence Policy Center", 
+            "Brady Campaign to Prevent Gun Violence"
+        ], 
+        "number": "hr1288-109", 
+        "official-title": "To restore Second Amendment rights in the District of Columbia.", 
+        "purpose": "To restore Second Amendment rights in the District of Columbia.", 
+        "short-title": "District of Columbia Personal Protection Act", 
+        "sponsor": {
+            "first_name": "Mark", 
+            "last_name": "Souder", 
+            "party": "R", 
+            "state": "IN", 
+            "title": "Rep"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2005-03-14", 
+        "subjects-top-term": "Crime and law enforcement", 
+        "title": "District of Columbia Personal Protection Act", 
+        "type": "hr"
+    }, 
+    "hr1312-109": {
+        "introduced": "2005-03-15", 
+        "lobbied": [
+            "Brady Campaign to Prevent Gun Violence"
+        ], 
+        "number": "hr1312-109", 
+        "official-title": "To reauthorize the assault weapons ban, and for other purposes.", 
+        "purpose": "To reauthorize the assault weapons ban, and for other purposes.", 
+        "short-title": "Assault Weapons Ban and Law Enforcement Protection Act of 2005", 
+        "sponsor": {
+            "first_name": "Carolyn", 
+            "last_name": "McCarthy", 
+            "party": "D", 
+            "state": "NY", 
+            "title": "Rep"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2005-03-15", 
+        "subjects-top-term": "Crime and law enforcement", 
+        "title": "Assault Weapons Ban and Law Enforcement Protection Act of 2005", 
+        "type": "hr"
+    }, 
+    "hr1415-109": {
+        "introduced": "2005-03-17", 
+        "lobbied": [
+            "Brady Campaign to Prevent Gun Violence"
+        ], 
+        "number": "hr1415-109", 
+        "official-title": "To improve the National Instant Criminal Background Check System, and for other purposes.", 
+        "purpose": "To improve the National Instant Criminal Background Check System, and for other purposes.", 
+        "short-title": "NICS Improvement Act of 2005", 
+        "sponsor": {
+            "first_name": "Carolyn", 
+            "last_name": "McCarthy", 
+            "party": "D", 
+            "state": "NY", 
+            "title": "Rep"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2005-03-17", 
+        "subjects-top-term": "Crime and law enforcement", 
+        "title": "NICS Improvement Act of 2005", 
+        "type": "hr"
+    }, 
+    "hr1603-109": {
+        "introduced": "2005-04-13", 
+        "lobbied": [
+            "Gun Owners of America"
+        ], 
+        "number": "hr1603-109", 
+        "official-title": "To require the Bureau of Alcohol, Tobacco, Firearms, and Explosives to make video recordings of the examination and testing of firearms and ammunition, and for other purposes.", 
+        "purpose": "To require the Bureau of Alcohol, Tobacco, Firearms, and Explosives to make video recordings of the examination and testing of firearms and ammunition, and for other purposes.", 
+        "short-title": "Fairness in Firearm Testing Act", 
+        "sponsor": {
+            "first_name": "Phil", 
+            "last_name": "Gingrey", 
+            "party": "R", 
+            "state": "GA", 
+            "title": "Rep"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2005-04-13", 
+        "subjects-top-term": "Crime and law enforcement", 
+        "title": "Fairness in Firearm Testing Act", 
+        "type": "hr"
+    }, 
+    "hr165-109": {
+        "introduced": "2005-01-04", 
+        "lobbied": [
+            "Brady Campaign to Prevent Gun Violence"
+        ], 
+        "number": "hr165-109", 
+        "official-title": "To improve the safety of firearms.", 
+        "purpose": "To improve the safety of firearms.", 
+        "short-title": "Child Safety Lock Act of 2005", 
+        "sponsor": {
+            "first_name": "McDonald", 
+            "last_name": "Millender", 
+            "party": "D", 
+            "state": "CA", 
+            "title": "Rep"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2005-01-04", 
+        "subjects-top-term": "Crime and law enforcement", 
+        "title": "Child Safety Lock Act of 2005", 
+        "type": "hr"
+    }, 
+    "hr1703-109": {
+        "introduced": "2005-04-19", 
+        "lobbied": [
+            "Brady Campaign to Prevent Gun Violence"
+        ], 
+        "number": "hr1703-109", 
+        "official-title": "To restore the second amendment rights of all Americans.", 
+        "purpose": "To restore the second amendment rights of all Americans.", 
+        "short-title": "Second Amendment Protection Act of 2005", 
+        "sponsor": {
+            "first_name": "Ron", 
+            "last_name": "Paul", 
+            "party": "R", 
+            "state": "TX", 
+            "title": "Rep"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2005-04-19", 
+        "subjects-top-term": "Crime and law enforcement", 
+        "title": "Second Amendment Protection Act of 2005", 
+        "type": "hr"
+    }, 
+    "hr246-109": {
+        "introduced": "2005-01-06", 
+        "lobbied": [
+            "Brady Campaign to Prevent Gun Violence"
+        ], 
+        "number": "hr246-109", 
+        "official-title": "To prevent children's access to firearms.", 
+        "purpose": "To prevent children's access to firearms.", 
+        "short-title": "Child Gun Safety and Gun Access Prevention Act of 2005", 
+        "sponsor": {
+            "chamber": "house", 
+            "facebook_id": "169479190984", 
+            "first_name": "Sheila", 
+            "govtrack_id": "400199", 
+            "in_office": true, 
+            "last_name": "Jackson Lee", 
+            "party": "D", 
+            "state": "TX", 
+            "state_name": "Texas", 
+            "title": "Rep", 
+            "twitter_id": "JacksonLeeTX18", 
+            "website": "http://jacksonlee.house.gov", 
+            "youtube_id": "TX18SJL"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2005-01-06", 
+        "subjects-top-term": "Crime and law enforcement", 
+        "title": "Child Gun Safety and Gun Access Prevention Act of 2005", 
+        "type": "hr"
+    }, 
+    "hr2862-109": {
+        "introduced": "2005-06-10", 
+        "lobbied": [
+            "National Rifle Assn", 
+            "Violence Policy Center"
+        ], 
+        "number": "hr2862-109", 
+        "official-title": "An Act making appropriations for the Departments of Commerce and Justice, Science, and related agencies, for the fiscal year ending September 30, 2006, and for other purposes.", 
+        "purpose": "Commerce Department FY2006 Appropriations bill", 
+        "short-title": "Science, State, Justice, Commerce, and Related Agencies Appropriations Act, 2006", 
+        "sponsor": {
+            "first_name": "Frank", 
+            "last_name": "Wolf", 
+            "party": "R", 
+            "state": "VA", 
+            "title": "Rep"
+        }, 
+        "status": [
+            "Introduced", 
+            "Passed House", 
+            "Passed Senate", 
+            "Resolving Differences", 
+            "To President", 
+            "Became Law"
+        ], 
+        "status-at": "2005-11-22", 
+        "subjects-top-term": "Economics and public finance", 
+        "title": "Appropriations bill FY2006, Commerce, Justice, Science, State", 
+        "type": "hr"
+    }, 
+    "hr3436-109": {
+        "introduced": "2005-07-26", 
+        "lobbied": [
+            "Gun Owners of America"
+        ], 
+        "number": "hr3436-109", 
+        "official-title": "To withhold funding from the United Nations if the United Nations abridges the rights provided by the Second Amendment to the Constitution, and for other purposes.", 
+        "purpose": "To withhold funding from the United Nations if the United Nations abridges the rights provided by the Second Amendment to the Constitution, and for other purposes.", 
+        "short-title": "Second Amendment Protection Act of 2005", 
+        "sponsor": {
+            "chamber": "house", 
+            "facebook_id": "197407646951718", 
+            "first_name": "Charles", 
+            "govtrack_id": "400636", 
+            "in_office": true, 
+            "last_name": "Boustany", 
+            "party": "R", 
+            "state": "LA", 
+            "state_name": "Louisiana", 
+            "title": "Rep", 
+            "twitter_id": "RepBoustany", 
+            "website": "http://boustany.house.gov", 
+            "youtube_id": "boustanyla07"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2005-07-26", 
+        "subjects-top-term": "International affairs", 
+        "title": "Second Amendment Protection Act of 2005", 
+        "type": "hr"
+    }, 
+    "hr3540-109": {
+        "introduced": "2005-07-28", 
+        "lobbied": [
+            "Gun Owners of America"
+        ], 
+        "number": "hr3540-109", 
+        "official-title": "To require criminal background checks on all firearms transactions occurring at events that provide a venue for the sale, offer for sale, transfer, or exchange of firearms, and for other purposes.", 
+        "purpose": "To require criminal background checks on all firearms transactions occurring at events that provide a venue for the sale, offer for sale, transfer, or exchange of firearms, and for other purposes.", 
+        "short-title": "Gun Show Loophole Closing Act of 2005", 
+        "sponsor": {
+            "first_name": "Michael", 
+            "last_name": "Castle", 
+            "party": "R", 
+            "state": "DE", 
+            "title": "Rep"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2005-07-28", 
+        "subjects-top-term": "Crime and law enforcement", 
+        "title": "Gun Show Loophole Closing Act of 2005", 
+        "type": "hr"
+    }, 
+    "hr47-109": {
+        "introduced": "2005-01-04", 
+        "lobbied": [
+            "Gun Owners of America", 
+            "Brady Campaign to Prevent Gun Violence"
+        ], 
+        "number": "hr47-109", 
+        "official-title": "To protect the right to obtain firearms for security, and to use firearms in defense of self, family, or home, and to provide for the enforcement of such right.", 
+        "purpose": "To protect the right to obtain firearms for security, and to use firearms in defense of self, family, or home, and to provide for the enforcement of such right.", 
+        "short-title": "Citizens' Self-Defense Act of 2005", 
+        "sponsor": {
+            "first_name": "Roscoe", 
+            "last_name": "Bartlett", 
+            "party": "R", 
+            "state": "MD", 
+            "title": "Rep"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2005-01-04", 
+        "subjects-top-term": "Crime and law enforcement", 
+        "title": "Citizens' Self-Defense Act of 2005", 
+        "type": "hr"
+    }, 
+    "hr654-109": {
+        "introduced": "2005-02-08", 
+        "lobbied": [
+            "Gun Owners of America", 
+            "Violence Policy Center"
+        ], 
+        "number": "hr654-109", 
+        "official-title": "To ban the transfer of 50 caliber sniper weapons, and otherwise regulate the weapons in the same manner as machine guns are regulated.", 
+        "purpose": "To ban the transfer of 50 caliber sniper weapons, and otherwise regulate the weapons in the same manner as machine guns are regulated.", 
+        "short-title": "50 Caliber Sniper Rifle Reduction Act", 
+        "sponsor": {
+            "first_name": "James", 
+            "last_name": "Moran", 
+            "party": "D", 
+            "state": "VA", 
+            "title": "Rep"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2005-02-08", 
+        "subjects-top-term": "Crime and law enforcement", 
+        "title": "50 Caliber Sniper Rifle Reduction Act", 
+        "type": "hr"
+    }, 
+    "hr711-109": {
+        "introduced": "2005-02-09", 
+        "lobbied": [
+            "Violence Policy Center", 
+            "Brady Campaign to Prevent Gun Violence"
+        ], 
+        "number": "hr711-109", 
+        "official-title": "To expand the powers of the Attorney General to regulate the manufacture, distribution, and sale of firearms and ammunition, and to expand the jurisdiction of the Attorney General to include firearm products and nonpowder firearms.", 
+        "purpose": "To expand the powers of the Attorney General to regulate the manufacture, distribution, and sale of firearms and ammunition, and to expand the jurisdiction of the Attorney General to include firearm products and nonpowder firearms.", 
+        "short-title": null, 
+        "sponsor": {
+            "first_name": "Patrick", 
+            "last_name": "Kennedy", 
+            "party": "D", 
+            "state": "RI", 
+            "title": "Rep"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2005-02-09", 
+        "subjects-top-term": "Crime and law enforcement", 
+        "title": "To expand the powers of the Attorney General to regulate the manufacture, distribution, and sale of firearms and ammunition, and to expand the jurisdiction of the Attorney General to include firearm products and nonpowder firearms.", 
+        "type": "hr"
+    }, 
+    "hr800-109": {
+        "introduced": "2005-02-15", 
+        "lobbied": [
+            "National Rifle Assn", 
+            "Gun Owners of America", 
+            "Violence Policy Center", 
+            "Brady Campaign to Prevent Gun Violence"
+        ], 
+        "number": "hr800-109", 
+        "official-title": "To prohibit civil liability actions from being brought or continued against manufacturers, distributors, dealers, or importers of firearms or ammunition for damages or injunctive or other relief resulting from the misuse of their products by others.", 
+        "purpose": "Protection of Lawful Commerce in Arms Act", 
+        "short-title": "Protection of Lawful Commerce in Arms Act", 
+        "sponsor": {
+            "first_name": "Cliff", 
+            "last_name": "Stearns", 
+            "party": "R", 
+            "state": "FL", 
+            "title": "Rep"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2005-05-25", 
+        "subjects-top-term": "Law", 
+        "title": "Firearms Manufacturers Protection bill", 
+        "type": "hr"
+    }, 
+    "s1082-109": {
+        "introduced": "2005-05-19", 
+        "lobbied": [
+            "National Rifle Assn", 
+            "Gun Owners of America", 
+            "Brady Campaign to Prevent Gun Violence"
+        ], 
+        "number": "s1082-109", 
+        "official-title": "A bill to restore Second Amendment rights in the District of Columbia.", 
+        "purpose": "A bill to restore Second Amendment rights in the District of Columbia.", 
+        "short-title": "District of Columbia Personal Protection Act", 
+        "sponsor": {
+            "first_name": "Kay", 
+            "last_name": "Hutchison", 
+            "party": "R", 
+            "state": "TX", 
+            "title": "Sen"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2005-05-19", 
+        "subjects-top-term": "Crime and law enforcement", 
+        "title": "District of Columbia Personal Protection Act", 
+        "type": "s"
+    }, 
+    "s1488-109": {
+        "introduced": "2005-07-26", 
+        "lobbied": [
+            "Gun Owners of America"
+        ], 
+        "number": "s1488-109", 
+        "official-title": "A bill to withhold funding from the United Nations if the United Nations abridges the rights provided by the Second Amendment to the Constitution, and for other purposes.", 
+        "purpose": "A bill to withhold funding from the United Nations if the United Nations abridges the rights provided by the Second Amendment to the Constitution, and for other purposes.", 
+        "short-title": "Second Amendment Protection Act of 2005", 
+        "sponsor": {
+            "chamber": "senate", 
+            "facebook_id": null, 
+            "first_name": "David", 
+            "govtrack_id": "400418", 
+            "in_office": true, 
+            "last_name": "Vitter", 
+            "party": "R", 
+            "state": "LA", 
+            "state_name": "Louisiana", 
+            "title": "Sen", 
+            "twitter_id": null, 
+            "website": "http://www.vitter.senate.gov", 
+            "youtube_id": "SenatorVitter"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2005-07-26", 
+        "subjects-top-term": "International affairs", 
+        "title": "Second Amendment Protection Act of 2005", 
+        "type": "s"
+    }, 
+    "s155-109": {
+        "introduced": "2005-01-25", 
+        "lobbied": [
+            "Brady Campaign to Prevent Gun Violence"
+        ], 
+        "number": "s155-109", 
+        "official-title": "A bill to increase and enhance law enforcement resources committed to investigation and prosecution of violent gangs, to deter and punish violent gang crime, to protect law-abiding citizens and communities from violent criminals, to revise and enhance criminal penalties for violent crimes, to reform and facilitate prosecution of juvenile gang members who commit violent crimes, to expand and improve gang prevention programs, and for other purposes.", 
+        "purpose": "A bill to increase and enhance law enforcement resources committed to investigation and prosecution of violent gangs, to deter and punish violent gang crime, to protect law-abiding citizens and communities from violent criminals, to revise and enhance criminal penalties for violent crimes, to reform and facilitate prosecution of juvenile gang members who commit violent crimes, to expand and improve gang prevention programs, and for other purposes.", 
+        "short-title": "Gang Prevention and Effective Deterrence Act of 2005", 
+        "sponsor": {
+            "chamber": "senate", 
+            "facebook_id": "334887279867783", 
+            "first_name": "Dianne", 
+            "govtrack_id": "300043", 
+            "in_office": true, 
+            "last_name": "Feinstein", 
+            "party": "D", 
+            "state": "CA", 
+            "state_name": "California", 
+            "title": "Sen", 
+            "twitter_id": "SenFeinstein", 
+            "website": "http://www.feinstein.senate.gov", 
+            "youtube_id": "SenatorFeinstein"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2005-01-25", 
+        "subjects-top-term": "Crime and law enforcement", 
+        "title": "Gang Prevention and Effective Deterrence Act of 2005", 
+        "type": "s"
+    }, 
+    "s397-109": {
+        "introduced": "2005-02-16", 
+        "lobbied": [
+            "National Rifle Assn", 
+            "Gun Owners of America", 
+            "Violence Policy Center", 
+            "Brady Campaign to Prevent Gun Violence"
+        ], 
+        "number": "s397-109", 
+        "official-title": "A bill to prohibit civil liability actions from being brought or continued against manufacturers, distributors, dealers, or importers of firearms or ammunition for damages, injunctive or other relief resulting from the misuse of their products by others.", 
+        "purpose": "Protection of Lawful Commerce in Arms Act", 
+        "short-title": "Protection of Lawful Commerce in Arms Act", 
+        "sponsor": {
+            "first_name": "Larry", 
+            "last_name": "Craig", 
+            "party": "R", 
+            "state": "ID", 
+            "title": "Sen"
+        }, 
+        "status": [
+            "Introduced", 
+            "Passed Senate", 
+            "Passed House", 
+            "To President", 
+            "Became Law"
+        ], 
+        "status-at": "2005-10-26", 
+        "subjects-top-term": "Law", 
+        "title": "Firearms Manufacturers Protection bill", 
+        "type": "s"
+    }, 
+    "s5-109": {
+        "introduced": "2005-01-25", 
+        "lobbied": [
+            "Violence Policy Center"
+        ], 
+        "number": "s5-109", 
+        "official-title": "A bill to amend the procedures that apply to consideration of interstate class actions to assure fairer outcomes for class members and defendants, and for other purposes.", 
+        "purpose": "Class Action Fairness Act of 2005", 
+        "short-title": "Class Action Fairness Act of 2005", 
+        "sponsor": {
+            "chamber": "senate", 
+            "facebook_id": "106480645796", 
+            "first_name": "Charles", 
+            "govtrack_id": "300048", 
+            "in_office": true, 
+            "last_name": "Grassley", 
+            "party": "R", 
+            "state": "IA", 
+            "state_name": "Iowa", 
+            "title": "Sen", 
+            "twitter_id": "ChuckGrassley", 
+            "website": "http://www.grassley.senate.gov", 
+            "youtube_id": "senchuckgrassley"
+        }, 
+        "status": [
+            "Introduced", 
+            "Passed Senate", 
+            "Passed House", 
+            "To President", 
+            "Became Law"
+        ], 
+        "status-at": "2005-02-18", 
+        "subjects-top-term": "Law", 
+        "title": "Class Action Lawsuits bill", 
+        "type": "s"
+    }, 
+    "s527-109": {
+        "introduced": "2005-03-03", 
+        "lobbied": [
+            "Brady Campaign to Prevent Gun Violence"
+        ], 
+        "number": "s527-109", 
+        "official-title": "A bill to protect the Nation's law enforcement officers by banning the Five-seveN Pistol and 5.7 x 28mm SS190 and SS192 cartridges, testing handguns and ammunition for capability to penetrate body armor, and prohibiting the manufacture, importation, sale, or purchase of such handguns or ammunition by civilians.", 
+        "purpose": "Protect Law Enforcement Armor Act", 
+        "short-title": "PLEA Act", 
+        "sponsor": {
+            "first_name": "Frank", 
+            "last_name": "Lautenberg", 
+            "party": "D", 
+            "state": "NJ", 
+            "title": "Sen"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2005-03-03", 
+        "subjects-top-term": "Crime and law enforcement", 
+        "title": "PLEA Act", 
+        "type": "s"
+    }, 
+    "s578-109": {
+        "introduced": "2005-03-09", 
+        "lobbied": [
+            "Brady Campaign to Prevent Gun Violence"
+        ], 
+        "number": "s578-109", 
+        "official-title": "A bill to better manage the national instant criminal background check system and terrorism matches.", 
+        "purpose": "Terrorist Apprehension and Record Retention Act of 2005", 
+        "short-title": "TARR Act of 2005", 
+        "sponsor": {
+            "first_name": "Frank", 
+            "last_name": "Lautenberg", 
+            "party": "D", 
+            "state": "NJ", 
+            "title": "Sen"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2005-03-09", 
+        "subjects-top-term": "Crime and law enforcement", 
+        "title": "TARR Act of 2005", 
+        "type": "s"
+    }, 
+    "s620-109": {
+        "introduced": "2005-03-14", 
+        "lobbied": [
+            "Brady Campaign to Prevent Gun Violence"
+        ], 
+        "number": "s620-109", 
+        "official-title": "A bill to reinstate the Public Safety and Recreational Firearms Use Protection Act.", 
+        "purpose": "A bill to reinstate the Public Safety and Recreational Firearms Use Protection Act.", 
+        "short-title": "Assault Weapons Ban Reauthorization Act of 2005", 
+        "sponsor": {
+            "chamber": "senate", 
+            "facebook_id": "334887279867783", 
+            "first_name": "Dianne", 
+            "govtrack_id": "300043", 
+            "in_office": true, 
+            "last_name": "Feinstein", 
+            "party": "D", 
+            "state": "CA", 
+            "state_name": "California", 
+            "title": "Sen", 
+            "twitter_id": "SenFeinstein", 
+            "website": "http://www.feinstein.senate.gov", 
+            "youtube_id": "SenatorFeinstein"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2005-03-14", 
+        "subjects-top-term": "Crime and law enforcement", 
+        "title": "Assault Weapons Ban Reauthorization Act of 2005", 
+        "type": "s"
+    }, 
+    "s645-109": {
+        "introduced": "2005-03-16", 
+        "lobbied": [
+            "Gun Owners of America", 
+            "Brady Campaign to Prevent Gun Violence"
+        ], 
+        "number": "s645-109", 
+        "official-title": "A bill to reinstate the Public Safety and Recreational Firearms Use Protection Act.", 
+        "purpose": "A bill to reinstate the Public Safety and Recreational Firearms Use Protection Act.", 
+        "short-title": "Assault Weapons Ban and Law Enforcement Protection Act of 2005", 
+        "sponsor": {
+            "first_name": "Frank", 
+            "last_name": "Lautenberg", 
+            "party": "D", 
+            "state": "NJ", 
+            "title": "Sen"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2005-03-16", 
+        "subjects-top-term": "Crime and law enforcement", 
+        "title": "Assault Weapons Ban and Law Enforcement Protection Act of 2005", 
+        "type": "s"
+    }, 
+    "s683-109": {
+        "introduced": "2005-03-17", 
+        "lobbied": [
+            "Brady Campaign to Prevent Gun Violence"
+        ], 
+        "number": "s683-109", 
+        "official-title": "A bill to ban the manufacture, sale, delivery, and transfer of handguns that cannot be personalized, and to provide for a report to Congress on the commercial feasibility of personalizing firearms.", 
+        "purpose": "A bill to ban the manufacture, sale, delivery, and transfer of handguns that cannot be personalized, and to provide for a report to Congress on the commercial feasibility of personalizing firearms.", 
+        "short-title": "Childproof Handgun Act of 2005", 
+        "sponsor": {
+            "first_name": "Frank", 
+            "last_name": "Lautenberg", 
+            "party": "D", 
+            "state": "NJ", 
+            "title": "Sen"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2005-03-17", 
+        "subjects-top-term": "Crime and law enforcement", 
+        "title": "Childproof Handgun Act of 2005", 
+        "type": "s"
+    }, 
+    "s935-109": {
+        "introduced": "2005-04-28", 
+        "lobbied": [
+            "Violence Policy Center", 
+            "Brady Campaign to Prevent Gun Violence"
+        ], 
+        "number": "s935-109", 
+        "official-title": "A bill to regulate .50 caliber sniper weapons designed for the taking of human life and the destruction of materiel, including armored vehicles and components of the Nation's critical infrastructure.", 
+        "purpose": "A bill to regulate .50 caliber sniper weapons designed for the taking of human life and the destruction of materiel, including armored vehicles and components of the Nation's critical infrastructure.", 
+        "short-title": "Fifty Caliber Sniper Weapons Regulation Act of 2005", 
+        "sponsor": {
+            "chamber": "senate", 
+            "facebook_id": "334887279867783", 
+            "first_name": "Dianne", 
+            "govtrack_id": "300043", 
+            "in_office": true, 
+            "last_name": "Feinstein", 
+            "party": "D", 
+            "state": "CA", 
+            "state_name": "California", 
+            "title": "Sen", 
+            "twitter_id": "SenFeinstein", 
+            "website": "http://www.feinstein.senate.gov", 
+            "youtube_id": "SenatorFeinstein"
+        }, 
+        "status": [
+            "Introduced"
+        ], 
+        "status-at": "2005-04-28", 
+        "subjects-top-term": "Crime and law enforcement", 
+        "title": "Fifty Caliber Sniper Weapons Regulation Act of 2005", 
+        "type": "s"
+    }
+}
