@@ -3,6 +3,7 @@ function imgerror(image) {
     image.style.display = 'none';
 }
 
+//Sort counts for objects
 function sortCounts(objects) {
     var sortable = [];
     for (var object in objects)
@@ -15,6 +16,7 @@ function sortCounts(objects) {
     return sortable;
 }
 
+//Switch gun bill info based on year
 function switchGunBills(year) {
     //Clear out content
     $('#bill-list').empty();
@@ -46,56 +48,30 @@ function switchGunBills(year) {
         var statusArray = [];
         //Hold counts for each sponsor
         var sponsorArray = [];
-        //Hold counts for each sponsor
+        //Hold counts for each party
         var partyArray = [];
-        //Hold counts for each sponsor
+        //Hold counts for each group
         var lobbiedArray = [];
+        //Hold counts for each sponsor
+        var groupsArray = [];
+        //Hold counts for each subject
+        var subjectsArray = [];
+
         //Reset list div
         $('#bill-list').html("")
 
+        $("#bill-groups").empty().html("Groups:<br/>");
+        $("#bill-parties").empty().html("Party:<br/>");
+        $("#bill-statuses").empty().html("Status:<br/>");
         $("#bill-tags").empty().html("Tags:<br/>");
 
         $.each(data, function(k, v) {
             if (v["subjects-top-term"] != "Native Americans" && v["subjects-top-term"] != "Animals" && v["subjects-top-term"] != "Agriculture and food" && v["subjects-top-term"] != "Economics and public finance" && v["subjects-top-term"] != "Education" && v["subjects-top-term"] != "Energy" && v["subjects-top-term"] != "Labor and employment" && v["subjects-top-term"] != "Private legislation" && v["subjects-top-term"] != "Water resources development") {
 
-                /*
-                DESCRIPTION OF STATUS
-                https://github.com/unitedstates/congress/wiki/bills
-                */
-
                 //Increment totals
                 numberOfBills++;
                 statusArray.push(v.status);
-                sponsorArray.push(v.sponsor.first_name+" "+v.sponsor.last_name);
-                partyArray.push(v.sponsor.party);
-
-
-                // switch (v.status) {
-                //
-                //     case "ENACTED:SIGNED":
-                //         status = "Signed by the President";
-                //         break;
-                //     case "FAIL:ORIGINATING:HOUSE":
-                //         status = "Failed in originating chamber, the House of Representatives";
-                //         break;
-                //     case "PASS_OVER:HOUSE":
-                //         status = "Passed in the House and sent to Senate";
-                //         break;
-                //     case "PASS_OVER:SENATE":
-                //         status = "Passed in the Senate and sent to House";
-                //         break;
-                //     case "PASSED:CONCURRENTRES":
-                //         status = "Passed in both chambers";
-                //         break;
-                //     case "REFERRED":
-                //         status = "Referred to committee";
-                //         break;
-                //     case "REPORTED":
-                //         status = "Awaiting debate in originating chamber";
-                //         break;
-                //     default:
-                //         status = "No status issued";
-                // }
+                //sponsorArray.push(v.sponsor.first_name+" "+v.sponsor.last_name);
 
                 var billDate = Date.parse(v.introduced);
 
@@ -131,26 +107,30 @@ function switchGunBills(year) {
                 html += "     <span class='bill-status'><strong>Status: </strong>" + v.status.join(" => ") + "</span>";
 
                 // Lobbied list
-                //console.log(v.lobbied);
+                console.log(v.lobbied);
                 $.each(v.lobbied, function (key,val){
                     lobbiedArray.push(val);
+                    groupsArray.push(val);
                });
                 html += "     <span class='sponsor-lobbied'><strong>Lobbied by: </strong> " + v.lobbied.join(', ') + "</span>";
 
+
                 //Bill sponsor
                 if (v.sponsor.last_name) {
-                    html += "     <div class='bill-sponsor'>";
-                    html += "     <strong>Sponsor</strong><br/>";
 
+                    html += "     <div class='bill-sponsor'>";
+                    html += "     <strong>Sponsor</strong>";
+
+                    //If govtrack then we have a photo
                     if( v.sponsor.govtrack_id ){
                         //Sponsor mug
-                        html += "     <div class='mugBox ";
+                        html += "     <div class='mugBox clearFix";
                         if (v.sponsor.party === "R"){
                             html += " mugBoxR ";
                         } else if (v.sponsor.party === "D"){
                             html += " mugBoxD ";
                         }
-                         html += "'><img class='bill-mug clearFix' src='https://www.govtrack.us/data/photos/" + v.sponsor.govtrack_id + "-100px.jpeg'/></div>";
+                         html += "'><img class='bill-mug' src='https://www.govtrack.us/data/photos/" + v.sponsor.govtrack_id + "-100px.jpeg'/></div>";
                     }
                     //Sponsor name
                     if (v.sponsor.party === "R"){
@@ -159,19 +139,32 @@ function switchGunBills(year) {
                         html += "<span class='circle democrat'/>";
                     }
 
+                    //Hold parties for counting
+                    partyArray.push(v.sponsor.party);
+
                     html += "          <span class='sponsor-name'>" + v.sponsor.title + ". " + v.sponsor.first_name + " " + v.sponsor.last_name + " (" + v.sponsor.party + "-" + v.sponsor.state + ")</span>";
                     //Sponsor status
                     if (v.sponsor.in_office === true) {
-                        html += "<span class='sponsor-status clearFix'>Status: In office</span>";
+                        html += "<span class='sponsor-status'>Status: In office</span>";
                     } else {
-                        html += "<span class='sponsor-status clearFix'>Status: Out of office</span>";
+                        html += "<span class='sponsor-status'>Status: Out of office</span>";
                     }
 
                     html += "     </div>";
+
+                    var countObj = {};
+                    countObj.party = v.sponsor.party;
+                    countObj.govtrack = v.sponsor.govtrack_id;
+                    countObj.last_name = v.sponsor.last_name;
+                    countObj.first_name = v.sponsor.first_name;
+                    countObj.in_office = v.sponsor.in_office;
+                    sponsorArray.push(countObj);
+
+
                 } else {
                     html += "     <div class='bill-sponsor'>";
                     html += "     <strong>Sponsor</strong>";
-                    html += "          <span class='sponsor-name clearFix'>No sponsor information available</span>";
+                    html += "          <span class='sponsor-name'>No sponsor information available</span>";
                     html += "     </div>";
                 }
 
@@ -203,7 +196,6 @@ function switchGunBills(year) {
             $("#bill-tags").append("<span class='tag' data-tag='" + val + "'>" + val + "</span>");
         });
 
-
         $(".tag").click(function() {
             var selected = $(this).data("tag");
             $(this).toggleClass("selected-tag");
@@ -214,22 +206,50 @@ function switchGunBills(year) {
             $(".selected-tag").show();
         });
 
+        //Build, display and activate subject tags
+        var groupCounts = _.countBy(groupsArray);
+        console.log(groupCounts);
+
+        var groupList = [];
+        $.each(groupCounts, function(key, val) {
+            groupList.push(key);
+        });
+        groupList.sort();
+        $.each(groupList, function(key, val) {
+            $("#bill-groups").append("<span class='tag' data-tag='" + val + "'>" + val + "</span>");
+        });
+
+        //Build, display and activate subject tags
+        console.log(partyArray);
+        var partyCounts = _.countBy(partyArray);
+        console.log(partyCounts);
+
+        var partyList = [];
+        $.each(partyCounts, function(key, val) {
+            partyList.push(key);
+        });
+        partyList.sort();
+        $.each(partyList, function(key, val) {
+            $("#bill-parties").append("<span class='tag' data-tag='" + val + "'>" + val + "</span>");
+        });
+
+
+
         //Do counts
         //STATUS COUNTS
         statusCounts = _.countBy(statusArray);
         //console.log(statusCounts);
-
-        //PARTY COUNTS
-        partyCounts = _.countBy(partyArray);
-        //console.log(partyCounts);
 
         //ORG COUNTS
         lobbiedCounts = _.countBy(lobbiedArray);
         //console.log(lobbiedCounts);
 
         //SPONSOR COUNTS
-        sponsorCounts = _.countBy(sponsorArray);
-        //console.log(sponsorCounts);
+        sponsorCounts = _.countBy(sponsorArray, function(obj){
+            return obj.last_name;
+        });
+
+        console.log(sponsorCounts);
 
         // //Get top 3 sponsors
         // sponsorCountsArray = sortable.slice(0, 3);
@@ -243,7 +263,7 @@ function switchGunBills(year) {
         //console.log(lobbiedCounts);
         //console.log(statusCounts);
         //console.log(partyCounts);
-        //console.log(sponsorCounts);
+        console.log(sponsorCounts);
 
         function getPercentage(total,val){
             pct = val/total*100;
@@ -265,26 +285,32 @@ function switchGunBills(year) {
         });
 
         $.each(lobbiedCounts, function(k, v) {
+            var barClass;
              html = "<div class='list-element'>";
+             if ($.inArray(v[0], gunControlGroups) >= 0){
+                barClass = "gc";
+             } else {
+                barClass = "gr";
+             }
              html += "     <span class='list-item'>"+v[0]+"</span>";
              html += "     <div class='bar-container'>";
-             html += "          <div class='list-bar' style='width:"+getPercentage(lobbiedTotal,v[1])+"%'>&nbsp;</div><div class='bar-number'>"+v[1]+"</div>";
+             html += "          <div class='list-bar "+barClass+"' style='width:"+getPercentage(lobbiedTotal,v[1])+"%'>&nbsp;</div><div class='bar-number'>"+v[1]+"</div>";
              html += "     </div>";
              html += "</div>";
             $(".byOrg").append(html);
         });
 
 
-        $(".bySponsor").empty().html("<h3>The top five sponsors of gun-related legislation</h3>");
-        for ( i=1; i<=5; i++){
-            if ( sponsorCounts[i][0] ){
-                //console.log(i);
-                html = "<li>"+sponsorCounts[i][0]+": " + sponsorCounts[i][1] + " pieces of legislation.</li>";
-                $(".bySponsor").append(html);
-            } else {
-                //console.log(i);
-            }
-        }
+        // $(".bySponsor").empty().html("<h3>The top five sponsors of gun-related legislation</h3>");
+        // for ( i=1; i<=5; i++){
+        //     if ( sponsorCounts[i][0] ){
+        //         //console.log(i);
+        //         html = "<li>"+sponsorCounts[i][0]+": " + sponsorCounts[i][1] + " pieces of legislation.</li>";
+        //         $(".bySponsor").append(html);
+        //     } else {
+        //         //console.log(i);
+        //     }
+        // }
 
         $(".byStatus").empty().html("<h3>Status breakdown of introduced gun-related legislation</h3>");
         var statusTotal;
@@ -311,8 +337,10 @@ function switchGunBills(year) {
                 partyTotal = 0;
             }
             partyTotal += parseInt(v[1]);
+            console.log(partyTotal);
         });
         $.each(partyCounts, function(k, v) {
+            console.log(v);
             html = "<div class='list-element'>";
             //console.log(v[0]);
             switch (v[0]){
@@ -334,11 +362,11 @@ function switchGunBills(year) {
 
             switch (v[0]){
                 case "R":
-html += "          <div class='list-bar republican' style='width:"+getPercentage(partyTotal,v[1])+"%'>&nbsp;</div><div class='bar-number'>"+v[1]+"</div>";                    break;
+                    html += "<div class='list-bar republican' style='width:"+getPercentage(partyTotal,v[1])+"%'>&nbsp;</div><div class='bar-number'>"+v[1]+"</div>";
+                    break;
                 case "D":
                     html += "<div class='list-bar democrat' style='width:"+getPercentage(partyTotal,v[1])+"%'>&nbsp;</div><div class='bar-number'>"+v[1]+"</div>";
                     break;
-
                 default:
                     html += "<div class='list-bar "+v[0]+"' style='width:"+getPercentage(partyTotal,v[1])+"%'>&nbsp;</div><div class='bar-number'>"+v[1]+"</div>";
                     break;

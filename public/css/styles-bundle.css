@@ -1107,7 +1107,7 @@ XIX. ADS
   line-height: 1.5em;
   font-size: 1.25em; }
 
-#bill-tags {
+.bills {
   margin-top: 20px; }
 
 .sponsor-lobbied {
@@ -1136,7 +1136,9 @@ XIX. ADS
   line-height: 1.2em;
   padding: 20px 20px 20px 30px;
   background: whitesmoke;
-  position: relative; }
+  position: relative;
+  float: left;
+  width: 100%; }
 
 .bill-header {
   position: absolute;
@@ -1179,7 +1181,12 @@ XIX. ADS
   background-color: white;
   padding: 10px;
   margin-top: 20px;
-  position: relative; }
+  position: relative;
+  float: left;
+  width: 100%; }
+
+.bill-sponsor strong {
+  display: inherit; }
 
 .sponsor-name {
   display: inline-block;
@@ -1188,18 +1195,18 @@ XIX. ADS
 .sponsor-status {
   display: inherit; }
 
-.mugBox {
-  display: inline-block;
-  position: relative;
-  float: left;
-  width: 100px;
-  margin-right: 10px; }
-
 .circle {
   display: inline-block;
   width: 12px;
   height: 12px;
   border-radius: 50%; }
+
+.mugBox {
+  position: relative;
+  width: 100px !important;
+  height: 120px !important;
+  margin-right: 10px;
+  float: left; }
 
 .mugBox::before,
 .mugBox::after {
@@ -1310,3 +1317,15 @@ XIX. ADS
   display: block;
   opacity: 1;
   visibility: visible; }
+
+.gc {
+  background-color: #88C5F2; }
+
+.gr {
+  background-color: #E3C357; }
+
+.bullet {
+  width: 15px;
+  border-radius: 50%;
+  height: 15px;
+  display: inline-block; }

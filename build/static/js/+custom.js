@@ -1,6 +1,8 @@
     var firstYear = "2000";
     var monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-
+    var gunControlGroups = [];
+    var gunRightsGroups = [];
+    
     $(document).ready(function() {
 
         $("#hero-gr").hide();
@@ -54,11 +56,6 @@
 
         for (i = startYear; i <= endYear; i++) {
              $(".year-list").append("<li data-selectedYear="+i+">"+i+"</li>");
-          //   if (i == parseInt(firstYear)) {
-          //       $("#yearSelector").append("<option value='" + i + "' selected>" + i + "</option>");
-          //   } else {
-          //       $("#yearSelector").append("<option value='" + i + "'>" + i + "</option>");
-          //   }
         }
 
         $.getJSON(gunMoney).done(function(data) {
@@ -66,6 +63,9 @@
             // Shortcut to groups
             var gunControl = data.spending[0].gunControl;
             var gunRights = data.spending[1].gunRights;
+
+            //Build arrays for each groups
+
 
             /*---------------------------------------------------------------
             			 BUILD ORG FEVERS csv
@@ -77,15 +77,22 @@
                     //console.log();
                     $.each(value, function(index, value) {
                         gunOrgs.push(value.name);
+                        //Add to group arrays for counting sides
+                        gunControlGroups.push(value.name);
                     });
                 });
                 $.each(gunRights, function(index, value) {
                     //console.log();
                     $.each(value, function(index, value) {
                         gunOrgs.push(value.name);
+                        //Add to group arrays for counting sides
+                        gunRightsGroups.push(value.name);
                     });
                 });
             }
+            gunControlGroups = _.uniqBy(gunControlGroups);
+            gunRightsGroups = _.uniqBy(gunRightsGroups);
+            console.log(gunRightsGroups);
 
             //GUN ORG COUNTS
             gunOrgCounts = _.countBy(gunOrgs);
