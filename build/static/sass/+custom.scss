@@ -18,17 +18,27 @@ $dk-gold: #AD752D;
 $gr-highlight: #E3C357;
 $grey: #323232;
 
-.gc{
+.gc-back {
     background: $lt-blue;
 }
-.gr{
+
+.gr-back {
     background: $lt-gold;
 }
-.gc-dark{
-    background: $md-blue
+
+.gc-dark {
+    background: $md-blue;
+    transition: background-color 500ms linear;
+
 }
-.gr-dark{
+
+.gr-dark {
     background: #e2d9c9;
+    transition: background-color 500ms linear;
+
+}
+.hidden{
+    display: none;
 }
 #flex-body {
     display: flex;
@@ -36,18 +46,35 @@ $grey: #323232;
     position: relative;
     font-family: 'Raleway', sans-serif;
 }
+
 #hero {
     position: relative;
 }
-#hero img{
+
+#hero img {
     position: absolute;
 }
+#hero-border{
+    width: 100%;
+    height: 100px;
+    background: #272620;
+    display: block;
+    margin-bottom: 20px;
+}
+#hero-border.gc{
+    border-bottom: 20px solid #91afc7;
+}
+#hero-border.gr{
+    border-bottom: 20px solid #bb9661;
+}
+
 #intro {
-    color: #323232;
+    color: whitesmoke;
     padding: 60px 0;
     margin-top: -2px;
     font-family: "PT Serif", Georgia, Times, serif;
     text-align: center;
+    background: #272620;
 }
 
 #intro h1 {
@@ -63,13 +90,21 @@ $grey: #323232;
     font-size: 3.2rem;
     line-height: 3.8rem;
 }
+.text-box .chatter, .text-box .dropcap{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+.text-box .dropcap{
+font-size: 130px;
+    line-height: 120px;
+}
 
 .shareComments {
     margin: 0;
 }
 
 #pick-a-side {
-    background-color: $grey;
+    background-color: #272620;
     color: $lt-blue;
     padding: 30px;
     font-size: 14px;
@@ -86,7 +121,6 @@ $grey: #323232;
 }
 
 #pick-a-side .chatter {
-    text-align: left;
     margin: 0 auto;
     display: block;
     max-width: 650px;
@@ -105,7 +139,6 @@ $grey: #323232;
     width: 150px;
     cursor: pointer;
     border-radius: 3px;
-
 }
 
 #button-gc {
@@ -126,36 +159,49 @@ $grey: #323232;
     background: $gr-highlight;
 }
 
-.chart{
+.chart {
     display: flex;
     justify-content: center;
-    padding: 80px 60px;
+    padding: 40px 60px;
     color: $grey;
 }
-.chart .chatter{
-    width: 30%;
+
+#total-chart {
+    margin-top: 30px;
+}
+
+.chart .chatter {
+    width: 20%;
     padding: 20px;
 }
-.chart .chart-container{
+
+.chart .chart-container {
     width: 75%;
     padding: 20px;
 }
-.chatter .head{
+
+.chatter .head {
     display: block;
     font-weight: 700;
     font-size: 3em;
     padding-bottom: 10px;
 }
-.chatter .intro{
+
+.chatter .intro {
     font-size: 1.7em;
     line-height: 1.3em;
     display: block;
 }
-
 // #total-chart .chart-container{
 //     background-color: white;
 // }
-.chart-container .bar{
+
+.chart-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.chart-container .bar {
     float: left;
     height: 100%;
     display: inline-block;
@@ -163,34 +209,43 @@ $grey: #323232;
     color: white;
     font-size: 1.7em;
 }
-.bar-label{
+
+.bar-label {
     display: block;
 }
-#total-chart .bar-label:last-child{
+
+#total-chart .bar-label:last-child {
     font-weight: 700;
 }
-#gcBar{
+
+#gcBar {
     background: $gc-highlight;
     text-align: right;
 }
-#grBar{
+
+#grBar {
     background: $gr-highlight;
 }
-.intro-box{
-    padding: 80px 0px;
+
+.intro-box {
+    padding: 80px 0;
     font-family: "PT Serif", Georgia, Times, serif;
 }
-.intro-box .text-box{
-    margin: 0px auto;
+
+.intro-box .text-box {
+    margin: 0 auto;
     max-width: 650px;
 }
-.intro-box .chatter{
+
+.intro-box .chatter {
     font-size: 24px;
     line-height: 40px;
     font-weight: normal;
     max-width: 650px;
 }
-.domain, line{
+
+.domain,
+line {
     stroke: white;
 }
 
@@ -220,10 +275,11 @@ $grey: #323232;
     font-size: 12px;
     font-weight: 700;
 }
+
 .breakdowns {
     width: 100%;
     padding: 10px;
-    margin: 10px 0px;
+    margin: 10px 0;
     display: inline-block;
 }
 
@@ -258,7 +314,7 @@ $grey: #323232;
     cursor: pointer;
 }
 
-.tag:hover {
+.chatter .tag:hover, .chatter .selected-tag {
     background-color: #BF531B;
     color: white;
 }
@@ -330,7 +386,8 @@ $grey: #323232;
     float: left;
     width: 100%;
 }
-.bill-sponsor strong{
+
+.bill-sponsor strong {
     display: inherit;
 }
 
@@ -342,6 +399,7 @@ $grey: #323232;
 .sponsor-status {
     display: inherit;
 }
+
 .circle {
     display: inline-block;
     width: 12px;
@@ -349,139 +407,243 @@ $grey: #323232;
     border-radius: 50%;
 }
 
-.mugBox{
+.mugBox {
     position: relative;
     width: 100px !important;
     height: 120px !important;
     margin-right: 10px;
     float: left;
 }
-.mugBox::before,
-.mugBox::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    border-color: transparent;
-    border-style: solid;
-    z-index: 5000;
-}
 
-.mugBoxR::before {
-    border-width: 1.5em;
-    border-left-color: #B52125;
-    border-top-color: #B52125;
-}
-.mugBoxD::before {
-    border-width: 1.5em;
-    border-left-color: #225A8C;
-    border-top-color: #225A8C;
-}
+// .mugBox::after,
+// .mugBox::before {
+//     content: '';
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     border-color: transparent;
+//     border-style: solid;
+//     z-index: 5000;
+// }
+//
+// .mugBoxR::before {
+//     border-width: 1.5em;
+//     border-left-color: #B52125;
+//     border-top-color: #B52125;
+// }
+//
+// .mugBoxD::before {
+//     border-width: 1.5em;
+//     border-left-color: #225A8C;
+//     border-top-color: #225A8C;
+// }
+//
+// .mugBox::after {
+//     border-radius: 0.4em;
+//     border-width: 1.35em;
+// }
 
-.mugBox::after {
-    border-radius: 0.4em;
-    border-width: 1.35em;
-}
-
-
-.list-element{
+.list-element {
     margin-bottom: 5px;
 }
 
-.list-item{
+.list-item {
     font-size: 1.4em;
 }
+
 .list-element:not(:first-child) {
     margin-bottom: 12px;
 }
-.bar-container{
+
+.bar-container {
     margin-top: 2px;
     font-weight: 700;
     font-size: 12px;
 }
-.list-bar{
+
+.list-bar {
     float: left;
     height: 14px;
     margin-right: 5px;
     background-color: $gr-highlight;
 }
-.republican{
-    background: #B52125;
-}
-.democrat{
-    background: #225A8C;
+
+.republican {
+    border-right: 10px solid #B52125;
 }
 
-
+.democrat {
+    border-right: 10px solid #225A8C;
+}
 
 .year-select {
-  text-align: left;
-  display: inline-block;
-  margin-top: 30px;
-  padding: 0px 4px 0px 0;
-  list-style: none;
-  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
-  -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
-}
-.year-select li {
-  font: bold 12px/18px sans-serif;
-  display: inline-block;
-  margin-right: -4px;
-  position: relative;
-  padding: 8px 40px;
-  background: #fff;
-  cursor: pointer;
-  -webkit-transition: all 0.2s;
-  -moz-transition: all 0.2s;
-  -ms-transition: all 0.2s;
-  -o-transition: all 0.2s;
-  transition: all 0.2s;
-}
-.year-select li:hover {
-  background: $gr-highlight;
-  color: #fff;
-}
-.year-select li ul {
-  padding: 0;
-  position: absolute;
-  top: 0px;
-  left: 0;
-  width: 150px;
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
-  box-shadow: none;
-  display: none;
-  opacity: 0;
-  visibility: hidden;
-  -webkit-transiton: opacity 0.2s;
-  -moz-transition: opacity 0.2s;
-  -ms-transition: opacity 0.2s;
-  -o-transition: opacity 0.2s;
-  -transition: opacity 0.2s;
-}
-.year-select li ul li {
-  background: #555;
-  display: block;
-  color: #fff;
-  text-shadow: 0 -1px 0 #000;
-}
-.year-select li ul li:hover { background: #666; }
-.year-select li:hover ul {
-  display: block;
-  opacity: 1;
-  visibility: visible;
+    text-align: left;
+    display: inline-block;
+    margin-top: 30px;
+    padding: 0 4px 0 0;
+    list-style: none;
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
 }
 
-.gc{
+.year-select li {
+    font: bold 12px/18px sans-serif;
+    display: inline-block;
+    margin-right: -4px;
+    position: relative;
+    padding: 8px 40px;
+    background: #fff;
+    cursor: pointer;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+.year-select li:hover {
+    background: $gr-highlight;
+    color: #fff;
+}
+
+.year-select li ul {
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 150px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transiton: opacity 0.2s;
+    -moz-transition: opacity 0.2s;
+    -ms-transition: opacity 0.2s;
+    -o-transition: opacity 0.2s;
+    -transition: opacity 0.2s;
+}
+
+.year-select li ul li {
+    background: #555;
+    display: block;
+    color: #fff;
+    text-shadow: 0 -1px 0 #000;
+}
+
+.year-select li ul li:hover {
+    background: #666;
+}
+
+.year-select li:hover ul {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+}
+
+.gc {
     background-color: $gc-highlight;
 }
-.gr{
+
+.gr {
     background-color: $gr-highlight;
 }
-.bullet{
+
+.bullet {
     width: 15px;
     border-radius: 50%;
     height: 15px;
     display: inline-block;
+}
+
+.callout {
+    width: 100%;
+    background: rgba(255,255,255,.6);
+    padding: 10px;
+    margin-top: 30px;
+    font-size: 1.5em;
+    display: none;
+}
+
+.callout-label {
+    font-weight: 700;
+    margin-bottom: 3px;
+    display: block;
+}
+
+.node:hover {
+    background: #7D7C62 !important;
+}
+
+.source-box {
+    max-width: 650px;
+    margin: 0 auto;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5em;
+}
+
+.source-head {
+    font-weight: 700;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.source-entry {
+    margin-top: 30px;
+    display: block;
+    overflow: auto;
+    line-height: 1.2em;
+}
+
+.source-entry img {
+    float: left;
+    margin-right: 20px;
+}
+
+
+@media (max-width: 1000px) {
+    .intro-box {
+        padding: 20px 0;
+    }
+    .text-box{
+        padding: 0px 10px;
+    }
+    .chart{
+        padding:10px;
+    }
+    #total-chart, #tree-chart, #bills  {
+        flex-direction: column;
+    }
+    #year-chart, #bill-breakdown {
+        flex-direction: column;
+    }
+    .buttons{
+        font-weight: 700;
+    }
+
+    .chart-container{
+        margin-top: 20px;
+    }
+    .chart .chart-container,
+    .chart .chatter {
+        width: 100%;
+        padding: 0px;
+    }
+    #total-chart .chart-container{
+        height: 135px;
+    }
+    #total-chart .bar {
+        position: absolute;
+        height: 100%;
+        top: 0;
+    }
+    #total-chart #grBar{
+        right: 0;
+    }
+    #total-chart #gcBar{
+        left: 0;
+    }
+
 }

@@ -124,7 +124,7 @@ function buildYearChart(data) {
   ----------------------------------------
         Add the legend
   ----------------------------------------
-  */ 
+  */
   var legend = group.selectAll(".legend")
     .data(categories.reverse())
     .enter().append("g")
@@ -135,15 +135,15 @@ function buildYearChart(data) {
     .style("font", "10px sans-serif");
 
   legend.append("rect")
-    .attr("x", 30)
-    .attr("y", 30)
+    .attr("x", 10)
+    .attr("y", 8)
     .attr("width", 18)
     .attr("height", 18)
     .attr("fill", z);
 
   legend.append("text")
-    .attr("x", 58)
-    .attr("y", 38)
+    .attr("x", 35)
+    .attr("y", 16)
     .attr("dy", ".35em")
     .attr("text-anchor", "start")
     .text(function (d) {

@@ -1,8 +1,8 @@
-    var firstYear = "2000";
+    var firstYear = "2013";
     var monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
     var gunControlGroups = [];
     var gunRightsGroups = [];
-    
+
     $(document).ready(function() {
 
         $("#hero-gr").hide();
@@ -19,16 +19,24 @@
          //Switch theme button
          $("#button-gc").click(function(){
              console.log("click");
-              $(".gr").removeClass("gr").addClass("gc");
+              $(".gr-back").removeClass("gr-back").addClass("gc-back");
               $(".gr-dark").removeClass("gr-dark").addClass("gc-dark");
+              $("#hero-border.gr").removeClass("gr").addClass("gc");
+              $("#gr-intro").slideUp("slow",function(){
+                  $("#gc-intro").slideDown("slow");
+              });
               $("#hero-gr").fadeOut();
               $("#hero-gc").fadeIn();
 
          });
          $("#button-gr").click(function(){
              console.log("click");
-              $(".gc").removeClass("gc").addClass("gr");
+              $(".gc-back").removeClass("gc-back").addClass("gr-back");
               $(".gc-dark").removeClass("gc-dark").addClass("gr-dark");
+              $("#hero-border.gc").removeClass("gc").addClass("gr");
+              $("#gc-intro").slideUp("slow",function(){
+                  $("#gr-intro").slideDown("slow");
+              });
               $("#hero-gc").fadeOut();
               $("#hero-gr").fadeIn();
          });

@@ -60,10 +60,10 @@ function switchGunBills(year) {
         //Reset list div
         $('#bill-list').html("")
 
-        $("#bill-groups").empty().html("Groups:<br/>");
-        $("#bill-parties").empty().html("Party:<br/>");
-        $("#bill-statuses").empty().html("Status:<br/>");
-        $("#bill-tags").empty().html("Tags:<br/>");
+        $("#bill-groups").empty().html("<strong>Groups:</strong><br/>");
+        $("#bill-parties").empty().html("<strong>Party:</strong><br/>");
+        $("#bill-statuses").empty().html("<strong>Status:</strong><br/>");
+        $("#bill-tags").empty().html("<strong>Tags:</strong><br/>");
 
         $.each(data, function(k, v) {
             if (v["subjects-top-term"] != "Native Americans" && v["subjects-top-term"] != "Animals" && v["subjects-top-term"] != "Agriculture and food" && v["subjects-top-term"] != "Economics and public finance" && v["subjects-top-term"] != "Education" && v["subjects-top-term"] != "Energy" && v["subjects-top-term"] != "Labor and employment" && v["subjects-top-term"] != "Private legislation" && v["subjects-top-term"] != "Water resources development") {
@@ -76,7 +76,7 @@ function switchGunBills(year) {
                 var billDate = Date.parse(v.introduced);
 
                 var html = "";
-                html += "<div data-date='" + billDate + "'data-tag='" + v["subjects-top-term"] + "' class='bill'>";
+                html += "<div data-date='" + billDate + "'data-tag='" + v["subjects-top-term"] + "' data-groups='"+ v.lobbied+"'  data-party='"+v.sponsor.party+"' class='bill'>";
 
                 //Bill number
                 billNumberArray = v.number.split("-");
@@ -107,7 +107,7 @@ function switchGunBills(year) {
                 html += "     <span class='bill-status'><strong>Status: </strong>" + v.status.join(" => ") + "</span>";
 
                 // Lobbied list
-                console.log(v.lobbied);
+                //console.log(v.lobbied);
                 $.each(v.lobbied, function (key,val){
                     lobbiedArray.push(val);
                     groupsArray.push(val);
@@ -118,7 +118,13 @@ function switchGunBills(year) {
                 //Bill sponsor
                 if (v.sponsor.last_name) {
 
-                    html += "     <div class='bill-sponsor'>";
+                    //Sponsor party
+                    if (v.sponsor.party === "R"){
+                        html += "     <div class='bill-sponsor republican'>";
+                    } else if (v.sponsor.party === "D"){
+                        html += "     <div class='bill-sponsor democrat'>";
+                    }
+
                     html += "     <strong>Sponsor</strong>";
 
                     //If govtrack then we have a photo
@@ -132,12 +138,7 @@ function switchGunBills(year) {
                         }
                          html += "'><img class='bill-mug' src='https://www.govtrack.us/data/photos/" + v.sponsor.govtrack_id + "-100px.jpeg'/></div>";
                     }
-                    //Sponsor name
-                    if (v.sponsor.party === "R"){
-                        html += "<span class='circle republican'/>";
-                    } else if (v.sponsor.party === "D"){
-                        html += "<span class='circle democrat'/>";
-                    }
+
 
                     //Hold parties for counting
                     partyArray.push(v.sponsor.party);
@@ -196,19 +197,10 @@ function switchGunBills(year) {
             $("#bill-tags").append("<span class='tag' data-tag='" + val + "'>" + val + "</span>");
         });
 
-        $(".tag").click(function() {
-            var selected = $(this).data("tag");
-            $(this).toggleClass("selected-tag");
-            $(".bill").hide();
-
-            console.log(selected);
-            $('#bill-list').find("[data-tag='" + selected + "']").toggleClass("selected-tag");
-            $(".selected-tag").show();
-        });
 
         //Build, display and activate subject tags
         var groupCounts = _.countBy(groupsArray);
-        console.log(groupCounts);
+        //console.log(groupCounts);
 
         var groupList = [];
         $.each(groupCounts, function(key, val) {
@@ -216,13 +208,13 @@ function switchGunBills(year) {
         });
         groupList.sort();
         $.each(groupList, function(key, val) {
-            $("#bill-groups").append("<span class='tag' data-tag='" + val + "'>" + val + "</span>");
+            $("#bill-groups").append("<span class='tag' data-group='" + val + "'>" + val + "</span>");
         });
 
         //Build, display and activate subject tags
-        console.log(partyArray);
+        //console.log(partyArray);
         var partyCounts = _.countBy(partyArray);
-        console.log(partyCounts);
+        //console.log(partyCounts);
 
         var partyList = [];
         $.each(partyCounts, function(key, val) {
@@ -230,7 +222,43 @@ function switchGunBills(year) {
         });
         partyList.sort();
         $.each(partyList, function(key, val) {
-            $("#bill-parties").append("<span class='tag' data-tag='" + val + "'>" + val + "</span>");
+            $("#bill-parties").append("<span class='tag' data-party='" + val + "'>" + val + "</span>");
+        });
+
+        $(".tag").click(function() {
+
+            console.log("Clicked a tag.")
+            //IF ITS A TAG BUTTON
+            if ( $(this).data("tag") ){
+                var selected = $(this).data("tag");
+                $(this).toggleClass("selected-tag");
+                $(".bill").hide();
+                $('#bill-list').find("[data-tag='" + selected + "']").toggleClass("selected-tag");
+                $(".selected-tag").show();
+            };
+            //IF ITS A PARTY BUTTON
+            if ( $(this).data("party") ){
+                console.log($(this).data("party"));
+                var selected = $(this).data("party");
+                $(this).toggleClass("selected-tag");
+                $(".bill").hide();
+                $('#bill-list').find("[data-party='" + selected + "']").toggleClass("selected-tag");
+                $(".selected-tag").show();
+            };
+            //IF ITS A GROUP BUTTON
+            if ( $(this).data("group") ){
+                console.log($(this).data("group"));
+                var selected = $(this).data("group");
+                $(this).toggleClass("selected-tag");
+                $(".bill").hide();
+
+                $('#bill-list').find("[data-groups*='" + selected + "']").toggleClass("selected-tag");
+
+                $(".selected-tag").show();
+            };
+
+
+
         });
 
 
@@ -249,7 +277,7 @@ function switchGunBills(year) {
             return obj.last_name;
         });
 
-        console.log(sponsorCounts);
+        //console.log(sponsorCounts);
 
         // //Get top 3 sponsors
         // sponsorCountsArray = sortable.slice(0, 3);
@@ -263,7 +291,7 @@ function switchGunBills(year) {
         //console.log(lobbiedCounts);
         //console.log(statusCounts);
         //console.log(partyCounts);
-        console.log(sponsorCounts);
+        //console.log(sponsorCounts);
 
         function getPercentage(total,val){
             pct = val/total*100;
@@ -277,13 +305,10 @@ function switchGunBills(year) {
 
         $(".byOrg").empty().html("<h3>Organizations and the number of bills they lobbied</h3>");
         var lobbiedTotal;
-        $.each(lobbiedCounts, function(k, v) {
-            if (k === 0){
-                lobbiedTotal = 0;
-            }
-            lobbiedTotal += parseInt(v[1]);
-        });
-
+        // $.each(lobbiedCounts, function(k, v) {
+        //     console.log(parseInt(v[1]));
+        // });
+        var maxLobbiedCount = lobbiedCounts[0][1]
         $.each(lobbiedCounts, function(k, v) {
             var barClass;
              html = "<div class='list-element'>";
@@ -294,7 +319,7 @@ function switchGunBills(year) {
              }
              html += "     <span class='list-item'>"+v[0]+"</span>";
              html += "     <div class='bar-container'>";
-             html += "          <div class='list-bar "+barClass+"' style='width:"+getPercentage(lobbiedTotal,v[1])+"%'>&nbsp;</div><div class='bar-number'>"+v[1]+"</div>";
+             html += "          <div class='list-bar "+barClass+"' style='width:"+getPercentage(maxLobbiedCount,v[1])+"%'>&nbsp;</div><div class='bar-number'>"+v[1]+"</div>";
              html += "     </div>";
              html += "</div>";
             $(".byOrg").append(html);
@@ -314,17 +339,12 @@ function switchGunBills(year) {
 
         $(".byStatus").empty().html("<h3>Status breakdown of introduced gun-related legislation</h3>");
         var statusTotal;
-        $.each(statusCounts, function(k, v) {
-            if (k === 0){
-                statusTotal = 0;
-            }
-            statusTotal += parseInt(v[1]);
-        });
+        var maxStatusCount = statusCounts[0][1];
         $.each(statusCounts, function(k, v) {
             html = "<div class='list-element'>";
             html += "     <span class='list-item'>"+v[0]+"</span>";
             html += "     <div class='bar-container'>";
-            html += "          <div class='list-bar' style='width:"+getPercentage(lobbiedTotal,v[1])+"%;background:#BF531B'>&nbsp;</div><div class='bar-number'>"+v[1]+"</div>";
+            html += "          <div class='list-bar' style='width:"+getPercentage(maxStatusCount,v[1])+"%;background:#BF531B'>&nbsp;</div><div class='bar-number'>"+v[1]+"</div>";
             html += "     </div>";
             html += "</div>";
             $(".byStatus").append(html);
@@ -332,15 +352,10 @@ function switchGunBills(year) {
 
         $(".byParty").empty().html("<h3> Gun-related legislation introduced by party</h3>");
         var partyTotal;
+        var maxPartyCount = partyCounts[0][1]
+
         $.each(partyCounts, function(k, v) {
-            if (k === 0){
-                partyTotal = 0;
-            }
-            partyTotal += parseInt(v[1]);
-            console.log(partyTotal);
-        });
-        $.each(partyCounts, function(k, v) {
-            console.log(v);
+            //console.log(v);
             html = "<div class='list-element'>";
             //console.log(v[0]);
             switch (v[0]){
@@ -362,13 +377,13 @@ function switchGunBills(year) {
 
             switch (v[0]){
                 case "R":
-                    html += "<div class='list-bar republican' style='width:"+getPercentage(partyTotal,v[1])+"%'>&nbsp;</div><div class='bar-number'>"+v[1]+"</div>";
+                    html += "<div class='list-bar republican' style='width:"+getPercentage(maxPartyCount,v[1])+"%'>&nbsp;</div><div class='bar-number'>"+v[1]+"</div>";
                     break;
                 case "D":
-                    html += "<div class='list-bar democrat' style='width:"+getPercentage(partyTotal,v[1])+"%'>&nbsp;</div><div class='bar-number'>"+v[1]+"</div>";
+                    html += "<div class='list-bar democrat' style='width:"+getPercentage(maxPartyCount,v[1])+"%'>&nbsp;</div><div class='bar-number'>"+v[1]+"</div>";
                     break;
                 default:
-                    html += "<div class='list-bar "+v[0]+"' style='width:"+getPercentage(partyTotal,v[1])+"%'>&nbsp;</div><div class='bar-number'>"+v[1]+"</div>";
+                    html += "<div class='list-bar "+v[0]+"' style='width:"+getPercentage(maxPartyCount,v[1])+"%'>&nbsp;</div><div class='bar-number'>"+v[1]+"</div>";
                     break;
             }
 

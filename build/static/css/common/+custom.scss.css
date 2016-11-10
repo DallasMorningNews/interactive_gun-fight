@@ -1,14 +1,19 @@
-.gc {
+.gc-back {
   background: #EDF1FA; }
 
-.gr {
+.gr-back {
   background: #f3efe8; }
 
 .gc-dark {
-  background: #CEE1EF; }
+  background: #CEE1EF;
+  transition: background-color 500ms linear; }
 
 .gr-dark {
-  background: #e2d9c9; }
+  background: #e2d9c9;
+  transition: background-color 500ms linear; }
+
+.hidden {
+  display: none; }
 
 #flex-body {
   display: flex;
@@ -22,12 +27,26 @@
 #hero img {
   position: absolute; }
 
+#hero-border {
+  width: 100%;
+  height: 100px;
+  background: #272620;
+  display: block;
+  margin-bottom: 20px; }
+
+#hero-border.gc {
+  border-bottom: 20px solid #91afc7; }
+
+#hero-border.gr {
+  border-bottom: 20px solid #bb9661; }
+
 #intro {
-  color: #323232;
+  color: whitesmoke;
   padding: 60px 0;
   margin-top: -2px;
   font-family: "PT Serif", Georgia, Times, serif;
-  text-align: center; }
+  text-align: center;
+  background: #272620; }
 
 #intro h1 {
   font-size: 6.6rem;
@@ -41,11 +60,19 @@
   font-size: 3.2rem;
   line-height: 3.8rem; }
 
+.text-box .chatter, .text-box .dropcap {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500; }
+
+.text-box .dropcap {
+  font-size: 130px;
+  line-height: 120px; }
+
 .shareComments {
   margin: 0; }
 
 #pick-a-side {
-  background-color: #323232;
+  background-color: #272620;
   color: #EDF1FA;
   padding: 30px;
   font-size: 14px;
@@ -60,7 +87,6 @@
   display: block; }
 
 #pick-a-side .chatter {
-  text-align: left;
   margin: 0 auto;
   display: block;
   max-width: 650px; }
@@ -95,11 +121,14 @@
 .chart {
   display: flex;
   justify-content: center;
-  padding: 80px 60px;
+  padding: 40px 60px;
   color: #323232; }
 
+#total-chart {
+  margin-top: 30px; }
+
 .chart .chatter {
-  width: 30%;
+  width: 20%;
   padding: 20px; }
 
 .chart .chart-container {
@@ -116,6 +145,10 @@
   font-size: 1.7em;
   line-height: 1.3em;
   display: block; }
+
+.chart-container {
+  position: relative;
+  overflow: hidden; }
 
 .chart-container .bar {
   float: left;
@@ -139,11 +172,11 @@
   background: #E3C357; }
 
 .intro-box {
-  padding: 80px 0px;
+  padding: 80px 0;
   font-family: "PT Serif", Georgia, Times, serif; }
 
 .intro-box .text-box {
-  margin: 0px auto;
+  margin: 0 auto;
   max-width: 650px; }
 
 .intro-box .chatter {
@@ -152,7 +185,8 @@
   font-weight: normal;
   max-width: 650px; }
 
-.domain, line {
+.domain,
+line {
   stroke: white; }
 
 #treeChart {
@@ -181,7 +215,7 @@
 .breakdowns {
   width: 100%;
   padding: 10px;
-  margin: 10px 0px;
+  margin: 10px 0;
   display: inline-block; }
 
 .breakdowns h3 {
@@ -210,7 +244,7 @@
   color: #929292;
   cursor: pointer; }
 
-.tag:hover {
+.chatter .tag:hover, .chatter .selected-tag {
   background-color: #BF531B;
   color: white; }
 
@@ -295,30 +329,6 @@
   margin-right: 10px;
   float: left; }
 
-.mugBox::before,
-.mugBox::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  border-color: transparent;
-  border-style: solid;
-  z-index: 5000; }
-
-.mugBoxR::before {
-  border-width: 1.5em;
-  border-left-color: #B52125;
-  border-top-color: #B52125; }
-
-.mugBoxD::before {
-  border-width: 1.5em;
-  border-left-color: #225A8C;
-  border-top-color: #225A8C; }
-
-.mugBox::after {
-  border-radius: 0.4em;
-  border-width: 1.35em; }
-
 .list-element {
   margin-bottom: 5px; }
 
@@ -340,16 +350,16 @@
   background-color: #E3C357; }
 
 .republican {
-  background: #B52125; }
+  border-right: 10px solid #B52125; }
 
 .democrat {
-  background: #225A8C; }
+  border-right: 10px solid #225A8C; }
 
 .year-select {
   text-align: left;
   display: inline-block;
   margin-top: 30px;
-  padding: 0px 4px 0px 0;
+  padding: 0 4px 0 0;
   list-style: none;
   -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
   -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
@@ -376,7 +386,7 @@
 .year-select li ul {
   padding: 0;
   position: absolute;
-  top: 0px;
+  top: 0;
   left: 0;
   width: 150px;
   -webkit-box-shadow: none;
@@ -416,3 +426,70 @@
   border-radius: 50%;
   height: 15px;
   display: inline-block; }
+
+.callout {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.6);
+  padding: 10px;
+  margin-top: 30px;
+  font-size: 1.5em;
+  display: none; }
+
+.callout-label {
+  font-weight: 700;
+  margin-bottom: 3px;
+  display: block; }
+
+.node:hover {
+  background: #7D7C62 !important; }
+
+.source-box {
+  max-width: 650px;
+  margin: 0 auto;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.5em; }
+
+.source-head {
+  font-weight: 700;
+  display: block;
+  margin-bottom: 10px; }
+
+.source-entry {
+  margin-top: 30px;
+  display: block;
+  overflow: auto;
+  line-height: 1.2em; }
+
+.source-entry img {
+  float: left;
+  margin-right: 20px; }
+
+@media (max-width: 1000px) {
+  .intro-box {
+    padding: 20px 0; }
+  .text-box {
+    padding: 0px 10px; }
+  .chart {
+    padding: 10px; }
+  #total-chart, #tree-chart, #bills {
+    flex-direction: column; }
+  #year-chart, #bill-breakdown {
+    flex-direction: column; }
+  .buttons {
+    font-weight: 700; }
+  .chart-container {
+    margin-top: 20px; }
+  .chart .chart-container,
+  .chart .chatter {
+    width: 100%;
+    padding: 0px; }
+  #total-chart .chart-container {
+    height: 135px; }
+  #total-chart .bar {
+    position: absolute;
+    height: 100%;
+    top: 0; }
+  #total-chart #grBar {
+    right: 0; }
+  #total-chart #gcBar {
+    left: 0; } }
