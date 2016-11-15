@@ -25,7 +25,8 @@
   position: relative; }
 
 #hero img {
-  position: absolute; }
+  position: absolute;
+  left: -15px; }
 
 #hero-border {
   width: 100%;
@@ -274,11 +275,11 @@ line {
 .bill-number {
   text-align: left; }
 
-.bill-date {
-  text-align: right; }
+.bill-link {
+  color: #BF531B; }
 
-.bill-status {
-  text-align: center; }
+.bill-date {
+  display: block; }
 
 .bill-tag {
   padding: 5px 20px;
@@ -309,12 +310,27 @@ line {
 .bill-sponsor strong {
   display: inherit; }
 
+.social-buttons {
+  width: 35px;
+  cursor: pointer;
+  margin-right: 10px; }
+
+a svg:hover #square {
+  fill: #BF531B; }
+
+a svg #square {
+  transition: 200ms;
+  transition-timing-function: ease-in-out;
+  -webkit-transition: 200ms;
+  -webkit-transition-timing-function: ease-in-out; }
+
 .sponsor-name {
   display: inline-block;
   margin-top: 10px; }
 
 .sponsor-status {
-  display: inherit; }
+  display: inherit;
+  margin-bottom: 10px; }
 
 .circle {
   display: inline-block;
@@ -346,74 +362,97 @@ line {
 .list-bar {
   float: left;
   height: 14px;
-  margin-right: 5px;
-  background-color: #E3C357; }
+  margin-right: 5px; }
 
-.republican {
+.bill-sponsor.republican {
   border-right: 10px solid #B52125; }
 
-.democrat {
+.bill-sponsor.democrat {
   border-right: 10px solid #225A8C; }
 
-.year-select {
-  text-align: left;
-  display: inline-block;
-  margin-top: 30px;
-  padding: 0 4px 0 0;
+.bar-container .republican {
+  background: #B52125; }
+
+.bar-container .democrat {
+  background: #225A8C; }
+
+nav {
+  width: 100%;
+  margin-top: 20px;
+  text-align: center; }
+
+nav > ul {
   list-style: none;
-  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
-  -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15); }
-
-.year-select li {
-  font: bold 12px/18px sans-serif;
-  display: inline-block;
-  margin-right: -4px;
-  position: relative;
-  padding: 8px 40px;
-  background: #fff;
-  cursor: pointer;
-  -webkit-transition: all 0.2s;
-  -moz-transition: all 0.2s;
-  -ms-transition: all 0.2s;
-  -o-transition: all 0.2s;
-  transition: all 0.2s; }
-
-.year-select li:hover {
-  background: #E3C357;
-  color: #fff; }
-
-.year-select li ul {
   padding: 0;
-  position: absolute;
-  top: 0;
-  left: 0;
+  margin: 0;
+  display: inline-block;
+  background: white; }
+
+nav > ul > li {
+  float: left;
   width: 150px;
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
-  box-shadow: none;
-  display: none;
+  height: 30px;
+  line-height: 30px;
+  position: relative;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.7);
+  cursor: pointer; }
+
+nav > ul > li:hover {
+  background: #BF531B;
+  color: white; }
+
+ul.drop-menu {
+  position: absolute;
+  top: 100%;
+  left: 0%;
+  width: 100%;
+  padding: 0; }
+
+ul.drop-menu li {
+  background: #666;
+  color: rgba(255, 255, 255, 0.7); }
+
+ul.drop-menu li:hover {
+  background: #606060;
+  color: white; }
+
+ul.drop-menu li:last-child {
+  border-radius: 0px 0px 5px 5px; }
+
+ul.drop-menu li {
+  display: none; }
+
+li:hover > ul.drop-menu li {
+  display: block; }
+
+li:hover > ul.drop-menu li {
   opacity: 0;
-  visibility: hidden;
-  -webkit-transiton: opacity 0.2s;
-  -moz-transition: opacity 0.2s;
-  -ms-transition: opacity 0.2s;
-  -o-transition: opacity 0.2s;
-  -transition: opacity 0.2s; }
+  -webkit-animation-name: menu1;
+  animation-name: menu1;
+  -webkit-animation-duration: 300ms;
+  animation-duration: 300ms;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards; }
 
-.year-select li ul li {
-  background: #555;
-  display: block;
-  color: #fff;
-  text-shadow: 0 -1px 0 #000; }
+@-webkit-keyframes menu1 {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
 
-.year-select li ul li:hover {
-  background: #666; }
+@keyframes menu1 {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
 
-.year-select li:hover ul {
-  display: block;
-  opacity: 1;
-  visibility: visible; }
+li img {
+  vertical-align: middle;
+  margin-top: -3px; }
 
 .gc {
   background-color: #88C5F2; }

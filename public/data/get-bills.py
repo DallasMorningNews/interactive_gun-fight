@@ -22,7 +22,7 @@ pp.pprint("<-- RUNNING get-bills.py -->")
 apiKey = "eab8794360f64272b36d7721e6b15464"
 
 #earliest year of data on opensecrets.org
-startYear = 2009
+startYear = 2016
 
 # startYear = 1998
 # # Get date
@@ -41,7 +41,7 @@ sponsorsRaw = []
 
 
 # for each year
-for year in range(startYear,2016):
+for year in range(startYear,2017):
     pp.pprint("################################")
     pp.pprint("Looking in  "+str(year))
 
@@ -185,8 +185,7 @@ for year in range(startYear,2016):
 
                             del statusArray[:]
 
-
-                            for lis in status.find_all("li"):
+                            for lis in status.find_all("li",{"class":["first","passed","selected"]}):
                                 test = lis.find(text=True, recursive=False)
                                 #pp.pprint(test)
                                 statusArray.append(test)

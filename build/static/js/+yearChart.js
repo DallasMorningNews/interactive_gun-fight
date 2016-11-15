@@ -92,7 +92,7 @@ function buildYearChart(data) {
     .append("text")
     .attr("x", 2)
     .attr("y", y(y.ticks(10).pop()))
-    .attr("dy", "0.35em")
+    .attr("dy", "0.35em");
 
 
   group.selectAll(".serie")

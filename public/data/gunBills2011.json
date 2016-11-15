@@ -695,13 +695,16 @@
         "purpose": "Department of Defense Appropriations Act, 2012", 
         "short-title": "Department of Defense Appropriations Act, 2012", 
         "sponsor": {
-            "first_name": "Denny", 
-            "last_name": "Rehberg", 
+            "first_name": "C", 
+            "last_name": "Young", 
             "party": "R", 
-            "state": "MT", 
+            "state": "FL", 
             "title": "Rep"
         }, 
-        "status": [], 
+        "status": [
+            "Introduced", 
+            "Passed House"
+        ], 
         "status-at": "2011-07-08T12:04:00-04:00", 
         "subjects-top-term": "Armed forces and national security", 
         "title": "Department of Defense Appropriations Act, 2012", 

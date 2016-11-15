@@ -1,4 +1,4 @@
-    var firstYear = "2013";
+    var currentYear = "2016";
     var monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
     var gunControlGroups = [];
     var gunRightsGroups = [];
@@ -14,37 +14,6 @@
         $( window ).resize(function() {
              heroHeight = $("#hero-gc").height();
              $("#hero").height(heroHeight);
-        });
-
-         //Switch theme button
-         $("#button-gc").click(function(){
-             console.log("click");
-              $(".gr-back").removeClass("gr-back").addClass("gc-back");
-              $(".gr-dark").removeClass("gr-dark").addClass("gc-dark");
-              $("#hero-border.gr").removeClass("gr").addClass("gc");
-              $("#gr-intro").slideUp("slow",function(){
-                  $("#gc-intro").slideDown("slow");
-              });
-              $("#hero-gr").fadeOut();
-              $("#hero-gc").fadeIn();
-
-         });
-         $("#button-gr").click(function(){
-             console.log("click");
-              $(".gc-back").removeClass("gc-back").addClass("gr-back");
-              $(".gc-dark").removeClass("gc-dark").addClass("gr-dark");
-              $("#hero-border.gc").removeClass("gc").addClass("gr");
-              $("#gc-intro").slideUp("slow",function(){
-                  $("#gr-intro").slideDown("slow");
-              });
-              $("#hero-gc").fadeOut();
-              $("#hero-gr").fadeIn();
-         });
-
-        $(".handle").click(function() {
-            $(this).toggleClass("slideRight");
-            $(".gun-control").toggleClass("hide-gun-control");
-            $(".gun-rights").toggleClass("hide-gun-rights");
         });
 
         var gunMoney = "data/gunOrgSpending.json";
@@ -63,7 +32,7 @@
         var yearData = [];
 
         for (i = startYear; i <= endYear; i++) {
-             $(".year-list").append("<li data-selectedYear="+i+">"+i+"</li>");
+             $(".drop-menu").append("<li data-selectedYear="+i+">"+i+"</li>");
         }
 
         $.getJSON(gunMoney).done(function(data) {
@@ -100,7 +69,7 @@
             }
             gunControlGroups = _.uniqBy(gunControlGroups);
             gunRightsGroups = _.uniqBy(gunRightsGroups);
-            console.log(gunRightsGroups);
+            //console.log(gunRightsGroups);
 
             //GUN ORG COUNTS
             gunOrgCounts = _.countBy(gunOrgs);
@@ -236,6 +205,8 @@
             buildTreeChart(csvData);
 
         });
+
+
 
         // injecting current year into footer
         // DO NOT DELETE

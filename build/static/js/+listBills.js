@@ -1,3 +1,12 @@
+var facebookSVG = '<svg class="social" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="35px" height="35px" viewBox="0 0 100 100"><rect id="square" fill="#D8D8D8" width="100" height="100"/><path id="facebook" fill="#FFFFFF" d="M35.959,40.223h6.034v-5.865c0-2.588,0.065-6.576,1.944-9.046	c1.979-2.618,4.696-4.397,9.369-4.397c7.611,0,10.818,1.086,10.818,1.086l-1.508,8.942c0,0-2.518-0.728-4.862-0.728	c-2.351,0-4.448,0.842-4.448,3.188v6.821h9.623l-0.673,8.734h-8.95v30.342H41.994V48.957h-6.034V40.223z"/></svg>';
+
+var twitterSVG = '<svg class="social" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="35px" height="35px" viewBox="0 0 100 100"><rect id="square" fill="#D8D8D8" width="100" height="100"/><path id="twitter" fill="#FFFFFF" d="M77.877,32.706c-2.051,0.911-4.258,1.525-6.569,1.803c2.362-1.416,4.176-3.659,5.028-6.328	c-2.212,1.311-4.657,2.26-7.266,2.771c-2.082-2.221-5.058-3.611-8.349-3.611c-6.313,0-11.435,5.126-11.435,11.441	c0,0.897,0.097,1.767,0.294,2.604c-9.506-0.479-17.932-5.027-23.577-11.955c-0.984,1.696-1.549,3.662-1.549,5.759	c0,3.962,2.02,7.468,5.089,9.52c-1.874-0.058-3.64-0.576-5.183-1.429v0.141c0,5.544,3.942,10.168,9.178,11.218	c-0.96,0.269-1.97,0.402-3.015,0.402c-0.737,0-1.456-0.067-2.151-0.202c1.454,4.542,5.677,7.852,10.684,7.941	c-3.916,3.068-8.848,4.896-14.205,4.896c-0.924,0-1.836-0.052-2.729-0.156c5.062,3.243,11.075,5.138,17.534,5.138	c21.042,0,32.543-17.429,32.543-32.551c0-0.496-0.01-0.991-0.03-1.479C74.405,37.014,76.348,35.001,77.877,32.706"/></svg>';
+
+var youtubeSVG = '<svg class="social" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="35px" height="35px" viewBox="0 0 100 100"><rect id="square" fill="#D8D8D8" width="100" height="100"/><path id="youtube" fill="#FFFFFF" d="M60.825,50.137L41.487,61.494V38.776L60.825,50.137z M78.886,60.667V39.546	c0,0,0-10.181-10.179-10.181h-38.71c0,0-10.173,0-10.173,10.181v21.121c0,0,0,10.181,10.173,10.181h38.71	C68.707,70.848,78.886,70.848,78.886,60.667"/></svg>';
+
+var websiteSVG = '<svg class="social" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="35px" height="35px" viewBox="0 0 100 100"><rect id="square" fill="#D8D8D8" width="100" height="100"/><rect id="webbox" x="20" y="29" fill="#FFFFFF" width="59" height="42"/><text transform="matrix(1 0 0 1 24.3213 54.5156)" fill="#D8D8D8" font-family="OpenSans-Bold" font-size="20">www</text></svg>';
+
+
 //Hide any image that throws a 404
 function imgerror(image) {
     image.style.display = 'none';
@@ -18,6 +27,9 @@ function sortCounts(objects) {
 
 //Switch gun bill info based on year
 function switchGunBills(year) {
+
+    console.log("--------------   In switchGunBills()  --------------");
+
     //Clear out content
     $('#bill-list').empty();
 
@@ -82,10 +94,6 @@ function switchGunBills(year) {
                 billNumberArray = v.number.split("-");
                 html += "     <span class='bill-header bill-number'>" + billNumberArray[0].toUpperCase() + "</span>";
 
-                //Date introduced
-                var dateArray = v.introduced.split("-");
-                html += "     <span class='bill-header bill-date'>" + monthNames[(parseInt(dateArray[1]) - 1)] + " " + dateArray[2] + ", " + dateArray[0] + "</span>";
-
                 //Bill subject used for tagging
                 html += "     <span class='bill-tag'>" + v["subjects-top-term"] + "</span>";
                 subjects.push(v["subjects-top-term"]);
@@ -103,6 +111,14 @@ function switchGunBills(year) {
                 } else {
                     html += "<p class='bill-purpose'>No purpose specified</p>";
                 }
+                //Bill introduction date
+                //Date introduced
+                var dateArray = v.introduced.split("-");
+                html += "     <span class='bill-date'><strong>Introduced: </strong>"+monthNames[(parseInt(dateArray[1]) - 1)] + " " + dateArray[2] + ", " + dateArray[0] +"</span>"
+                //Date introduced
+                var dateArray = v["status-at"].split("-");
+                //console.log(dateArray);
+                html += "     <span class='bill-date'><strong>Most recent update: </strong>"+monthNames[(parseInt(dateArray[1]) - 1)] + " " + dateArray[2] + ", " + dateArray[0] +"</span>"
                 //Bill status
                 html += "     <span class='bill-status'><strong>Status: </strong>" + v.status.join(" => ") + "</span>";
 
@@ -114,6 +130,7 @@ function switchGunBills(year) {
                });
                 html += "     <span class='sponsor-lobbied'><strong>Lobbied by: </strong> " + v.lobbied.join(', ') + "</span>";
 
+                html += "<a class='bill-link' href='https://www.govtrack.us/congress/bills/"+billNumberArray[1]+"/"+billNumberArray[0]+"/text' target='_blank'>Read the bill</a>";
 
                 //Bill sponsor
                 if (v.sponsor.last_name) {
@@ -149,6 +166,20 @@ function switchGunBills(year) {
                         html += "<span class='sponsor-status'>Status: In office</span>";
                     } else {
                         html += "<span class='sponsor-status'>Status: Out of office</span>";
+                    }
+
+                    console.log(v);
+                    if (v.sponsor["facebook_id"]){
+                        html += "<a class='social-buttons' href='https://www.facebook.com/"+v.sponsor['facebook_id']+"' target='_blank'>"+facebookSVG+"</a>";
+                    }
+                    if (v.sponsor["twitter_id"]){
+                        html += "<a class='social-buttons' href='https://www.twitter.com/"+v.sponsor['twitter_id']+"' target='_blank'>"+twitterSVG+"</a>";
+                    }
+                    if (v.sponsor["youtube_id"]){
+                        html += "<a class='social-buttons' href='https://www.youtube.com/"+v.sponsor['youtube_id']+"' target='_blank'>"+youtubeSVG+"</a>";
+                    }
+                    if (v.sponsor["website"]){
+                        html += "<a class='social-buttons' href='"+v.sponsor['website']+"' target='_blank'>"+websiteSVG+"</a>";
                     }
 
                     html += "     </div>";
@@ -297,13 +328,15 @@ function switchGunBills(year) {
             pct = val/total*100;
             if (pct>95){
                 return 95;
+            } else if (pct<1){
+                return 1;
             } else {
                 return Math.round(pct);
             }
         }
 
 
-        $(".byOrg").empty().html("<h3>Organizations and the number of bills they lobbied</h3>");
+        $(".byOrg").empty().html("<h3>Organizations and the number of bills they lobbied in "+year+"</h3>");
         var lobbiedTotal;
         // $.each(lobbiedCounts, function(k, v) {
         //     console.log(parseInt(v[1]));
@@ -337,12 +370,13 @@ function switchGunBills(year) {
         //     }
         // }
 
-        $(".byStatus").empty().html("<h3>Status breakdown of introduced gun-related legislation</h3>");
+        $(".byStatus").empty().html("<h3>Status breakdown of gun-related legislation introduced in "+year+"</h3>");
         var statusTotal;
         var maxStatusCount = statusCounts[0][1];
         $.each(statusCounts, function(k, v) {
             html = "<div class='list-element'>";
-            html += "     <span class='list-item'>"+v[0]+"</span>";
+            var splitArray = v[0].split(",");
+            html += "     <span class='list-item'>"+splitArray.join(" => ")+"</span>";
             html += "     <div class='bar-container'>";
             html += "          <div class='list-bar' style='width:"+getPercentage(maxStatusCount,v[1])+"%;background:#BF531B'>&nbsp;</div><div class='bar-number'>"+v[1]+"</div>";
             html += "     </div>";
@@ -350,7 +384,7 @@ function switchGunBills(year) {
             $(".byStatus").append(html);
         });
 
-        $(".byParty").empty().html("<h3> Gun-related legislation introduced by party</h3>");
+        $(".byParty").empty().html("<h3> Gun-related legislation introduced by party in "+year+"</h3>");
         var partyTotal;
         var maxPartyCount = partyCounts[0][1]
 

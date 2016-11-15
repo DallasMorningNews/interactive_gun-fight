@@ -38,7 +38,7 @@ function buildTreeChart(csvData) {
 
     var data = d3.csvParse(csvData, function(d) {
         var splitArray = d.id.split(".");
-        if (splitArray[1] === firstYear || splitArray.length == 1) {
+        if (splitArray[1] === currentYear || splitArray.length == 1) {
             return {
                 id: d.id, // lowercase
                 value: +d.value // lowercase
@@ -160,15 +160,16 @@ function buildTreeChart(csvData) {
 
     }
 
-    switchGunBills(firstYear);
+    switchGunBills(currentYear);
 
     //$("#yearSelector").change(function () {
     //var year = $("#yearSelector").val();
-    $(".year-list li").click(function() {
-        var year = $(this).data("selectedyear");
-        switchData(year);
-        switchGunBills(year);
-        console.log(year);
+    $(".drop-menu li").click(function() {
+        currentYear = $(this).data("selectedyear");
+        switchData(currentYear);
+        switchGunBills(currentYear);
+        console.log(currentYear);
+        //$(".li-label").text(year);
     });
 
 

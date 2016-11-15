@@ -127,7 +127,7 @@
 	<div class="chart" id="total-chart">
 		<div class="chatter">
 			<span class="head">Outspent</span>
-			<span class="intro">Since 2000, the gun rights lobby has outspent the gun control lobby by a margin of 10 to 1.</span>
+			<span class="intro"></span>
 		</div>
 		<div class="chart-container">
 			<div class="bar" id="gcBar">
@@ -145,7 +145,7 @@
 
 		<div class="chatter">
 			<span class="head">Consistently outspent</span>
-			<span class="intro">Money spent by both gun rights groups and gun control groups to lobby Congress fell steadily towards the end of Bush's presidency and slowly increased during President Obama's first term. When Adam Lanza walked into Sandy Hook Elementary School and killed 28 children at the end of 2012, lobbying efforts on both sides spiked to recent highs. </span>
+			<span class="intro"></span>
 		</div>
 		<div class="chart-container">
 			<div id="yearChart"></div>
@@ -157,14 +157,20 @@
 
 	<div class="chart" id="tree-chart">
 		<div class="chatter">
-			<span class="head">Consistently outspent</span>
-			<span class="intro">Gun rights groups consistently outspend gun controls by a large margin. A look at some of the major organizations and how much they spent on lobbying for a particular year. </span>
+			<span class="head">Largest lobbying efforts in <span class="head-year"></span></span>
+			<span class="intro"></span>
 
-			<ul class="year-select">
-				<li>Select a year
-					<ul class="year-list"></ul>
-				</li>
-			</ul>
+			<nav>
+			  <ul>
+			    <li class="li-label">Select a year <img src="images/buttonRight.svg" alt="button" height="16"/>
+			      <ul class="drop-menu">
+
+			      </ul>
+			    </li>
+			  </ul>
+			</nav>
+
+
 			<div class="callout" id="callout-treemap">
 				Test
 			</div>
@@ -180,25 +186,24 @@
 
 	<div class="chart" id="bill-breakdown">
 		<div class="chatter">
-			<span class="head">A look at gun legislation in <span class="head-year"></span></span>
-			<span class="intro">Breakouts of each data point that will illustrate which organization is most active along with which member of Congress. Beakouts include current status and will show how nothing really ever gets done. It will also show which parties are doing what each year.</span>
+			<span class="head">Legislative gridlock in <span class="head-year"></span></span>
+			<span class="intro"></span>
 
-			<ul class="year-select">
-				<li>Select a year
-					<ul class="year-list">
+			<nav>
+			  <ul>
+			    <li class="li-label">Select a year <img src="images/buttonRight.svg" alt="button" height="16"/>
+			      <ul class="drop-menu">
 
-					</ul>
-				</li>
-			</ul>
+			      </ul>
+			    </li>
+			  </ul>
+			</nav>
 
 		</div>
 		<div class="chart-container">
 			<div class="breakdowns byOrg"></div>
-
 			<div class="breakdowns byStatus"></div>
-
-			<div class="breakdowns bySponsor"></div>
-
+			<!-- <div class="breakdowns bySponsor"></div> -->
 			<div class="breakdowns byParty"></div>
 		</div>
 
@@ -211,7 +216,7 @@
 	<div class="chart" id="bills">
 		<div class="chatter">
 			<span class="head">Gun bills introduced in <span class="head-year"></span></span>
-			<span class="intro">A list of every piece of legislation lobbied that year.</span>
+			<span class="intro">A list of every piece of legislation lobbied that year. Click on the tags below to filter the legislation.</span>
 			<ul class="year-select">
 				<li>Select a year
 					<ul class="year-list">

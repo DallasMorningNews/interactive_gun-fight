@@ -1894,13 +1894,15 @@
         "purpose": "To amend the Fish and Wildlife Act of 1956 to establish additional prohibitions on shooting wildlife from aircraft, and for other purposes.", 
         "short-title": "Protect America's Wildlife Act of 2007", 
         "sponsor": {
-            "first_name": "Raul", 
-            "last_name": "Grijalva", 
+            "first_name": "George", 
+            "last_name": "Miller", 
             "party": "D", 
-            "state": "AZ", 
+            "state": "CA", 
             "title": "Rep"
         }, 
-        "status": [], 
+        "status": [
+            "Introduced"
+        ], 
         "status-at": "2007-09-25", 
         "subjects-top-term": "Public lands and natural resources", 
         "title": "Protect America's Wildlife Act of 2007", 
