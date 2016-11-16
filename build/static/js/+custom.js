@@ -1,19 +1,29 @@
-    var currentYear = "2016";
-    var monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-    var gunControlGroups = [];
-    var gunRightsGroups = [];
-
     $(document).ready(function() {
 
-        $("#hero-gr").hide();
+        //GET URL PARAM
+        $.urlParam = function(name) {
+            var results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(window.location.href);
+            //if no var then just use "gc"
+            if (results) {
+                return results[1] || 0;
+            } else {
+                return "gc";
+            }
+        }
+        var side = $.urlParam('side');
+        console.log(side);
 
-         //Get height of img
-         var heroHeight = $("#hero-gc").height();
-         $("#hero").height(heroHeight);
+        //Initialize display
+        swapContent(side);
+        //$("#hero-gr").hide();
 
-        $( window ).resize(function() {
-             heroHeight = $("#hero-gc").height();
-             $("#hero").height(heroHeight);
+        //Get height of img
+        var heroHeight = $("#hero-gc").height();
+        $("#hero").height(heroHeight);
+
+        $(window).resize(function() {
+            heroHeight = $("#hero-gc").height();
+            $("#hero").height(heroHeight);
         });
 
         var gunMoney = "data/gunOrgSpending.json";
@@ -32,7 +42,7 @@
         var yearData = [];
 
         for (i = startYear; i <= endYear; i++) {
-             $(".drop-menu").append("<li data-selectedYear="+i+">"+i+"</li>");
+            $(".drop-menu").append("<li data-selectedYear=" + i + ">" + i + "</li>");
         }
 
         $.getJSON(gunMoney).done(function(data) {
@@ -112,8 +122,8 @@
                             $.each(value.gunControl[i.toString()], function(ind, val) {
                                 //console.log(val.name);
 
-                                var orgIndex = $.inArray(val.name,orgArray);
-                                if (parseInt(val.expenditures) > 0){
+                                var orgIndex = $.inArray(val.name, orgArray);
+                                if (parseInt(val.expenditures) > 0) {
                                     yearArray[orgIndex] = val.expenditures;
                                 }
 
@@ -134,8 +144,8 @@
                             $.each(value.gunRights[i.toString()], function(ind, val) {
                                 //console.log(val.name);
 
-                                var orgIndex = $.inArray(val.name,orgArray);
-                                if (parseInt(val.expenditures) > 0){
+                                var orgIndex = $.inArray(val.name, orgArray);
+                                if (parseInt(val.expenditures) > 0) {
                                     yearArray[orgIndex] = val.expenditures;
                                 }
 
@@ -147,7 +157,7 @@
                     }
                 });
                 //console.log(yearArray);
-                csvOrgData += yearArray+"\n";
+                csvOrgData += yearArray + "\n";
             }
 
 

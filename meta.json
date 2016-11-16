@@ -1,16 +1,16 @@
 {
   "id": "82389593148",
   "name": "gun-fight",
-  "pageTitle": "<Title>",
-  "shareTitle": "<Title>",
-  "shareText": "<Text>",
-  "tweetText": "<Text>",
+  "pageTitle": "The battle for America’s guns",
+  "shareTitle": "The battle for America’s guns",
+  "shareText": "Gun fight: Lobbyists spend millions of dollars every year trying to influence gun policy in America. ",
+  "tweetText": "Gun fight: Lobbyists spend millions of dollars every year trying to influence gun policy in America. ",
   "publishYear": 2016,
-  "publishDate": "2016-11-3T00:00:00Z",
-  "url": "http://interactives.dallasnews.com/2016/gun-fight/",
-  "authors": "<Authors - comma-separated, lowercase>",
-  "desk": "<Desk>",
-  "section": "<Section>",
+  "publishDate": "2016-11-18T00:00:00Z",
+  "url": "http://interactives.dallasnews.com/2016/gun-fight/index.html",
+  "authors": "layne smith",
+  "desk": "opinion",
+  "section": "commentary",
   "keywords": [
     "interactives",
     "dallas",
@@ -18,11 +18,15 @@
     "dfw news",
     "dallas newspaper",
     "dallas morning news",
-    "dallas morning news newspaper"
+    "dallas morning news newspaper",
+    "gun control",
+    "gun rights",
+    "national rifle association",
+    "nra"
   ],
-  "imgURL": "http://interactives.dallasnews.com/2016/gun-fight/undefined",
-  "imgWidth": "<Width - w/out \"px\">",
-  "imgHeight": "<Height - w/out \"px\">",
-  "sectionTwitter": "<handle - w/out \"@\">",
-  "authorTwitter": "<handle - w/out \"@\">"
+  "imgURL": "http://interactives.dallasnews.com/2016/gun-fight/images/_share.jpg",
+  "imgWidth": "1200",
+  "imgHeight": "630",
+  "sectionTwitter": "DMNOpinion",
+  "authorTwitter": "laynesmith"
 }

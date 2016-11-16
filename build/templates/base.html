@@ -34,6 +34,7 @@
 	</script>
 
 <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+<script src="js/_prime.js"></script>
 
 <script type="text/javascript">
 
@@ -176,15 +177,6 @@
 		<p>©<span class="copyright"></span>, The Dallas Morning News Inc. All Rights Reserved.</p>
 	</footer>
 
-  	<script src="js/dependency-bundle.js"></script>
-	<script type="text/javascript" src="js/scripts-bundle.js"></script>
-
-	{%block custom_foot%}
-	{%endblock%}
-
-
-
-	{%block custom_social_meta%}
 	<script type="text/javascript">
 	var storyTitle = "{{tweetText}}",
 		storyURL = "{{url}}",
@@ -196,6 +188,17 @@
 		share = true;
 		OAS_sitepage = 'www.dallasnews.com/{{desk}}/{{section}}/';
 	</script>
+
+  	<script src="js/dependency-bundle.js"></script>
+	<script type="text/javascript" src="js/scripts-bundle.js"></script>
+
+	{%block custom_foot%}
+	{%endblock%}
+
+
+
+	{%block custom_social_meta%}
+
 	{%endblock%}
 
 	<script type="text/javascript" src="http://interactives.templates.statics.s3.amazonaws.com/v1.0/js/commonInteractives.js"></script>

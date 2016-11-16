@@ -168,7 +168,7 @@ function switchGunBills(year) {
                         html += "<span class='sponsor-status'>Status: Out of office</span>";
                     }
 
-                    console.log(v);
+                    //console.log(v);
                     if (v.sponsor["facebook_id"]){
                         html += "<a class='social-buttons' href='https://www.facebook.com/"+v.sponsor['facebook_id']+"' target='_blank'>"+facebookSVG+"</a>";
                     }
@@ -258,7 +258,7 @@ function switchGunBills(year) {
 
         $(".tag").click(function() {
 
-            console.log("Clicked a tag.")
+            //console.log("Clicked a tag.")
             //IF ITS A TAG BUTTON
             if ( $(this).data("tag") ){
                 var selected = $(this).data("tag");
@@ -269,7 +269,7 @@ function switchGunBills(year) {
             };
             //IF ITS A PARTY BUTTON
             if ( $(this).data("party") ){
-                console.log($(this).data("party"));
+                //console.log($(this).data("party"));
                 var selected = $(this).data("party");
                 $(this).toggleClass("selected-tag");
                 $(".bill").hide();
@@ -278,7 +278,7 @@ function switchGunBills(year) {
             };
             //IF ITS A GROUP BUTTON
             if ( $(this).data("group") ){
-                console.log($(this).data("group"));
+                //console.log($(this).data("group"));
                 var selected = $(this).data("group");
                 $(this).toggleClass("selected-tag");
                 $(".bill").hide();

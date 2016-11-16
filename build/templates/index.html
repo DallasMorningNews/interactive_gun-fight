@@ -132,11 +132,11 @@
 		<div class="chart-container">
 			<div class="bar" id="gcBar">
 				<span class="bar-label">Gun control groups:</span>
-				<span class="bar-label">$10 million</span>
+				<span class="bar-label" id="totals-gc-amount">$10 million</span>
 			</div>
 			<div class="bar" id="grBar">
 				<span class="bar-label">Gun rights groups:</span>
-				<span class="bar-label">$100 million</span>
+				<span class="bar-label" id="totals-gr-amount">$100 million</span>
 			</div>
 		</div>
 	</div>
@@ -294,12 +294,7 @@
 	</section>
 	<!-- end more -->
 
-	<div class="shareComments">
-		<ul id="share-bar2" class="width-auto-hack"></ul>
-		<div id="comments"></div>
-	</div>
-	<!-- end shareComments -->
-
+	
 
 	<!-- <header id="story-head">
           <h3>Gun fights</h3>
@@ -328,15 +323,5 @@
 <script type="text/javascript"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.16.4/lodash.min.js"></script>
 <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900" rel="stylesheet"> {%endblock%} {%block custom_social_meta%}
-<script type="text/javascript">
-	var storyTitle = "{{tweetText}}", // headline in tweet card
-		storyURL = "{{url}}",
-		leadText = "{{shareText}}", //description in tweet card
-		storyIMG = "{{imgURL}}",
-		storyAuthor = "{{authors}}",
-		twitterTag = "{{sectionTwitter}}",
-		comments = true,
-		share = true;
-	OAS_sitepage = 'www.dallasnews.com/{{desk}}/{{section}}/';
-</script>
+
 {%endblock%}

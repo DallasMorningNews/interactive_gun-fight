@@ -107,7 +107,7 @@ font-size: 130px;
 #pick-a-side {
     background-color: #272620;
     color: $lt-blue;
-    padding: 30px;
+    padding: 0px 30px 30px;
     font-size: 14px;
     line-height: 18px;
     font-weight: normal;
@@ -538,6 +538,7 @@ ul.drop-menu {
   left: 0%;
   width: 100%;
   padding: 0;
+  z-index: 5000;
 }
 ul.drop-menu li {
   background: #666;

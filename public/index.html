@@ -4,38 +4,42 @@
 
 	<!-- Add Custom Meta Data -->
 	
-<meta content="interactives,dallas,dallas news,dfw news,dallas newspaper,dallas morning news,dallas morning news newspaper" name="keywords" />
+<meta content="interactives,dallas,dallas news,dfw news,dallas newspaper,dallas morning news,dallas morning news newspaper,gun control,gun rights,national rifle association,nra" name="keywords" />
 
 <meta charset="UTF-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<meta content="&lt;Text&gt;" name="description" />
-<title>&lt;Title&gt;</title>
-<meta property="og:url" content="http://interactives.dallasnews.com/2016/gun-fight/" />
-<meta property="og:title" content="&lt;Title&gt;" />
-<meta property="og:description" content="&lt;Text&gt;" name="description" />
-<meta property="og:image" content="http://interactives.dallasnews.com/2016/gun-fight/undefined" />
-<meta property="og:image:height" content="&lt;Height - w/out &quot;px&quot;&gt;" />
-<meta property="og:image:width" content="&lt;Width - w/out &quot;px&quot;&gt;" />
+<meta content="Gun fight: Lobbyists spend millions of dollars every year trying to influence gun policy in America. " name="description" />
+<title>The battle for America’s guns</title>
+<meta property="og:url" content="http://interactives.dallasnews.com/2016/gun-fight/index.html" />
+<meta property="og:title" content="The battle for America’s guns" />
+<meta property="og:description" content="Gun fight: Lobbyists spend millions of dollars every year trying to influence gun policy in America. " name="description" />
+<meta property="og:image" content="http://interactives.dallasnews.com/2016/gun-fight/images/_share.jpg" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:width" content="1200" />
 <meta property="og:type" content="article" />
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:site" content="@&lt;handle - w/out &quot;@&quot;&gt;" />
-<meta name="twitter:creator" content="@&lt;handle - w/out &quot;@&quot;&gt;" />
+<meta name="twitter:site" content="@DMNOpinion" />
+<meta name="twitter:creator" content="@laynesmith" />
 
 <meta name="liveFyreID" content="82389593148" />
 
-<meta name="parsely-page" id='parsely-page' content='{"title": "&lt;Title&gt;", "link": "http://interactives.dallasnews.com/2016/gun-fight/", "image_url": "http://interactives.dallasnews.com/2016/gun-fight/undefined", "type": "post", "post_id": "82389593148", "pub_date": "2016-11-3T00:00:00Z", "section": "&lt;Section&gt;", "author": ["&lt;Authors - comma-separated, lowercase&gt;"], "tags": ["interactives
+<meta name="parsely-page" id='parsely-page' content='{"title": "The battle for America’s guns", "link": "http://interactives.dallasnews.com/2016/gun-fight/index.html", "image_url": "http://interactives.dallasnews.com/2016/gun-fight/images/_share.jpg", "type": "post", "post_id": "82389593148", "pub_date": "2016-11-18T00:00:00Z", "section": "commentary", "author": ["layne smith"], "tags": ["interactives
 				"," dallas
 				"," dallas news
 				"," dfw news
 				"," dallas newspaper
 				"," dallas morning news
-				"," dallas morning news newspaper"]}' />
+				"," dallas morning news newspaper
+				"," gun control
+				"," gun rights
+				"," national rifle association
+				"," nra"]}' />
 
-<meta property="og:keywords" content="interactives,dallas,dallas news,dfw news,dallas newspaper,dallas morning news,dallas morning news newspaper" />
+<meta property="og:keywords" content="interactives,dallas,dallas news,dfw news,dallas newspaper,dallas morning news,dallas morning news newspaper,gun control,gun rights,national rifle association,nra" />
 
-<meta name="news_keywords" content="interactives,dallas,dallas news,dfw news,dallas newspaper,dallas morning news,dallas morning news newspaper" /> 
+<meta name="news_keywords" content="interactives,dallas,dallas news,dfw news,dallas newspaper,dallas morning news,dallas morning news newspaper,gun control,gun rights,national rifle association,nra" /> 
 	<!-- End Custom Meta Data -->
 
 	<meta property="fb:app_id" content="258290334265148"/>
@@ -64,6 +68,7 @@
 	</script>
 
 <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+<script src="js/_prime.js"></script>
 
 <script type="text/javascript">
 
@@ -229,11 +234,11 @@
 		<div class="chart-container">
 			<div class="bar" id="gcBar">
 				<span class="bar-label">Gun control groups:</span>
-				<span class="bar-label">$10 million</span>
+				<span class="bar-label" id="totals-gc-amount">$10 million</span>
 			</div>
 			<div class="bar" id="grBar">
 				<span class="bar-label">Gun rights groups:</span>
-				<span class="bar-label">$100 million</span>
+				<span class="bar-label" id="totals-gr-amount">$100 million</span>
 			</div>
 		</div>
 	</div>
@@ -400,12 +405,7 @@
 	</section>
 	<!-- end more -->
 
-	<div class="shareComments">
-		<ul id="share-bar2" class="width-auto-hack"></ul>
-		<div id="comments"></div>
-	</div>
-	<!-- end shareComments -->
-
+	
 
 	<!-- <header id="story-head">
           <h3>Gun fights</h3>
@@ -443,6 +443,18 @@
 		<p>©<span class="copyright"></span>, The Dallas Morning News Inc. All Rights Reserved.</p>
 	</footer>
 
+	<script type="text/javascript">
+	var storyTitle = "Gun fight: Lobbyists spend millions of dollars every year trying to influence gun policy in America. ",
+		storyURL = "http://interactives.dallasnews.com/2016/gun-fight/index.html",
+		leadText = "Gun fight: Lobbyists spend millions of dollars every year trying to influence gun policy in America. ",
+		storyIMG = "http://interactives.dallasnews.com/2016/gun-fight/images/_share.jpg",
+		storyAuthor = "layne smith",
+		twitterTag = "DMNOpinion",
+		comments = true,
+		share = true;
+		OAS_sitepage = 'www.dallasnews.com/opinion/commentary/';
+	</script>
+
   	<script src="js/dependency-bundle.js"></script>
 	<script type="text/javascript" src="js/scripts-bundle.js"></script>
 
@@ -454,17 +466,7 @@
 
 
 	
-<script type="text/javascript">
-	var storyTitle = "&lt;Text&gt;", // headline in tweet card
-		storyURL = "http://interactives.dallasnews.com/2016/gun-fight/",
-		leadText = "&lt;Text&gt;", //description in tweet card
-		storyIMG = "http://interactives.dallasnews.com/2016/gun-fight/undefined",
-		storyAuthor = "&lt;Authors - comma-separated, lowercase&gt;",
-		twitterTag = "&lt;handle - w/out &quot;@&quot;&gt;",
-		comments = true,
-		share = true;
-	OAS_sitepage = 'www.dallasnews.com/&lt;Desk&gt;/&lt;Section&gt;/';
-</script>
+
 
 
 	<script type="text/javascript" src="http://interactives.templates.statics.s3.amazonaws.com/v1.0/js/commonInteractives.js"></script>
