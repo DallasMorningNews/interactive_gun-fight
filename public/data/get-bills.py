@@ -21,9 +21,6 @@ pp.pprint("<-- RUNNING get-bills.py -->")
 
 apiKey = "eab8794360f64272b36d7721e6b15464"
 
-#earliest year of data on opensecrets.org
-startYear = 2016
-
 # startYear = 1998
 # # Get date
 now = datetime.datetime.now()
@@ -31,8 +28,12 @@ now = datetime.datetime.now()
 currentYear = now.year
 # numberOfYears = currentYear - startYear
 
+#earliest year of data on opensecrets.org
+startYear = currentYear
+stopYear = currentYear + 1
+
 # get the list of gun organizations from a seperate file
-with open('gunOrgSpending.json') as data_file:
+with open('/var/www/html/dallasnews/guns/gunOrgSpending.json') as data_file:
     orgData = json.load(data_file)
     #We're not going to use the "years" data here
     orgData.pop("spending", None)
@@ -41,7 +42,7 @@ sponsorsRaw = []
 
 
 # for each year
-for year in range(startYear,2017):
+for year in range(startYear,stopYear):
     pp.pprint("################################")
     pp.pprint("Looking in  "+str(year))
 
@@ -113,7 +114,7 @@ for year in range(startYear,2017):
                         billCongressNumber = tds[1].text.rstrip()
                         #pp.pprint("billCongressNumber: "+billCongressNumber)
 
-                        pp.pprint(billNumber)
+                        #pp.pprint(billNumber)
                         billNumberArray = billNumber.split("-")
                         getNumber = filter(str.isdigit, str(billNumberArray[0]))
 
@@ -149,7 +150,7 @@ for year in range(startYear,2017):
 
                         billN, sep, tail = billNumber.partition('-')
 
-                        pp.pprint("https://www.govtrack.us/data/congress/"+billCongressNumber+"/bills/"+pr+"/"+billN+"/data.json");
+                        #pp.pprint("https://www.govtrack.us/data/congress/"+billCongressNumber+"/bills/"+pr+"/"+billN+"/data.json");
 
                         billResponse = requests.get("https://www.govtrack.us/data/congress/"+billCongressNumber+"/bills/"+pr+"/"+billN+"/data.json")
                         data = billResponse.json()
@@ -170,7 +171,7 @@ for year in range(startYear,2017):
                             sponsor = overview.a.contents[0]
                             #link to sponsor's page
                             sponsorURL = overview.a['href']
-                            pp.pprint("--------> Sponsor: "+sponsor)
+                            #pp.pprint("--------> Sponsor: "+sponsor)
                             #Words array where we'll pull first, last, title etc...
                             words = re.findall(r"[\w']+",sponsor)
 
@@ -190,7 +191,7 @@ for year in range(startYear,2017):
                                 #pp.pprint(test)
                                 statusArray.append(test)
 
-                            pp.pprint(statusArray)
+                            #pp.pprint(statusArray)
 
                         except:
                             pass
@@ -199,14 +200,14 @@ for year in range(startYear,2017):
                         # sponsorsRaw.append(data["sponsor"]["bioguide_id"])
                         # pp.pprint("bioguide_id: "+data["sponsor"]["bioguide_id"])
 
-                        pp.pprint('https://congress.api.sunlightfoundation.com/legislators?thomas_id="'+data["sponsor"]["thomas_id"]+'&apikey='+apiKey)
-                        sponsorResponse = requests.get('https://congress.api.sunlightfoundation.com/legislators?thomas_id="'+data["sponsor"]["thomas_id"]+'&apikey='+apiKey)
+                        #pp.pprint('https://congress.api.sunlightfoundation.com/legislators?thomas_id="'+data["sponsor"]["thomas_id"]+'&apikey='+apiKey)
+                        sponsorResponse = requests.get('http://congress.api.sunlightfoundation.com/legislators?thomas_id="'+data["sponsor"]["thomas_id"]+'"&apikey='+apiKey, verify=False)
                         sponsorData = sponsorResponse.json()
 
                         sponsorObj = {}
                         try:
                             sponsorObj["govtrack_id"] = sponsorData["results"][0]["govtrack_id"]
-                            pp.pprint(sponsorObj["govtrack_id"])
+                            #pp.pprint(sponsorObj["govtrack_id"])
                         except:
                             pass
                         try:
@@ -314,28 +315,20 @@ for year in range(startYear,2017):
                         # Append organizations who also lobbied this bill
                         bills[billNumber]["lobbied"].append(thisOrgName)
 
-    # pp.pprint("Before: "+str(len(sponsors)))
-    # sponsors = set(sponsors)
-    # pp.pprint("After: "+str(len(sponsors)))
+pp.pprint("Prepare to write")
 
-    #convert the dictionary to json and write it to the file
-    #declare files, w+ create if don't exist
-    j = open( "gunBills" +str(year)+ ".json","w+")
+# pp.pprint("Before: "+str(len(sponsors)))
+# sponsors = set(sponsors)
+# pp.pprint("After: "+str(len(sponsors)))
 
-    #minified
-    #json.dump(bills, j, sort_keys=True, separators=(',',':'))
+#convert the dictionary to json and write it to the file
+#declare files, w+ create if don't exist
+pp.pprint("/var/www/html/dallasnews/guns/gunBills" +str(year)+ ".json")
+j = open( "/var/www/html/dallasnews/guns/gunBills" +str(year)+ ".json","w+")
 
-    #prettified
-    json.dump(bills, j, sort_keys=True, indent=4)
-    j.close()
+#minified
+json.dump(bills, j, sort_keys=True, separators=(',',':'))
 
-
-
-d = {}
-for sponsor in sponsorsRaw:
-    d[sponsor] = None
-sponsors = d.keys()
-
-# j = open( "gunSponsorsList.json","w+")
-# json.dump(sponsors, j, sort_keys=True, separators=(',',':'))
-# j.close()
+#prettified
+#json.dump(bills, j, sort_keys=True, indent=4)
+j.close()
