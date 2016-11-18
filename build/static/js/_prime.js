@@ -19,11 +19,13 @@ var monthNames = ["January", "February", "March", "April", "May", "June", "July"
 var gunControlGroups = [];
 var gunRightsGroups = [];
 
-gcUrl = "http://interactives.dallasnews.com/2016/gun-fight/index.html?side=gc";
-grUrl = "http://interactives.dallasnews.com/2016/gun-fight/index.html?side=gr";
+gcUrl = "http%3A%2F%2Finteractives.dallasnews.com%2F2016%2Fgun-fight%2Findex.html%3fside%3dgc";
+fbgcUrl = "http://interactives.dallasnews.com/2016/gun-fight/index.html?side=gc";
+grUrl = "http%3A%2F%2Finteractives.dallasnews.com%2F2016%2Fgun-fight%2Findex.html%3fside%3dgr";
+fbgrUrl = "http://interactives.dallasnews.com/2016/gun-fight/index.html?side=gr";
 
 gcTwitter = "Gun fight: Losing the lobbying battle over guns";
-grTwitter = "Gun fight: Defending the Second Amendment";
+grTwitter = "Gun fight: Lobbyists defending the Second Amendment";
 
 var storyTitle = "",
     storyURL = "",

@@ -10,11 +10,11 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<meta content="Gun fight: Lobbyists spend millions of dollars every year trying to influence gun policy in America. " name="description" />
+<meta content="Lobbyists spend millions of dollars every year trying to influence gun policy in America. " name="description" />
 <title>The battle for America’s guns</title>
 <meta property="og:url" content="http://interactives.dallasnews.com/2016/gun-fight/index.html" />
 <meta property="og:title" content="The battle for America’s guns" />
-<meta property="og:description" content="Gun fight: Lobbyists spend millions of dollars every year trying to influence gun policy in America. " name="description" />
+<meta property="og:description" content="Lobbyists spend millions of dollars every year trying to influence gun policy in America. " name="description" />
 <meta property="og:image" content="http://interactives.dallasnews.com/2016/gun-fight/images/_share.jpg" />
 <meta property="og:image:height" content="630" />
 <meta property="og:image:width" content="1200" />
@@ -145,6 +145,28 @@
 </head>
 <body>
 
+	<script>
+	    window.fbAsyncInit = function () {
+	        FB.init({
+	            appId: '375853655843043',
+	            xfbml: true,
+	            version: 'v2.3'
+	        });
+	    };
+	    (function (d, s, id) {
+	        var js, fjs = d.getElementsByTagName(s)[0];
+	        if (d.getElementById(id)) {
+	            return;
+	        }
+	        js = d.createElement(s);
+	        js.id = id;
+	        js.src = "//connect.facebook.net/en_US/sdk.js";
+	        fjs.parentNode.insertBefore(js, fjs);
+	    }(document, 'script', 'facebook-jssdk'));
+	</script>
+
+	
+
 	<div class='dn-loader-block'>
 	    <figure class='dn-loader-logo'>
 	        <img class='dn-loader-polygon' src='images/_dmn_polygon.png' alt='blue polygon' />
@@ -182,13 +204,13 @@
 
 	<div class="" id="intro">
 		<h1>The battle for America’s guns</h1>
-		<h2>Lobbyists representing both sides of the gun issue spend millions of dollars every year trying to influence gun policy in America. Whether that’s good or bad depends on your perspective.</h2>
+		<h2>Lobbyists representing both sides of the gun issue spend millions of dollars every year trying to influence gun policy and public opinion in America. See how:</h2>
 	</div>
 	<!-- end intro -->
 
 	<div id="pick-a-side">
-		<span class="instruction">PICK YOUR SIDE</span>
-		<span class="chatter">Are you a proponent of gun control or gun rights?</span>
+		<span class="instruction">CHOOSE ONE</span>
+		<span class="chatter">See how different sides spin the same data.</span>
 		<div class="buttons">
 			<div class="button-side button-gc">
 				Gun control
@@ -237,10 +259,15 @@
 	</div>
 	<!-- end intro -->
 
-	<div class=" shareComments shareCommentsTop">
+	<!-- <div class=" shareComments shareCommentsTop">
 		<ul id="share-bar1" class="width-auto-hack"></ul>
-	</div>
+	</div> -->
 	<!-- end shareComments -->
+
+	<div class="shared">
+		<img class="fbShare" src="/images/facebook.svg" width="50" />
+		<img class="twShare" src="/images/twitter.svg" width="50" />
+	</div>
 
 	<div class="chart" id="total-chart">
 		<div class="chatter">
@@ -409,20 +436,20 @@
 
 	<section class="more clearfix">
 		<h5>Read more from The Dallas Morning News</h5>
-		<a class="clearfix" href="#">
-			<img src="images/_defaultImage.jpg" alt="#" />
-			<h6>Story title goes here</h6>
-			<p>Description of the story goes in this spot here</p>
+		<a class="clearfix" href="http://www.dallasnews.com/opinion/editorials/2016/11/17/inability-talk-gun-regulations-literally-killing-us">
+			<img src="images/_promo1.jpg" alt="Gun rack" />
+			<h6>It's time to talk</h6>
+			<p>EDITORIAL: Our inability to talk about gun regulations is literally killing us</p>
 		</a>
-		<a class="clearfix" href="#">
-			<img src="images/_defaultImage.jpg" alt="#" />
-			<h6>Story title goes here</h6>
-			<p>Description of the story goes in this spot here</p>
+		<a class="clearfix" href="http://www.dallasnews.com/opinion/editorials/2016/11/17/3-places-wherethe-conversation-guns-begin">
+			<img src="images/_promo2.jpg" alt="Gun talk illustration" />
+			<h6>A place to start</h6>
+			<p>EDITORIAL: 3 places where the conversation on guns should begin</p>
 		</a>
-		<a class="clearfix" href="#">
-			<img src="images/_defaultImage.jpg" alt="#" />
-			<h6>Story title goes here</h6>
-			<p>Description of the story goes in this spot here</p>
+		<a class="clearfix" href="http://www.dallasnews.com/opinion/editorials/2016/11/17/gun-policy-pointless-without-funding-public-health-research">
+			<img src="images/_promo3.jpg" alt="#" />
+			<h6>Research suggests...</h6>
+			<p>EDITORIAL: Gun policy is pointless without funding for public health research</p>
 		</a>
 	</section>
 	<!-- end more -->
@@ -468,7 +495,7 @@
 	<script type="text/javascript">
 	var storyTitle = "Gun fight: Lobbyists spend millions of dollars every year trying to influence gun policy in America. ",
 		storyURL = "http://interactives.dallasnews.com/2016/gun-fight/index.html",
-		leadText = "Gun fight: Lobbyists spend millions of dollars every year trying to influence gun policy in America. ",
+		leadText = "Lobbyists spend millions of dollars every year trying to influence gun policy in America. ",
 		storyIMG = "http://interactives.dallasnews.com/2016/gun-fight/images/_share.jpg",
 		storyAuthor = "layne smith",
 		twitterTag = "DMNOpinion",

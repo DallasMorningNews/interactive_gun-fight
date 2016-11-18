@@ -31,13 +31,13 @@ $(document).ready(function() {
     });
 
     $(window).on('scroll', function() {
-         var scrollTop = $(this).scrollTop();
-             var triggerDistance = $(".intro-box").offset().top;
-             if ( (triggerDistance-100) < scrollTop ) {
-                 $(".fixed-buttons-bar").fadeIn();
-            } else {
-                $(".fixed-buttons-bar").hide();
-            }
+        var scrollTop = $(this).scrollTop();
+        var triggerDistance = $(".intro-box").offset().top;
+        if ((triggerDistance - 100) < scrollTop) {
+            $(".fixed-buttons-bar").fadeIn();
+        } else {
+            $(".fixed-buttons-bar").hide();
+        }
     });
 
     var gunMoney = "data/gunOrgSpending.json";
@@ -239,5 +239,7 @@ $(document).ready(function() {
     var year = d.getFullYear();
 
     $('.copyright').text(year);
+
+    
 
 });

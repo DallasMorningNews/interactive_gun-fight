@@ -100,8 +100,12 @@ font-size: 130px;
     line-height: 120px;
 }
 
-.shareComments {
-    margin: 0;
+.shared {
+    margin: 0px auto;
+    cursor: pointer;
+}
+.fbShare {
+    margin-right: 10px;
 }
 
 #pick-a-side {
