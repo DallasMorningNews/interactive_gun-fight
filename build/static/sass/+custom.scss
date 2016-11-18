@@ -53,7 +53,7 @@ $grey: #323232;
 
 #hero img {
     position: absolute;
-    left: -15px;
+
 }
 #hero-border{
     width: 100%;
@@ -71,7 +71,7 @@ $grey: #323232;
 
 #intro {
     color: whitesmoke;
-    padding: 60px 0;
+    padding: 60px 20px;
     margin-top: -2px;
     font-family: "PT Serif", Georgia, Times, serif;
     text-align: center;
@@ -127,38 +127,69 @@ font-size: 130px;
     max-width: 650px;
 }
 
+
+
+
+
 .buttons {
     display: flex;
     justify-content: center;
     font-weight: normal;
     text-transform: uppercase;
 }
-
 .button-side {
+    display: inline;
     margin-top: 25px;
     padding: 20px;
     width: 150px;
     cursor: pointer;
     border-radius: 3px;
 }
-
-#button-gc {
+.button-gc {
     margin-right: 50px;
     background: $dk-blue;
 }
 
-#button-gr {
+.button-gr {
     background: $md-gold;
 }
 
-#button-gc:hover {
-    margin-right: 50px;
+.button-gc:hover {
     background: $gc-highlight;
 }
 
-#button-gr:hover {
+.button-gr:hover {
     background: $gr-highlight;
 }
+
+.fixed-buttons-bar {
+    position: fixed;
+    padding: 12px;
+    top:0;
+    width: 100%;
+    height: 65px;
+    text-align: center;
+    background-color: #212121;
+    z-index: 15000;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    display: none;
+}
+
+.fixed-buttons-bar .button-side {
+    display: inline-block;
+    padding: 20px;
+    width: 150px;
+    margin-top: 0px;
+    height:25px;
+    cursor: pointer;
+    border-radius: 3px;
+    line-height: 0px;
+    font-weight: 700;
+}
+
+
 
 .chart {
     display: flex;
@@ -501,9 +532,16 @@ a svg #square {
 .bar-container .democrat {
     background: #225A8C;
 }
+.callout-treemap-mobile{
+    display: none;
+}
 
-
-
+.pulldown-instructions {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 700;
+    font-size: 1.2em;
+}
 nav {
     width: 100%;
     margin-top: 20px;
@@ -659,7 +697,12 @@ li img {
 }
 
 
+
+
 @media (max-width: 1000px) {
+    .callout-treemap-mobile{
+        display: block;
+    }
     .intro-box {
         padding: 20px 0;
     }
@@ -678,7 +721,16 @@ li img {
     .buttons{
         font-weight: 700;
     }
-
+    .fixed-buttons-bar{
+        height: 55px;
+    }
+    .fixed-buttons-bar .button-side {
+        padding: 15px;
+        width: 125px;
+    }
+    .button-gc {
+        margin-right: 25px;
+    }
     .chart-container{
         margin-top: 20px;
     }

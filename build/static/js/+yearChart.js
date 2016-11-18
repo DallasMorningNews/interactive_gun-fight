@@ -119,6 +119,16 @@ function buildYearChart(data) {
     .attr("width", x.bandwidth());
 
 
+    /*
+    Disable ticks
+    */
+    var heroWidth = $("#hero-gc").width();
+   if (heroWidth < 500) {
+       var ticks = d3.selectAll(".tick text");
+       ticks.attr("class", function(d, i) {
+           if (i % 2 != 0) d3.select(this).remove();
+       });
+   }
 
   /*
   ----------------------------------------

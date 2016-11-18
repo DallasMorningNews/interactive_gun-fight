@@ -100,14 +100,15 @@ function buildTreeChart(csvData) {
                 console.log("mouseover");
                 var html = "<span class='callout-label'>"+$(this).attr('group')+"</span>";
                     html += "$"+ format($(this).attr('expenditure'));
-                $("#callout-treemap").html(html).show()
+                $(".callout-treemap").html(html);
+                $(".callout-treemap").show();
+                if ( $(window).width() >= 1000 ){
+                    $(".callout-treemap-mobile").hide();
+                }
 
             })
             .on("mouseout", function() {
                 console.log("mouseout");
-                $("#callout-treemap").hide();
-
-
             })
             .append("div")
             .attr("class", "node-label")
@@ -169,7 +170,7 @@ function buildTreeChart(csvData) {
         switchData(currentYear);
         switchGunBills(currentYear);
         console.log(currentYear);
-        //$(".li-label").text(year);
+        $(".pulldown").text(currentYear);
     });
 
 

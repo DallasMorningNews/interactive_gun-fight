@@ -23,8 +23,10 @@ data["gunControlGroups"] = []
 data["gunRightsGroups"] = []
 data["spending"] = []
 
+
 # earliest year of data on opensecrets.org
-startYear = 1998
+startYear = 2000
+
 # Get date
 now = datetime.datetime.now()
 # get year from date
@@ -124,7 +126,7 @@ for category in categoryIDs:
 j = open("gunOrgSpending.json", "w+")
 
 # minified
-# json.dump(data, j, sort_keys=True, separators=(',',':'))
+json.dump(data, j, sort_keys=True, separators=(',', ':'))
 
 # prettified
 json.dump(data, j, sort_keys=True, indent=4)
