@@ -43,3 +43,8 @@ def concatenate_bills_for_year(year, year_bills):
             )
 
     return concat_filename, concat_filename_minified
+
+
+def generate_year_report(year):
+    all_year_bills = download_all_bills(year)
+    return concatenate_bills_for_year(year, all_year_bills)
