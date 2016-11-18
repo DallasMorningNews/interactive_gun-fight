@@ -26,7 +26,7 @@ data["gunRightsGroups"] = []
 data["spending"] = []
 
 #earliest year of data on opensecrets.org
-startYear = 1998
+startYear = 2000
 # Get date
 now = datetime.datetime.now()
 #get year from date
@@ -117,12 +117,12 @@ for category in categoryIDs:
 
 #convert the dictionary to json and write it to the file
 #declare files, w+ create if don't exist
-j = open( "gunOrgSpending.json","w+")
+j = open( "/var/www/html/dallasnews/guns/gunOrgSpending.json","w+")
 
 #minified
-#json.dump(data, j, sort_keys=True, separators=(',',':'))
+json.dump(data, j, sort_keys=True, separators=(',',':'))
 
 #prettified
-json.dump(data, j, sort_keys=True, indent=4)
+#json.dump(data, j, sort_keys=True, indent=4)
 
 j.close()

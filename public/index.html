@@ -145,6 +145,13 @@
 </head>
 <body>
 
+	<div class='dn-loader-block'>
+	    <figure class='dn-loader-logo'>
+	        <img class='dn-loader-polygon' src='images/_dmn_polygon.png' alt='blue polygon' />
+	        <img class='dn-loader-d' src='images/_dmn_d.svg' alt='dallas news d' />
+	    </figure>
+	</div>
+
 	<!-- Google Tag Manager DMN -->
 	<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-T45ZQL" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<script type="text/javascript" src="http://interactives.templates.statics.s3.amazonaws.com/v1.0/js/analytics.js"></script>
@@ -159,6 +166,15 @@
 
 	
 
+<div class="fixed-buttons-bar">
+	<div class="button-side button-gc">
+		Gun control
+	</div>
+	<div class="button-side button-gr">
+		Gun rights
+	</div>
+</div>
+
 <section id="flex-body">
 	<!-- <div id="tag">
 		GUN FIGHT
@@ -166,18 +182,18 @@
 
 	<div class="" id="intro">
 		<h1>The battle for America’s guns</h1>
-		<h2>Lobbyists spend millions of dollars every year trying to influence gun policy in America. Whether that’s good or bad depends on your perspective.</h2>
+		<h2>Lobbyists representing both sides of the gun issue spend millions of dollars every year trying to influence gun policy in America. Whether that’s good or bad depends on your perspective.</h2>
 	</div>
 	<!-- end intro -->
 
 	<div id="pick-a-side">
-		<span class="instruction">PICK A SIDE</span>
+		<span class="instruction">PICK YOUR SIDE</span>
 		<span class="chatter">Are you a proponent of gun control or gun rights?</span>
 		<div class="buttons">
-			<div class="button-side" id="button-gc">
+			<div class="button-side button-gc">
 				Gun control
 			</div>
-			<div class="button-side" id="button-gr">
+			<div class="button-side button-gr">
 				Gun rights
 			</div>
 		</div>
@@ -213,10 +229,10 @@
 
 	<div class=" intro-box">
 		<div class="text-box" id="gc-intro">
-			<span class="dropcap">A</span><span class='chatter'>nother mass shooting, another futile attempt at passing meaningful gun control legislation. While gun violence continues to ravage our nation, one of the most influential groups in Washington - the gun lobby - continues its decades-long fight to block reasonable legislation. Here is a look at how money is used to fight the war in Washington.</span>
+			<span class="dropcap">A</span><span class='chatter'>nother mass shooting, another futile attempt at passing meaningful gun control measures. While gun violence continues to ravage our nation, one of the most influential groups in Washington - the gun lobby - continues its decades-long fight to block reasonable legislation. Here is a look at how money is used to fight the war in Washington.</span>
 		</div>
 		<div class="text-box hidden" id="gr-intro">
-			<span class="dropcap">E</span><span class='chatter'>very year the gun control lobby attempts to solve the recurring problem of violence by chipping away at civil liberties guaranteed by the Constitution. While under assault, certain gun rights organizations rally their bases to fund its defense. Here is a look at how money is used to fight the war in Washington.</span>
+			<span class="dropcap">E</span><span class='chatter'>very year the gun control lobby attempts to solve the recurring problem of violence by chipping away at civil liberties guaranteed by the Constitution. These assaults lead gun rights organizations to rally their bases. Here is a look at the funding and effectiveness of the legislative gun war in Washington.</span>
 		</div>
 	</div>
 	<!-- end intro -->
@@ -263,8 +279,9 @@
 			<span class="intro"></span>
 
 			<nav>
+				<span class="pulldown-instructions">View data from different years</span>
 			  <ul>
-			    <li class="li-label">Select a year <img src="images/buttonRight.svg" alt="button" height="16"/>
+			    <li class="li-label"><span class="pulldown">Select a year</span> <img src="images/buttonRight.svg" alt="button" height="16"/>
 			      <ul class="drop-menu">
 
 			      </ul>
@@ -273,14 +290,13 @@
 			</nav>
 
 
-			<div class="callout" id="callout-treemap">
-				Test
-			</div>
+			<div class="callout callout-treemap"></div>
 
 		</div>
 		<div class="chart-container">
 			<div id="treeChart"></div>
 		</div>
+		<div class="callout callout-treemap callout-treemap-mobile"></div>
 	</div>
 	<!-- end tree-chart -->
 
@@ -292,8 +308,9 @@
 			<span class="intro"></span>
 
 			<nav>
+				<span class="pulldown-instructions">View data from different years</span>
 			  <ul>
-			    <li class="li-label">Select a year <img src="images/buttonRight.svg" alt="button" height="16"/>
+			    <li class="li-label"><span class="pulldown">Select a year</span> <img src="images/buttonRight.svg" alt="button" height="16"/>
 			      <ul class="drop-menu">
 
 			      </ul>
@@ -319,13 +336,18 @@
 		<div class="chatter">
 			<span class="head">Gun bills introduced in <span class="head-year"></span></span>
 			<span class="intro">A list of every piece of legislation lobbied that year. Click on the tags below to filter the legislation.</span>
-			<ul class="year-select">
-				<li>Select a year
-					<ul class="year-list">
 
-					</ul>
-				</li>
-			</ul>
+			<nav>
+				<span class="pulldown-instructions">View data from different years</span>
+			  <ul>
+			    <li class="li-label"><span class="pulldown">Select a year</span> <img src="images/buttonRight.svg" alt="button" height="16"/>
+			      <ul class="drop-menu">
+
+			      </ul>
+			    </li>
+			  </ul>
+			</nav>
+
 			<div class="bills" id="bill-groups"></div>
 			<div class="bills" id="bill-status"></div>
 			<div class="bills" id="bill-parties"></div>
@@ -373,7 +395,7 @@
 <section class="content-well">
 
 
-	<p class="twitter-tag">Follow writer name on Twitter at <a href="urlhere">@twittertag.</a></p>
+	<!-- <p class="twitter-tag">Follow writer name on Twitter at <a href="urlhere">@twittertag.</a></p> -->
 
 	<!-- <section class="credits clearfix">
         <p><strong>Author:</strong> <a href="mailto:emailaddress">Name</a></p>
@@ -405,7 +427,7 @@
 	</section>
 	<!-- end more -->
 
-	
+
 
 	<!-- <header id="story-head">
           <h3>Gun fights</h3>

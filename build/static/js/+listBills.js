@@ -72,10 +72,9 @@ function switchGunBills(year) {
         //Reset list div
         $('#bill-list').html("")
 
-        $("#bill-groups").empty().html("<strong>Groups:</strong><br/>");
-        $("#bill-parties").empty().html("<strong>Party:</strong><br/>");
-        $("#bill-statuses").empty().html("<strong>Status:</strong><br/>");
-        $("#bill-tags").empty().html("<strong>Tags:</strong><br/>");
+        $("#bill-groups").empty().html("<strong>View by groups:</strong><br/>");
+        $("#bill-parties").empty().html("<strong>View by party:</strong><br/>");
+        $("#bill-tags").empty().html("<strong>View by tags:</strong><br/>");
 
         $.each(data, function(k, v) {
             if (v["subjects-top-term"] != "Native Americans" && v["subjects-top-term"] != "Animals" && v["subjects-top-term"] != "Agriculture and food" && v["subjects-top-term"] != "Economics and public finance" && v["subjects-top-term"] != "Education" && v["subjects-top-term"] != "Energy" && v["subjects-top-term"] != "Labor and employment" && v["subjects-top-term"] != "Private legislation" && v["subjects-top-term"] != "Water resources development") {
@@ -326,8 +325,8 @@ function switchGunBills(year) {
 
         function getPercentage(total,val){
             pct = val/total*100;
-            if (pct>95){
-                return 95;
+            if (pct>90){
+                return 90;
             } else if (pct<1){
                 return 1;
             } else {

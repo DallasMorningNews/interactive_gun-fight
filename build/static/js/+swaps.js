@@ -64,9 +64,9 @@ function swapContent(side){
 
 
 //Switch theme/content button
-$("#button-gc").click(function() {
+$(".button-gc").click(function() {
     swapContent("gc");
 });
-$("#button-gr").click(function() {
+$(".button-gr").click(function() {
     swapContent("gr");
 });
