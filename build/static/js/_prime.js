@@ -1,6 +1,6 @@
 //Intro chatter for first chart - "Outspent" totals
-var total_gr_content = "Since 2000, the gun rights lobby has spent nearly 10 times more than the gun control lobby.";
-var total_gc_content = "Since 2000, the gun control lobby has been outspent by the gun rights lobby by a margin of 10 to 1.";
+var total_gr_content = "Since 2000, the gun rights lobby has spent almost seven times more than the gun control lobby.";
+var total_gc_content = "Since 2000, the gun control lobby has been outspent by the gun rights lobby by a margin of nearly seven to one.";
 
 //Intro chatter for second chart - "Consistently Outspent" annual totals
 var annual_gr_content = "Money spent by both groups to lobby Congress fell steadily towards the end of Bush’s presidency and slowly increased during President Obama’s first term. After the Sandy Hook shootings, the number of introduced gun legislation spiked dramatically. Spending on lobbying efforts quickly followed suit. ";
