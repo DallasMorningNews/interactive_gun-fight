@@ -73,7 +73,7 @@ function switchGunBills(year) {
         $('#bill-list').html("")
 
         $("#bill-groups").empty().html("<strong>View by groups:</strong><br/>");
-        $("#bill-parties").empty().html("<strong>View by party:</strong><br/>");
+        // $("#bill-parties").empty().html("<strong>View by party:</strong><br/>");
         $("#bill-tags").empty().html("<strong>View by tags:</strong><br/>");
 
         $.each(data, function(k, v) {
