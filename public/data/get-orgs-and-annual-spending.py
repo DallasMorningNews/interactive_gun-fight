@@ -50,7 +50,7 @@ for category in categoryIDs:
     thisGroup[thisCategory] = {}
 
     for year in range(startYear, currentYear + 1):
-        # pp.pprint("      For year "+str(year))
+        pp.pprint("      For year "+str(year))
         # url + year
         url = '{}lobby/indusclient.php?id={}&year={}'.format(
             'http://www.opensecrets.org/',

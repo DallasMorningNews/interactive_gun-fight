@@ -24,11 +24,11 @@ currentYear = now.year
 # numberOfYears = currentYear - startYear
 
 # earliest year of data on opensecrets.org
-startYear = currentYear
+startYear = 2016
 stopYear = currentYear + 1
 
 # get the list of gun organizations from a seperate file
-with open('/var/www/html/dallasnews/guns/gunOrgSpending.json') as data_file:
+with open('gunOrgSpending.json') as data_file:
     orgData = json.load(data_file)
     # We're not going to use the "years" data here
     orgData.pop("spending", None)
@@ -66,11 +66,12 @@ for year in range(startYear, stopYear):
             pp.pprint("- - "+thisOrgID)
 
             # url
-            url = 'lobby/clientbills.php?id={}&year={}'.format(
+            url = '{}lobby/clientbills.php?id={}&year={}'.format(
                 'http://www.opensecrets.org/',
                 thisOrgID,
                 str(year),
             )
+            pp.pprint(url)
             # requests
             url_r = requests.get(url)
             # run the requests through soup
@@ -242,114 +243,116 @@ for year in range(startYear, stopYear):
                         #     'legislators?thomas_id="' +
                         #     data["sponsor"]["thomas_id"]+'&apikey='+apiKey
                         # )
-                        sponsorResponse = requests.get(
-                            '{}legislators?thomas_id={}&apikey={}'.format(
-                                'http://congress.api.sunlightfoundation.com/',
-                                data["sponsor"]["thomas_id"],
-                                apiKey
-                            ), verify=False
-                        )
-                        sponsorData = sponsorResponse.json()
 
-                        sponsorObj = {}
-                        try:
-                            sponsorObj["govtrack_id"] = sponsorData[
-                                "results"
-                            ][0]["govtrack_id"]
-                            # pp.pprint(sponsorObj["govtrack_id"])
-                        except Exception:
-                            pass
 
-                        try:
-                            sponsorObj["first_name"] = sponsorData[
-                                "results"
-                            ][0]["first_name"]
-                        except Exception:
-                            sponsorObj["first_name"] = words[2]
-                            pass
-
-                        try:
-                            sponsorObj["last_name"] = sponsorData[
-                                "results"
-                            ][0]["last_name"]
-                        except Exception:
-                            sponsorObj["last_name"] = words[1]
-                            pass
-
-                        try:
-                            sponsorObj["chamber"] = sponsorData[
-                                "results"
-                            ][0]["chamber"]
-                        except Exception:
-                            pass
-
-                        try:
-                            sponsorObj["in_office"] = sponsorData[
-                                "results"
-                            ][0]["in_office"]
-                        except Exception:
-                            pass
-
-                        try:
-                            sponsorObj["party"] = sponsorData[
-                                "results"
-                            ][0]["party"]
-                        except Exception:
-                            sponsorObj["party"] = representing[0]
-                            pass
-
-                        try:
-                            sponsorObj["state"] = sponsorData[
-                                "results"
-                            ][0]["state"]
-                        except Exception:
-                            sponsorObj["state"] = representing[1]
-                            pass
-
-                        try:
-                            sponsorObj["state_name"] = sponsorData[
-                                "results"
-                            ][0]["state_name"]
-                        except Exception:
-                            pass
-
-                        try:
-                            sponsorObj["title"] = sponsorData[
-                                "results"
-                            ][0]["title"]
-                        except Exception:
-                            sponsorObj["title"] = words[0]
-                            pass
-
-                        try:
-                            sponsorObj["facebook_id"] = sponsorData[
-                                "results"
-                            ][0]["facebook_id"]
-                        except Exception:
-                            pass
-
-                        try:
-                            sponsorObj["twitter_id"] = sponsorData[
-                                "results"
-                            ][0]["twitter_id"]
-                        except Exception:
-                            pass
-
-                        try:
-                            sponsorObj["website"] = sponsorData["results"][0][
-                                "website"
-                            ]
-                        except Exception:
-                            pass
-
-                        try:
-                            sponsorObj["youtube_id"] = sponsorData[
-                                "results"
-                            ][0]["youtube_id"]
-                        except Exception:
-                            pass
-
-                        bills[billNumber]["sponsor"] = sponsorObj
+                        # sponsorResponse = requests.get(
+                        #     '{}legislators?thomas_id={}&apikey={}'.format(
+                        #         'http://congress.api.sunlightfoundation.com/',
+                        #         data["sponsor"]["thomas_id"],
+                        #         apiKey
+                        #     ), verify=False
+                        # )
+                        # sponsorData = sponsorResponse.json()
+                        #
+                        # sponsorObj = {}
+                        # try:
+                        #     sponsorObj["govtrack_id"] = sponsorData[
+                        #         "results"
+                        #     ][0]["govtrack_id"]
+                        #     # pp.pprint(sponsorObj["govtrack_id"])
+                        # except Exception:
+                        #     pass
+                        #
+                        # try:
+                        #     sponsorObj["first_name"] = sponsorData[
+                        #         "results"
+                        #     ][0]["first_name"]
+                        # except Exception:
+                        #     sponsorObj["first_name"] = words[2]
+                        #     pass
+                        #
+                        # try:
+                        #     sponsorObj["last_name"] = sponsorData[
+                        #         "results"
+                        #     ][0]["last_name"]
+                        # except Exception:
+                        #     sponsorObj["last_name"] = words[1]
+                        #     pass
+                        #
+                        # try:
+                        #     sponsorObj["chamber"] = sponsorData[
+                        #         "results"
+                        #     ][0]["chamber"]
+                        # except Exception:
+                        #     pass
+                        #
+                        # try:
+                        #     sponsorObj["in_office"] = sponsorData[
+                        #         "results"
+                        #     ][0]["in_office"]
+                        # except Exception:
+                        #     pass
+                        #
+                        # try:
+                        #     sponsorObj["party"] = sponsorData[
+                        #         "results"
+                        #     ][0]["party"]
+                        # except Exception:
+                        #     sponsorObj["party"] = representing[0]
+                        #     pass
+                        #
+                        # try:
+                        #     sponsorObj["state"] = sponsorData[
+                        #         "results"
+                        #     ][0]["state"]
+                        # except Exception:
+                        #     sponsorObj["state"] = representing[1]
+                        #     pass
+                        #
+                        # try:
+                        #     sponsorObj["state_name"] = sponsorData[
+                        #         "results"
+                        #     ][0]["state_name"]
+                        # except Exception:
+                        #     pass
+                        #
+                        # try:
+                        #     sponsorObj["title"] = sponsorData[
+                        #         "results"
+                        #     ][0]["title"]
+                        # except Exception:
+                        #     sponsorObj["title"] = words[0]
+                        #     pass
+                        #
+                        # try:
+                        #     sponsorObj["facebook_id"] = sponsorData[
+                        #         "results"
+                        #     ][0]["facebook_id"]
+                        # except Exception:
+                        #     pass
+                        #
+                        # try:
+                        #     sponsorObj["twitter_id"] = sponsorData[
+                        #         "results"
+                        #     ][0]["twitter_id"]
+                        # except Exception:
+                        #     pass
+                        #
+                        # try:
+                        #     sponsorObj["website"] = sponsorData["results"][0][
+                        #         "website"
+                        #     ]
+                        # except Exception:
+                        #     pass
+                        #
+                        # try:
+                        #     sponsorObj["youtube_id"] = sponsorData[
+                        #         "results"
+                        #     ][0]["youtube_id"]
+                        # except Exception:
+                        #     pass
+                        #
+                        # bills[billNumber]["sponsor"] = sponsorObj
 
                         # Nomenclature: "H.R. 4066"
                         bills[billNumber]["number"] = data["bill_id"]
@@ -412,8 +415,9 @@ pp.pprint("Prepare to write")
 
 # convert the dictionary to json and write it to the file
 # declare files, w+ create if don't exist
-pp.pprint("/var/www/html/dallasnews/guns/gunBills" + str(year) + ".json")
-j = open("/var/www/html/dallasnews/guns/gunBills" + str(year) + ".json", "w+")
+# pp.pprint("/var/www/html/dallasnews/guns/gunBills" + str(year) + ".json")
+# j = open("/var/www/html/dallasnews/guns/gunBills" + str(year) + ".json", "w+")
+j = open("gunBills" + str(year) + ".json", "w+")
 
 # minified
 json.dump(bills, j, sort_keys=True, separators=(',', ':'))

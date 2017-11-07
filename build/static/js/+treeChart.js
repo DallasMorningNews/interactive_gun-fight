@@ -12,8 +12,6 @@ function buildTreeChart(csvData) {
 
     console.log("--------------   In buildTreeChart()  --------------");
 
-    //console.log(csvData);
-
     var width = $("#treeChart").width();
     var height = 500;
 

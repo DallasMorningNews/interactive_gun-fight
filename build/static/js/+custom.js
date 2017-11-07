@@ -40,10 +40,8 @@ $(document).ready(function() {
         }
     });
 
-    var gunMoney = "data/gunOrgSpending.json";
-
     var startYear = 2000;
-    var endYear = 2016;
+    var endYear = 2017;
 
     var gunControlAnnuals = {};
     var gunRightsAnnuals = {};
@@ -59,7 +57,8 @@ $(document).ready(function() {
         $(".drop-menu").append("<li data-selectedYear=" + i + ">" + i + "</li>");
     }
 
-    $.getJSON(gunMoney).done(function(data) {
+    $.getJSON("data/gunOrgSpending.json", function(data) {
+      console.log('DATA', data);
 
         // Shortcut to groups
         var gunControl = data.spending[0].gunControl;
@@ -92,8 +91,9 @@ $(document).ready(function() {
             });
         }
         gunControlGroups = _.uniqBy(gunControlGroups);
+        console.log('GUNCONTROLGROUPS', gunControlGroups);
         gunRightsGroups = _.uniqBy(gunRightsGroups);
-        //console.log(gunRightsGroups);
+        console.log('GUNRIGHTSGROUPS', gunRightsGroups);
 
         //GUN ORG COUNTS
         gunOrgCounts = _.countBy(gunOrgs);
@@ -240,6 +240,6 @@ $(document).ready(function() {
 
     $('.copyright').text(year);
 
-    
+
 
 });

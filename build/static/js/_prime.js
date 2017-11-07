@@ -14,7 +14,7 @@ var tree_gc_content = "Gun control groups, led recently by Everytown for Gun Saf
 var legislation_gr_content = "More money supposedly means more influence. Gun rights groups have lobbied more legislation over the past 10 years and have been successful blocking the gun control agenda. However, very few bills advancing gun rights ever move forward. It's hard for either side to make progress.";
 var legislation_gc_content = "More money supposedly means more influence. However, while gun control legislation has been consistently blocked, an active Democrat party has been able to shut down the gun rights agenda as well.";
 
-var currentYear = "2016";
+var currentYear = "2017";
 var monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 var gunControlGroups = [];
 var gunRightsGroups = [];

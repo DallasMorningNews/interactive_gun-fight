@@ -1,7 +1,7 @@
 function buildYearChart(data) {
 
   console.log("--------------   In buildYearChart()  --------------");
-  //console.log(data);
+  // console.log(data);
 
   var width = $("#yearChart").width();
   var height = 500;
