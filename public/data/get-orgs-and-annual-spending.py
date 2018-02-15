@@ -49,7 +49,7 @@ for category in categoryIDs:
 
     thisGroup[thisCategory] = {}
 
-    for year in range(startYear, currentYear + 1):
+    for year in range(startYear, currentYear ):
         pp.pprint("      For year "+str(year))
         # url + year
         url = '{}lobby/indusclient.php?id={}&year={}'.format(
@@ -126,7 +126,7 @@ for category in categoryIDs:
 j = open("gunOrgSpending.json", "w+")
 
 # minified
-json.dump(data, j, sort_keys=True, separators=(',', ':'))
+# json.dump(data, j, sort_keys=True, separators=(',', ':'))
 
 # prettified
 json.dump(data, j, sort_keys=True, indent=4)

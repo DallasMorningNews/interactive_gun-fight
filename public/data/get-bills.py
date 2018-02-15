@@ -24,8 +24,8 @@ currentYear = now.year
 # numberOfYears = currentYear - startYear
 
 # earliest year of data on opensecrets.org
-startYear = 2016
-stopYear = currentYear + 1
+startYear = 2017
+stopYear = currentYear
 
 # get the list of gun organizations from a seperate file
 with open('gunOrgSpending.json') as data_file:
@@ -169,67 +169,69 @@ for year in range(startYear, stopYear):
                             )
                         )
                         data = billResponse.json()
-
+                        # pp.pprint(data)
                         # Get sponsor info here in case govtrack fails
 
                         statusArray = []
 
-                        try:
-                            url = '{}bill/{}th-congress/{}-bill/{}/{}'.format(
-                                'https://www.congress.gov/',
-                                billCongressNumber,
-                                chamber,
-                                getNumber,
-                                'all-info'
-                            )
-                            # requests
-                            url_r = requests.get(url)
-                            # run the requests through soup
-                            url_soup = BeautifulSoup(
-                                url_r.content,
-                                "html.parser"
-                            )
-                            overview = url_soup.find(
-                                "div",
-                                {"class": "overview"}
-                            )
-
-                            # Start working our sponsor details
-                            sponsor = overview.a.contents[0]
-                            # link to sponsor's page
-                            sponsorURL = overview.a['href']
-                            # pp.pprint("--------> Sponsor: "+sponsor)
-                            # Words array where we'll pull first, last,
-                            # title etc...
-                            words = re.findall(r"[\w']+", sponsor)
-
-                            # base for getting at party and state
-                            start = "["
-                            end = "]"
-                            representing = (
-                                sponsor.split(start)
-                            )[1].split(end)[0]
-                            representing = representing.split("-")
-
-                            # get status
-                            status = overview.find(
-                                "ol",
-                                {"class": "bill_progress"}
-                            )
-
-                            del statusArray[:]
-
-                            for lis in status.find_all(
-                                "li",
-                                {"class": ["first", "passed", "selected"]}
-                            ):
-                                test = lis.find(text=True, recursive=False)
-                                # pp.pprint(test)
-                                statusArray.append(test)
-
-                            # pp.pprint(statusArray)
-                        except Exception:
-                            pass
+                        # try:
+                        #     billUrl = '{}bill/{}th-congress/{}-bill/{}/{}'.format(
+                        #         'https://www.congress.gov/',
+                        #         billCongressNumber,
+                        #         chamber,
+                        #         getNumber,
+                        #         'all-info'
+                        #     )
+                        #     pp.pprint('----> '+billUrl)
+                        #     # requests
+                        #     bill_r = requests.get(billUrl)
+                        #     # run the requests through soup
+                        #     bill_url_soup = BeautifulSoup(
+                        #         bill_r.content,
+                        #         "html.parser"
+                        #     )
+                        #     overview = bill_url_soup.find(
+                        #         "div",
+                        #         {"class": "overview"}
+                        #     )
+                        #     pp.pprint(overview)
+                        #     # Start working our sponsor details
+                        #     sponsor = overview.a.contents[0]
+                        #     # link to sponsor's page
+                        #     sponsorURL = overview.a['href']
+                        #     pp.pprint("--------> Sponsor: "+sponsor)
+                        #     # Words array where we'll pull first, last,
+                        #     # title etc...
+                        #     words = re.findall(r"[\w']+", sponsor)
+                        #
+                        #     # base for getting at party and state
+                        #     start = "["
+                        #     end = "]"
+                        #     representing = (
+                        #         sponsor.split(start)
+                        #     )[1].split(end)[0]
+                        #     representing = representing.split("-")
+                        #
+                        #     # get status
+                        #     status = overview.find(
+                        #         "ol",
+                        #         {"class": "bill_progress"}
+                        #     )
+                        #
+                        #     del statusArray[:]
+                        #
+                        #     for lis in status.find_all(
+                        #         "li",
+                        #         {"class": ["first", "passed", "selected"]}
+                        #     ):
+                        #         test = lis.find(text=True, recursive=False)
+                        #         # pp.pprint(test)
+                        #         statusArray.append(test)
+                        #
+                        #     # pp.pprint(statusArray)
+                        #
+                        # except Exception:
+                        #     pass
 
                         # append sponsor ID to list for use in retrieving
                         # sponsor info
@@ -354,6 +356,7 @@ for year in range(startYear, stopYear):
                         #
                         # bills[billNumber]["sponsor"] = sponsorObj
 
+
                         # Nomenclature: "H.R. 4066"
                         bills[billNumber]["number"] = data["bill_id"]
                         # The bill's type:  "H.R., S., H.J.Res. etc."
@@ -380,7 +383,7 @@ for year in range(startYear, stopYear):
                             "official_title"
                         ]
                         bills[billNumber]["short-title"] = data["short_title"]
-                        # bills[billNumber]["sponsor"] = data["sponsor"]
+                        bills[billNumber]["sponsor"] = data["sponsor"]
                         # sponsors.append(data["sponsor"]["bioguide_id"])
                         bills[billNumber]["status"] = statusArray
                         bills[billNumber]["status-at"] = data["status_at"]

@@ -77,7 +77,10 @@ function switchGunBills(year) {
         $("#bill-tags").empty().html("<strong>View by tags:</strong><br/>");
 
         $.each(data, function(k, v) {
-            if (v["subjects-top-term"] != "Native Americans" && v["subjects-top-term"] != "Animals" && v["subjects-top-term"] != "Agriculture and food" && v["subjects-top-term"] != "Economics and public finance" && v["subjects-top-term"] != "Education" && v["subjects-top-term"] != "Energy" && v["subjects-top-term"] != "Labor and employment" && v["subjects-top-term"] != "Private legislation" && v["subjects-top-term"] != "Water resources development") {
+
+            var dateArray = v.introduced.split("-");
+
+            if (v["subjects-top-term"] != "Native Americans" && v["subjects-top-term"] != "Animals" && v["subjects-top-term"] != "Agriculture and food" && v["subjects-top-term"] != "Economics and public finance" && v["subjects-top-term"] != "Education" && v["subjects-top-term"] != "Energy" && v["subjects-top-term"] != "Labor and employment" && v["subjects-top-term"] != "Private legislation" && v["subjects-top-term"] != "Water resources development" && parseInt(dateArray[0]) === parseInt(year)) {
 
                 //Increment totals
                 numberOfBills++;
@@ -112,11 +115,11 @@ function switchGunBills(year) {
                 }
                 //Bill introduction date
                 //Date introduced
-                var dateArray = v.introduced.split("-");
+                // var dateArray = v.introduced.split("-");
                 html += "     <span class='bill-date'><strong>Introduced: </strong>"+monthNames[(parseInt(dateArray[1]) - 1)] + " " + dateArray[2] + ", " + dateArray[0] +"</span>"
                 //Date introduced
                 var dateArray = v["status-at"].split("-");
-                //console.log(dateArray);
+                // console.log(dateArray);
                 html += "     <span class='bill-date'><strong>Most recent update: </strong>"+monthNames[(parseInt(dateArray[1]) - 1)] + " " + dateArray[2] + ", " + dateArray[0] +"</span>"
                 //Bill status
                 if (v.status.length > 0) {
@@ -136,16 +139,21 @@ function switchGunBills(year) {
                 html += "<a class='bill-link' href='https://www.govtrack.us/congress/bills/"+billNumberArray[1]+"/"+billNumberArray[0]+"/text' target='_blank'>Read the bill</a>";
 
                 //Bill sponsor
-                // if (v.sponsor.last_name) {
-                //
-                //     //Sponsor party
-                //     if (v.sponsor.party === "R"){
-                //         html += "     <div class='bill-sponsor republican'>";
-                //     } else if (v.sponsor.party === "D"){
-                //         html += "     <div class='bill-sponsor democrat'>";
-                //     }
-                //
-                //     html += "     <strong>Sponsor</strong>";
+                if (v.sponsor.name) {
+                  var nameArray = v.sponsor.name.split(",");
+                    //Sponsor party
+                    // if (v.sponsor.party === "R"){
+                    //     html += "     <div class='bill-sponsor republican'>";
+                    // } else if (v.sponsor.party === "D"){
+                    //     html += "     <div class='bill-sponsor democrat'>";
+                    // }
+
+                    html += "     <div class='bill-sponsor'>";
+                    html += "     <strong>Sponsor</strong>";
+                    html += "          <span class='sponsor-name'>"+nameArray[1]+" "+ nameArray[0]+" ["+v.sponsor.state+"]</span>";
+                    html += "     </div>";
+                  }
+
                 //
                 //     //If govtrack then we have a photo
                 //     if( v.sponsor.govtrack_id ){
