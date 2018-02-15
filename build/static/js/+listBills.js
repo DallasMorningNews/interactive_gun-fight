@@ -384,7 +384,11 @@ function switchGunBills(year) {
         $.each(statusCounts, function(k, v) {
             html = "<div class='list-element'>";
             var splitArray = v[0].split(",");
-            html += "     <span class='list-item'>"+splitArray.join(" => ")+"</span>";
+            if (splitArray.length === 1){
+              html += "     <span class='list-item'>Introduced</span>";
+            } else {
+              html += "     <span class='list-item'>"+splitArray.join(" => ")+"</span>";
+            }
             html += "     <div class='bar-container'>";
             html += "          <div class='list-bar' style='width:"+getPercentage(maxStatusCount,v[1])+"%;background:#BF531B'>&nbsp;</div><div class='bar-number'>"+v[1]+"</div>";
             html += "     </div>";
